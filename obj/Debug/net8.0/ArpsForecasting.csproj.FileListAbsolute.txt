@@ -46,3 +46,4 @@ C:\Dev\ArpsForecasting\bin\Debug\net8.0\runtimes\linux-x64\native\libFastTreeNat
 C:\Dev\ArpsForecasting\bin\Debug\net8.0\runtimes\osx-x64\native\libFastTreeNative.dylib
 C:\Dev\ArpsForecasting\bin\Debug\net8.0\runtimes\win-x64\native\FastTreeNative.dll
 C:\Dev\ArpsForecasting\bin\Debug\net8.0\runtimes\win-x86\native\FastTreeNative.dll
+C:\Dev\ArpsForecasting\obj\Debug\net8.0\ArpsForecasting.sourcelink.json
