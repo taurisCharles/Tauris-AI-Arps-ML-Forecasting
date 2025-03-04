@@ -14,7 +14,7 @@ namespace ArpsForecasting
         private readonly PredictionEngine<TrendData, TrendPrediction> trendPredictionEngine;
         private readonly double[] dailySeasonalityCoefficients;
         private readonly double[] weeklySeasonalityCoefficients;
-        private readonly double lastTrendValue; // Store the last trend value for smoothing
+        private readonly double lastTrendValue;
 
         public ProphetLikeForecaster(List<double> time, List<double> production)
         {
@@ -34,10 +34,10 @@ namespace ArpsForecasting
 
             var trendDataView = mlContext.Data.LoadFromEnumerable(trendData);
 
-            // Train a simpler trend model using linear regression to avoid overfitting
+            // Train a simpler trend model using linear regression
             var trendPipeline = mlContext.Transforms.CopyColumns(outputColumnName: "Label", inputColumnName: "Production")
                 .Append(mlContext.Transforms.Concatenate("Features", "Time"))
-                .Append(mlContext.Regression.Trainers.LbfgsPoissonRegression()); // Simpler model
+                .Append(mlContext.Regression.Trainers.LbfgsPoissonRegression());
             trendModel = trendPipeline.Fit(trendDataView);
             trendPredictionEngine = mlContext.Model.CreatePredictionEngine<TrendData, TrendPrediction>(trendModel);
 
@@ -45,13 +45,9 @@ namespace ArpsForecasting
             dailySeasonalityCoefficients = FitFourierSeries(time, production, 1, 3);
             weeklySeasonalityCoefficients = FitFourierSeries(time, production, 7, 3);
 
-            // Store the last trend value for smoothing in the forecast period
-            var lastTrendInput = new TrendData
-            {
-                Time = (float)time.Max(),
-                TimeSquared = (float)(time.Max() * time.Max())
-            };
-            lastTrendValue = trendPredictionEngine.Predict(lastTrendInput).PredictedProduction;
+            // Anchor the last trend value to the actual production at t=1080
+            int lastIndex = time.IndexOf(time.Max());
+            lastTrendValue = production[lastIndex]; // 53.76
         }
 
         public List<float> Forecast(List<double> plotTime, List<double> time, List<double> production)
@@ -61,7 +57,6 @@ namespace ArpsForecasting
 
             foreach (var t in plotTime)
             {
-                // Predict trend
                 float trend;
                 if (t <= lastTime)
                 {
@@ -74,8 +69,8 @@ namespace ArpsForecasting
                 }
                 else
                 {
-                    // Smoothly extend the trend using the last trend value and a linear decay
-                    trend = (float)(lastTrendValue * Math.Exp(-0.000198 * (t - lastTime))); // Match Dmin decay
+                    // Adjusted decay rate for a more realistic decline
+                    trend = (float)(lastTrendValue * Math.Exp(-0.001 * (t - lastTime)));
                 }
                 if (float.IsNaN(trend) || float.IsInfinity(trend))
                 {

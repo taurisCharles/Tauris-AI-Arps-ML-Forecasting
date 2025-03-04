@@ -31,10 +31,8 @@ namespace ArpsForecasting
             var nonZeroTime = nonZeroData.Select(x => x.time).ToList();
             var nonZeroProduction = nonZeroData.Select(x => x.production).ToList();
 
-            // Calculate historical decline rate (from day 1 to last day)
             historicalDeclineRate = (nonZeroProduction[0] - nonZeroProduction.Last()) / (nonZeroTime.Last() - nonZeroTime[0]);
 
-            // Prepare data for ML.NET with additional features
             var data = new List<ProductionData>();
             for (int i = 10; i < nonZeroTime.Count; i++)
             {
@@ -65,7 +63,6 @@ namespace ArpsForecasting
 
             var dataView = mlContext.Data.LoadFromEnumerable(data);
 
-            // Define training pipeline
             var pipeline = mlContext.Transforms.CopyColumns(outputColumnName: "Label", inputColumnName: "Production")
                 .Append(mlContext.Transforms.Concatenate("Features", "Time", "TimeTrend", "DeclineRate", "Lag1", "Lag2", "Lag3", "Lag4", "Lag5", "Lag6", "Lag7", "Lag8", "Lag9", "Lag10", "MovingAverage5", "MovingAverage30", "RecentZeroCount"))
                 .Append(mlContext.Regression.Trainers.FastTree(numberOfTrees: 500, numberOfLeaves: 150));

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using ScottPlot;
+using System.Diagnostics;
 
 namespace ArpsForecasting
 {
@@ -19,42 +20,94 @@ namespace ArpsForecasting
                 if (allTime.Count == 0 || allProduction.Count == 0)
                     throw new InvalidOperationException("No valid data loaded from CSV.");
 
-                // Plot the entire dataset and forecasts (extended to 2180 days)
+                // Define historical and forecast periods
+                double historicalEndTime = allTime.Max(); // t=1080
+                var historicalTime = allTime.Where(t => t <= historicalEndTime).ToList();
+                var historicalProduction = allProduction.Take(historicalTime.Count).ToList();
                 var plotTime = Enumerable.Range((int)allTime.Min(), (int)allTime.Max() - (int)allTime.Min() + 1100 + 1).Select(t => (double)t).ToList();
+                var forecastTime = plotTime.Where(t => t > historicalEndTime).ToList();
+
                 var plt = new Plot();
                 var actualScatter = plt.Add.Scatter(allTime.ToArray(), allProduction.ToArray(), color: Colors.Blue);
                 actualScatter.Label = "Actual Production (Full History)";
 
-                // Random Forest Forecast (for comparison)
+                // Random Forest Forecast with timer
+                var rfStopwatch = Stopwatch.StartNew();
                 var rfForecaster = new RandomForestForecaster(allTime, allProduction);
                 var rfForecast = rfForecaster.Forecast(plotTime, allTime, allProduction);
-                var rfLine = plt.Add.Scatter(plotTime.ToArray(), rfForecast.ToArray(), color: Colors.Purple);
+                rfStopwatch.Stop();
+                Console.WriteLine($"Random Forest Forecast Time: {rfStopwatch.ElapsedMilliseconds} ms");
+                var rfForecastForPlot = plotTime.Select(t => t <= historicalEndTime ? 0 : rfForecast[plotTime.IndexOf(t)]).ToList();
+                var rfLine = plt.Add.Scatter(plotTime.ToArray(), rfForecastForPlot.ToArray(), color: Colors.Purple);
                 rfLine.Label = "ML.NET Random Forest";
                 rfLine.MarkerSize = 0;
 
-                // Hybrid Arps + Random Forest (using Equivalent Arps as baseline)
+                // Hybrid Arps + Random Forest with timer
+                var hybridStopwatch = Stopwatch.StartNew();
                 var arpsForecaster = new SSE();
-                arpsForecaster.FitHyperbolicToExponential(allTime, allProduction, 53.76, 0.0001343, 1, 0.000198); // Updated Di
-                var arpsForecast = plotTime.Select(t => (float)arpsForecaster.Forecast(t)).ToList();
+                arpsForecaster.FitHyperbolicToExponential(allTime, allProduction, 53.76, 0.0001343, 1, 0.000198);
+                var arpsForecast = plotTime.Select(t => (float)arpsForecaster.Forecast(t, historicalEndTime)).ToList();
                 var hybridForecaster = new HybridForecaster(allTime, allProduction, arpsForecast);
                 var hybridForecast = hybridForecaster.Forecast(plotTime, allTime, allProduction);
-                var hybridLine = plt.Add.Scatter(plotTime.ToArray(), hybridForecast.ToArray(), color: Colors.Cyan);
+                hybridStopwatch.Stop();
+                Console.WriteLine($"Hybrid Arps + Random Forest Forecast Time: {hybridStopwatch.ElapsedMilliseconds} ms");
+                var hybridForecastForPlot = plotTime.Select(t => t <= historicalEndTime ? (float)allProduction[allTime.IndexOf(t)] : hybridForecast[plotTime.IndexOf(t)]).ToList();
+                var hybridLine = plt.Add.Scatter(plotTime.ToArray(), hybridForecastForPlot.ToArray(), color: Colors.Cyan);
                 hybridLine.Label = "Hybrid Arps + Random Forest";
                 hybridLine.MarkerSize = 0;
 
-                // Equivalent Arps Model (for comparison, with Qi effective at t=1080)
+                // Equivalent Arps Model with timer
+                var equivalentArpsStopwatch = Stopwatch.StartNew();
                 var equivalentArpsForecaster = new SSE();
-                Console.WriteLine($"PlotTime length: {plotTime.Count}, HybridForecast length: {hybridForecast.Count}");
-                equivalentArpsForecaster.FitHyperbolicToExponential(plotTime, hybridForecast.Select(x => (double)x).ToList(), 53.76, 0.0001343, 1, 0.000198);
-                var equivalentArpsForecast = plotTime.Select(t => (float)equivalentArpsForecaster.Forecast(t)).ToList();
-                var equivalentArpsLine = plt.Add.Scatter(plotTime.ToArray(), equivalentArpsForecast.ToArray(), color: Colors.Magenta);
+
+                // Combine historical data and hybrid forecast
+                var combinedTime = new List<double>();
+                var combinedProduction = new List<double>();
+                for (int i = 0; i < plotTime.Count; i++)
+                {
+                    double t = plotTime[i];
+                    if (t <= historicalEndTime)
+                    {
+                        combinedTime.Add(t);
+                        int index = allTime.IndexOf(t);
+                        combinedProduction.Add(allProduction[index]);
+                    }
+                    else
+                    {
+                        combinedTime.Add(t);
+                        int index = plotTime.IndexOf(t);
+                        combinedProduction.Add(hybridForecast[index]);
+                    }
+                }
+
+                Console.WriteLine($"CombinedTime length: {combinedTime.Count}, CombinedProduction length: {combinedProduction.Count}");
+                equivalentArpsForecaster.FitHyperbolicToExponential(combinedTime, combinedProduction, 53.76, 0.0001343, 1, 0.000198);
+                var equivalentArpsForecast = plotTime.Select(t => (float)equivalentArpsForecaster.Forecast(t, historicalEndTime)).ToList();
+                equivalentArpsStopwatch.Stop();
+                Console.WriteLine($"Equivalent Arps Forecast Time: {equivalentArpsStopwatch.ElapsedMilliseconds} ms");
+                var equivalentArpsForecastForPlot = plotTime.Select(t => t <= historicalEndTime ? 0 : equivalentArpsForecast[plotTime.IndexOf(t)]).ToList();
+                var equivalentArpsLine = plt.Add.Scatter(plotTime.ToArray(), equivalentArpsForecastForPlot.ToArray(), color: Colors.Magenta);
                 equivalentArpsLine.Label = "Equivalent Arps (Qi=53.76 @ t=1080, Di=0.0001343, b=1, Dmin=0.000198)";
                 equivalentArpsLine.MarkerSize = 0;
 
-                // Prophet-Like Forecast (C# implementation)
+                // Prophet-Like Forecast with timer
+                var prophetStopwatch = Stopwatch.StartNew();
                 var prophetForecaster = new ProphetLikeForecaster(allTime, allProduction);
                 var prophetForecast = prophetForecaster.Forecast(plotTime, allTime, allProduction);
-                var prophetLine = plt.Add.Scatter(plotTime.ToArray(), prophetForecast.ToArray(), color: Colors.Green);
+                prophetStopwatch.Stop();
+                Console.WriteLine($"Prophet-Like Forecast Time: {prophetStopwatch.ElapsedMilliseconds} ms");
+
+                // Debug forecast values
+                Console.WriteLine("Prophet-Like Forecast Values (first 5 after historicalEndTime):");
+                var futureTimes = plotTime.Where(t => t > historicalEndTime).Take(5).ToList();
+                foreach (var t in futureTimes)
+                {
+                    int index = plotTime.IndexOf(t);
+                    Console.WriteLine($"Time {t}: {prophetForecast[index]:F3}");
+                }
+
+                var prophetForecastForPlot = plotTime.Select(t => t <= historicalEndTime ? 0 : prophetForecast[plotTime.IndexOf(t)]).ToList();
+                var prophetLine = plt.Add.Scatter(plotTime.ToArray(), prophetForecastForPlot.ToArray(), color: Colors.Green);
                 prophetLine.Label = "Prophet-Like Forecast (C#)";
                 prophetLine.MarkerSize = 0;
 
