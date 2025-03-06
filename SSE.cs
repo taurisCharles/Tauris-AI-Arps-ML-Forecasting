@@ -1,4 +1,3 @@
-// SSE.cs
 using System;
 
 namespace ArpsForecasting
@@ -265,7 +264,7 @@ namespace ArpsForecasting
             return (ssePlus - sseMinus) / (2 * delta);
         }
 
-        public double CalculateSSE(List<double> time, List<double> production)
+        public new double CalculateSSE(List<double> time, List<double> production) // Fixed warning here
         {
             double sse = 0;
             for (int i = 0; i < time.Count; i++)
