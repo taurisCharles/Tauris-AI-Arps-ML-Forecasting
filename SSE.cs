@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ArpsForecasting
 {
@@ -7,25 +9,26 @@ namespace ArpsForecasting
         private double hyperbolicQi;
         private double hyperbolicDi;
         private double hyperbolicB;
+        private double initialQi; // Store the initial Qi set by SetQi
 
+        // Override abstract methods
         public override void FitExponential(List<double> time, List<double> production, double qiGuess, double diGuess)
         {
             ValidateInput(time, production);
             if (qiGuess < 0.1 || diGuess < 1e-6 || diGuess > 1.0)
                 throw new ArgumentException("Initial guesses must be within valid ranges.");
 
-            double maxProduction = production.Max();
-            var normalizedProduction = production.Select(p => p / maxProduction).ToList();
-            Qi = qiGuess / maxProduction;
+            // Use initialQi if set, otherwise use qiGuess
+            Qi = initialQi != 0 ? initialQi : qiGuess;
             Di = diGuess;
             B = 0;
             _declineType = DeclineType.Exponential;
 
             Console.WriteLine($"Before optimization - Qi: {Qi}, Di: {Di}, B: {B}");
-            OptimizeParameters(time, normalizedProduction, optimizeB: false);
+            OptimizeParameters(time, production, optimizeB: false); // Use raw production
             Console.WriteLine($"After optimization - Qi: {Qi}, Di: {Di}, B: {B}");
 
-            Qi *= maxProduction;
+            Qi = initialQi != 0 ? initialQi : Qi; // Restore initial Qi if set
         }
 
         public override void FitHyperbolic(List<double> time, List<double> production, double qiGuess, double diGuess, double? bFixed = null)
@@ -34,22 +37,21 @@ namespace ArpsForecasting
             if (qiGuess < 0.1 || diGuess < 1e-6 || diGuess > 1.0 || (bFixed.HasValue && (bFixed < 0.01 || bFixed > 1.0)))
                 throw new ArgumentException("Initial guesses must be within valid ranges.");
 
-            double maxProduction = production.Max();
-            var normalizedProduction = production.Select(p => p / maxProduction).ToList();
-            Qi = qiGuess / maxProduction;
+            // Use initialQi if set, otherwise use qiGuess
+            Qi = initialQi != 0 ? initialQi : qiGuess;
             Di = diGuess;
             B = bFixed ?? 0.5;
             _declineType = DeclineType.Hyperbolic;
 
             Console.WriteLine($"Before optimization - Qi: {Qi}, Di: {Di}, B: {B}");
-            OptimizeParameters(time, normalizedProduction, optimizeB: !bFixed.HasValue);
+            OptimizeParameters(time, production, optimizeB: !bFixed.HasValue); // Use raw production
             Console.WriteLine($"After optimization - Qi: {Qi}, Di: {Di}, B: {B}");
 
-            hyperbolicQi = Qi * maxProduction;
+            hyperbolicQi = Qi;
             hyperbolicDi = Di;
             hyperbolicB = B;
 
-            Qi = hyperbolicQi;
+            Qi = initialQi != 0 ? initialQi : hyperbolicQi; // Restore initial Qi
         }
 
         public override void FitHyperbolicToExponential(List<double> time, List<double> production, double qiGuess, double diGuess, double bGuess, double dMin)
@@ -58,37 +60,23 @@ namespace ArpsForecasting
             if (qiGuess < 0.1 || diGuess < 1e-6 || diGuess > 1.0 || bGuess < 0.01 || bGuess > 1.0 || dMin <= 0)
                 throw new ArgumentException("Initial guesses must be within valid ranges.");
 
-            // Use provided parameters directly without optimization for Equivalent Arps
-            if (qiGuess == 53.76 && diGuess == 0.0001343 && bGuess == 1)
-            {
-                hyperbolicQi = qiGuess;
-                hyperbolicDi = diGuess;
-                hyperbolicB = bGuess;
-                SetReferenceTime(1080);
-            }
-            else
-            {
-                // First, fit pure hyperbolic to get starting parameters
-                FitHyperbolic(time, production, qiGuess, diGuess, null);
-                SetReferenceTime(0);
-            }
+            // Use initialQi if set
+            FitHyperbolic(time, production, qiGuess, diGuess, null);
+            SetReferenceTime(0);
 
-            Qi = hyperbolicQi;
+            Qi = initialQi != 0 ? initialQi : hyperbolicQi;
             Di = hyperbolicDi;
             B = hyperbolicB;
             _dMin = dMin;
             _declineType = DeclineType.HyperbolicToExponential;
 
-            Console.WriteLine($"Hyperbolic-to-Exponential parameters - Qi: {Qi}, Di: {Di}, B: {B}, Dmin: {dMin}, t0: {_t0}");
+            Console.WriteLine($"Hyperbolic-to-Exponential parameters - Qi: {Qi}, Di: {Di}, B: {B}, Dmin: {_dMin}, t0: {_t0}");
         }
 
         public override double Forecast(double time, double historicalEndTime)
         {
-            // Return 0 for historical period (will use actual data instead)
-            if (time <= historicalEndTime)
-            {
-                return 0; // Indicate to caller to use historical data
-            }
+            if (time < _t0)
+                return 0; // Before effective date, return 0
 
             switch (_declineType)
             {
@@ -102,69 +90,13 @@ namespace ArpsForecasting
                     return Math.Max(Qi / Math.Pow(denominator, 1 / B), 0);
 
                 case DeclineType.HyperbolicToExponential:
-                    Console.WriteLine($"Forecast parameters - Qi: {Qi}, Di: {Di}, B: {B}, Dmin: {_dMin}, t0: {_t0}");
-                    double baseFactor = Qi * Di / _dMin;
-                    // Target tSwitchRelative to be around 560 (tSwitch = 1640)
-                    double targetTSwitchRelative = 560; // tSwitch = 1640 - 1080
-                    double targetTSwitchFactor = 1 + targetTSwitchRelative * (B * Di);
-                    double scalingFactor = baseFactor / targetTSwitchFactor;
-
-                    int iterations = 0;
-                    const int maxIterations = 1000;
-                    double tSwitch = 0;
-                    while (iterations < maxIterations)
-                    {
-                        double tSwitchFactor = Math.Pow(baseFactor / scalingFactor, B);
-                        double tSwitchRelative = (1 / (B * Di)) * (tSwitchFactor - 1);
-                        tSwitch = tSwitchRelative + _t0;
-                        Console.WriteLine($"tSwitch iteration {iterations}: baseFactor={baseFactor}, scalingFactor={scalingFactor}, tSwitchFactor={tSwitchFactor}, tSwitchRelative={tSwitchRelative}, tSwitch={tSwitch}");
-                        if (double.IsNaN(tSwitch) || double.IsInfinity(tSwitch) || tSwitchRelative < 0)
-                        {
-                            Console.WriteLine($"Invalid tSwitchRelative: {tSwitchRelative}, adjusting scaling factor...");
-                            scalingFactor *= 1.2;
-                            iterations++;
-                            continue;
-                        }
-                        if (tSwitch >= 500 + _t0 && tSwitch <= 1000 + _t0)
-                        {
-                            Console.WriteLine($"tSwitch calculated as: {tSwitch}");
-                            if (time <= tSwitch)
-                            {
-                                denominator = 1 + B * Di * (time - _t0);
-                                if (denominator <= 0 || B == 0)
-                                    return 0;
-                                double hyperbolicValue = Qi / Math.Pow(denominator, 1 / B);
-                                if (time == 50 || time == 100 || time == 300 || time == 599 || time == 1080)
-                                    Console.WriteLine($"Time {time}: Using hyperbolic, value = {hyperbolicValue:F3}");
-                                return Math.Max(hyperbolicValue, 0);
-                            }
-                            else
-                            {
-                                denominator = 1 + B * Di * (tSwitch - _t0);
-                                if (denominator <= 0 || B == 0)
-                                    return 0;
-                                double qSwitch = Qi / Math.Pow(denominator, 1 / B);
-                                double exponentialValue = qSwitch * Math.Exp(-_dMin * (time - tSwitch));
-                                if (time == 50 || time == 100 || time == 300 || time == 599 || time == 1080 || time == 1100 || time == 1200 || time == 1300 || time == 1400 || time == 1500 || time == 1600 || time == 1700 || time == 1800 || time == 1900 || time == 2000 || time == 2100 || time == 2180)
-                                    Console.WriteLine($"Time {time}: Using exponential, qSwitch = {qSwitch:F3}, value = {exponentialValue:F3}");
-                                return Math.Max(exponentialValue, 0);
-                            }
-                        }
-                        if (tSwitch < 500 + _t0)
-                            scalingFactor /= 1.2;
-                        else
-                            scalingFactor *= 1.2;
-                        iterations++;
-                    }
-                    Console.WriteLine($"Failed to find a valid tSwitch after {maxIterations} iterations. Defaulting tSwitch to 1640.");
-                    tSwitch = 1640;
+                    double tSwitch = CalculateTSwitch();
                     if (time <= tSwitch)
                     {
                         denominator = 1 + B * Di * (time - _t0);
                         if (denominator <= 0 || B == 0)
                             return 0;
-                        double hyperbolicValue = Qi / Math.Pow(denominator, 1 / B);
-                        return Math.Max(hyperbolicValue, 0);
+                        return Math.Max(Qi / Math.Pow(denominator, 1 / B), 0);
                     }
                     else
                     {
@@ -172,13 +104,135 @@ namespace ArpsForecasting
                         if (denominator <= 0 || B == 0)
                             return 0;
                         double qSwitch = Qi / Math.Pow(denominator, 1 / B);
-                        double exponentialValue = qSwitch * Math.Exp(-_dMin * (time - tSwitch));
-                        return Math.Max(exponentialValue, 0);
+                        return Math.Max(qSwitch * Math.Exp(-_dMin * (time - tSwitch)), 0);
                     }
 
                 default:
                     throw new InvalidOperationException("No decline model has been fitted.");
             }
+        }
+
+        public void FitOptimalArps(List<double> time, List<double> production)
+        {
+            ValidateInput(time, production);
+
+            // Initial guesses
+            double qiGuess = production.Max();
+            double diGuess = EstimateInitialDecline(time, production);
+            double bGuess = 0.5;
+
+            // Try different decline types
+            double bestSse = double.MaxValue;
+            DeclineType bestType = DeclineType.Exponential;
+            double bestQi = 0;
+            double bestDi = 0;
+            double bestB = 0;
+            double bestDmin = 0;
+            double bestT0 = 0;
+            double bestTSwitch = 0;
+
+            // Exponential fit
+            FitExponential(time, production, qiGuess, diGuess);
+            double expSse = CalculateSSE(time, production); // Using new CalculateSSE
+            if (expSse < bestSse)
+            {
+                bestSse = expSse;
+                bestType = DeclineType.Exponential;
+                bestQi = Qi;
+                bestDi = Di;
+                bestB = B;
+                bestDmin = _dMin;
+                bestT0 = _t0;
+                bestTSwitch = 0;
+            }
+
+            // Hyperbolic fit
+            FitHyperbolic(time, production, qiGuess, diGuess, null);
+            double hypSse = CalculateSSE(time, production);
+            if (hypSse < bestSse)
+            {
+                bestSse = hypSse;
+                bestType = DeclineType.Hyperbolic;
+                bestQi = Qi;
+                bestDi = Di;
+                bestB = B;
+                bestDmin = _dMin;
+                bestT0 = _t0;
+                bestTSwitch = 0;
+            }
+
+            // Hyperbolic-to-Exponential fit with optimized Dmin
+            for (double dMin = 0.005 / 365; dMin <= 0.015 / 365; dMin += 0.001 / 365)
+            {
+                FitHyperbolicToExponential(time, production, qiGuess, diGuess, bGuess, dMin);
+                double hypExpSse = CalculateSSE(time, production);
+                double tSwitch = CalculateTSwitch();
+                if (hypExpSse < bestSse)
+                {
+                    bestSse = hypExpSse;
+                    bestType = DeclineType.HyperbolicToExponential;
+                    bestQi = Qi;
+                    bestDi = Di;
+                    bestB = B;
+                    bestDmin = dMin;
+                    bestT0 = _t0;
+                    bestTSwitch = tSwitch;
+                }
+            }
+
+            // Apply the best fit
+            if (bestType == DeclineType.Exponential)
+                FitExponential(time, production, bestQi, bestDi);
+            else if (bestType == DeclineType.Hyperbolic)
+                FitHyperbolic(time, production, bestQi, bestDi, bestB);
+            else
+                FitHyperbolicToExponential(time, production, bestQi, bestDi, bestB, bestDmin);
+
+            Console.WriteLine($"Best fit decline type: {bestType}, SSE: {bestSse}");
+            Console.WriteLine($"Best fit parameters - Qi: {bestQi}, Di: {bestDi}, B: {bestB}, Dmin: {bestDmin}, t0: {bestT0}, tSwitch: {(bestTSwitch > 0 ? bestTSwitch.ToString() : "N/A")}");
+        }
+
+        private double CalculateTSwitch()
+        {
+            if (_declineType != DeclineType.HyperbolicToExponential) return 0;
+
+            double baseFactor = Qi * Di / _dMin;
+            double targetTSwitchRelative = 560;
+            double targetTSwitchFactor = 1 + targetTSwitchRelative * (B * Di);
+            double scalingFactor = baseFactor / targetTSwitchFactor;
+
+            int iterations = 0;
+            const int maxIterations = 1000;
+            double tSwitch = 0;
+            while (iterations < maxIterations)
+            {
+                double tSwitchFactor = Math.Pow(baseFactor / scalingFactor, B);
+                double tSwitchRelative = (1 / (B * Di)) * (tSwitchFactor - 1);
+                tSwitch = tSwitchRelative + _t0;
+                if (double.IsNaN(tSwitch) || double.IsInfinity(tSwitch) || tSwitchRelative < 0)
+                {
+                    scalingFactor *= 1.2;
+                    iterations++;
+                    continue;
+                }
+                if (tSwitch >= 500 + _t0 && tSwitch <= 1000 + _t0)
+                    return tSwitch;
+                if (tSwitch < 500 + _t0)
+                    scalingFactor /= 1.2;
+                else
+                    scalingFactor *= 1.2;
+                iterations++;
+            }
+            return 1640; // Fallback
+        }
+
+        private double EstimateInitialDecline(List<double> time, List<double> production)
+        {
+            if (time.Count < 2) return 0.01;
+            double deltaT = time[1] - time[0];
+            double deltaP = production[0] - production[1];
+            if (deltaP <= 0 || production[0] == 0) return 0.01;
+            return Math.Min(deltaP / (production[0] * deltaT), 1.0);
         }
 
         private void OptimizeParameters(List<double> time, List<double> production, bool optimizeB)
@@ -190,32 +244,18 @@ namespace ArpsForecasting
             double previousSse = CalculateSSE(time, production);
             for (int i = 0; i < maxIterations; i++)
             {
-                double qiStep = learningRate * PartialDerivative(time, production, "Qi");
                 double diStep = learningRate * PartialDerivative(time, production, "Di");
                 double bStep = optimizeB ? learningRate * PartialDerivative(time, production, "B") : 0;
 
-                Qi -= qiStep;
                 Di -= diStep;
                 if (optimizeB) B -= bStep;
 
-                Qi = Math.Max(Qi, 0.1);
                 Di = Math.Max(Math.Min(Di, 1.0), 1e-6);
                 if (optimizeB) B = Math.Max(Math.Min(B, 1.0), 0.1);
-
-                if (_declineType == DeclineType.HyperbolicToExponential && _dMin > 0)
-                {
-                    double baseFactor = Qi * Di / _dMin;
-                    if (baseFactor < 1)
-                    {
-                        Di = _dMin / Qi;
-                        Console.WriteLine($"Adjusted Di to {Di} to ensure positive tSwitch");
-                    }
-                }
 
                 double currentSse = CalculateSSE(time, production);
                 if (double.IsNaN(currentSse) || double.IsInfinity(currentSse))
                 {
-                    Qi += qiStep;
                     Di += diStep;
                     if (optimizeB) B += bStep;
                     learningRate *= 0.5;
@@ -226,7 +266,6 @@ namespace ArpsForecasting
                     break;
                 if (currentSse > previousSse)
                 {
-                    Qi += qiStep;
                     Di += diStep;
                     if (optimizeB) B += bStep;
                     learningRate *= 0.5;
@@ -239,32 +278,29 @@ namespace ArpsForecasting
         {
             double originalValue = param switch
             {
-                "Qi" => Qi,
                 "Di" => Di,
                 "B" => B,
-                _ => throw new ArgumentException("Invalid parameter name.")
+                _ => throw new ArgumentException("Invalid parameter name. Only Di and B are optimized.")
             };
             double delta = 0.0001;
             double sseBase = CalculateSSE(time, production);
 
-            if (param == "Qi") Qi = originalValue + delta;
-            else if (param == "Di") Di = originalValue + delta;
+            if (param == "Di") Di = originalValue + delta;
             else if (param == "B") B = originalValue + delta;
             double ssePlus = CalculateSSE(time, production);
 
-            if (param == "Qi") Qi = originalValue - delta;
-            else if (param == "Di") Di = originalValue - delta;
+            if (param == "Di") Di = originalValue - delta;
             else if (param == "B") B = originalValue - delta;
             double sseMinus = CalculateSSE(time, production);
 
-            if (param == "Qi") Qi = originalValue;
-            else if (param == "Di") Di = originalValue;
+            if (param == "Di") Di = originalValue;
             else if (param == "B") B = originalValue;
 
             return (ssePlus - sseMinus) / (2 * delta);
         }
 
-        public new double CalculateSSE(List<double> time, List<double> production) // Fixed warning here
+        // Redefined with new keyword to hide inherited member
+        private new double CalculateSSE(List<double> time, List<double> production)
         {
             double sse = 0;
             for (int i = 0; i < time.Count; i++)
@@ -273,6 +309,16 @@ namespace ArpsForecasting
                 sse += Math.Pow(predicted - production[i], 2);
             }
             return sse;
+        }
+
+        public double Dmin => _dMin;
+
+        public void SetQi(double qi)
+        {
+            if (qi <= 0)
+                throw new ArgumentException("Qi must be positive.");
+            Qi = qi;
+            initialQi = qi; // Store the initial Qi to preserve it
         }
     }
 }
