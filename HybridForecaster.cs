@@ -35,6 +35,9 @@ namespace ArpsForecasting
 
             double qiGuess = config.InitialRate ?? production.Max();
             double diGuess = config.InitialDecline ?? EstimateInitialDecline(time, production);
+            Console.WriteLine($"HybridForecaster - qiGuess: {qiGuess}, diGuess before capping: {diGuess}");
+            diGuess = Math.Max(SSE.MinDi, Math.Min(SSE.MaxDi, diGuess)); // Cap diGuess within bounds
+            Console.WriteLine($"HybridForecaster - diGuess after capping: {diGuess}");
             double bGuess = config.BFactor ?? 0.5;
             double dMin = config.TerminalDecline ?? 0.07 / 365;
 

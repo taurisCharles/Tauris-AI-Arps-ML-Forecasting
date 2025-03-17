@@ -9,18 +9,62 @@ namespace ArpsForecasting
     public class WellChartGenerator
     {
         private readonly string wellName;
-        private readonly List<double> allTime;
+        private readonly List<double> allTime; // Full historical data for plotting
         private readonly List<double> allProduction;
+        private readonly List<double> forecastTime; // Subset for forecasting
+        private readonly List<double> forecastProduction; // Smoothed subset
         private readonly string outputDir;
         private readonly int effectiveOffset;
 
-        public WellChartGenerator(string wellName, List<double> time, List<double> production, string outputDir, int effectiveOffset = -720)
+        public class ArpsParams
+        {
+            public string WellName { get; set; }
+            public string? ModelType { get; set; }
+            public double EffectiveDate { get; set; }
+            public double Qi { get; set; }
+            public double Di { get; set; }
+            public double B { get; set; }
+        }
+
+        private List<ArpsParams> arpsParameters = new List<ArpsParams>();
+
+        public WellChartGenerator(string wellName, List<double> time, List<double> production, string outputDir, int effectiveOffset = 0, double forecastFraction = 1.0 / 3.0)
         {
             this.wellName = wellName;
             this.allTime = time ?? throw new ArgumentNullException(nameof(time));
             this.allProduction = production ?? throw new ArgumentNullException(nameof(production));
             this.outputDir = outputDir ?? throw new ArgumentNullException(nameof(outputDir));
             this.effectiveOffset = effectiveOffset;
+
+            // Validate input data
+            if (time.Count != production.Count || time.Count == 0)
+                throw new ArgumentException("Time and production lists must have the same length and not be empty.");
+
+            // Subset for forecasting (e.g., last 1/3)
+            int pointsToUse = (int)(time.Count * forecastFraction);
+            if (pointsToUse < 1) pointsToUse = 1;
+            int startIndex = time.Count - pointsToUse;
+            this.forecastTime = time.Skip(startIndex).ToList();
+            this.forecastProduction = SmoothData(production.Skip(startIndex).ToList(), windowSize: 5); // Apply 5-point moving average
+            Console.WriteLine($"Using {forecastTime.Count} of {time.Count} points for forecasting (last {forecastFraction:P0}) with smoothing");
+        }
+
+        // Simple moving average smoothing with safeguard
+        private List<double> SmoothData(List<double> data, int windowSize)
+        {
+            var smoothed = new List<double>();
+            for (int i = 0; i < data.Count; i++)
+            {
+                int start = Math.Max(0, i - windowSize / 2);
+                int end = Math.Min(data.Count - 1, i + windowSize / 2);
+                double sum = 0;
+                for (int j = start; j <= end; j++)
+                    sum += data[j];
+                double smoothedValue = sum / (end - start + 1);
+                smoothed.Add(Math.Max(smoothedValue, 0.1)); // Ensure no values below 0.1
+            }
+            Console.WriteLine($"Smoothed data for {wellName}: Min={smoothed.Min():F2}, Max={smoothed.Max():F2}");
+            return smoothed;
         }
 
         public void GenerateAndSaveChart()
@@ -34,190 +78,152 @@ namespace ArpsForecasting
             Console.WriteLine($"\nProcessing well: {wellName}");
 
             // Define historical and forecast periods
-            double historicalEndTime = allTime.Max(); // Last time point for this well
-            var historicalTime = allTime.Where(t => t <= historicalEndTime).ToList();
-            var historicalProduction = allProduction.Take(historicalTime.Count).ToList();
+            double historicalEndTime = forecastTime.Max(); // End of the subset used for forecasting
+            Console.WriteLine($"Historical end time for {wellName}: {historicalEndTime}");
             var plotTime = Enumerable.Range((int)allTime.Min(), (int)allTime.Max() - (int)allTime.Min() + 1100 + 1).Select(t => (double)t).ToList();
-            var forecastTime = plotTime.Where(t => t > historicalEndTime).ToList();
 
             var plt = new Plot();
+            // Plot full historical data
             var actualScatter = plt.Add.Scatter(allTime.ToArray(), allProduction.ToArray(), color: Colors.Blue);
             actualScatter.Label = "Actual Production";
+            Console.WriteLine($"Plotted historical data for {wellName}");
 
-            // Prophet-Like Forecast with timer
+            // Prophet-Like Forecast (trained on smoothed subset)
             var prophetStopwatch = Stopwatch.StartNew();
-            var prophetForecaster = new ProphetLikeForecaster(allTime, allProduction);
-            var prophetForecast = prophetForecaster.Forecast(plotTime, allTime, allProduction);
+            var prophetForecaster = new ProphetLikeForecaster(forecastTime, forecastProduction);
+            Console.WriteLine($"Created ProphetLikeForecaster for {wellName}");
+            var prophetForecast = prophetForecaster.Forecast(plotTime, forecastTime, forecastProduction);
             prophetStopwatch.Stop();
             Console.WriteLine($"Prophet-Like Forecast Time for {wellName}: {prophetStopwatch.ElapsedMilliseconds} ms");
+            Console.WriteLine($"Prophet forecast at historicalEndTime {historicalEndTime}: {prophetForecast[plotTime.IndexOf(historicalEndTime)]:F2}");
 
-            // Debug forecast values
-            Console.WriteLine($"Prophet-Like Forecast Values for {wellName} (first 5 after historicalEndTime):");
-            var futureTimes = plotTime.Where(t => t > historicalEndTime).Take(5).ToList();
-            foreach (var t in futureTimes)
+            // Hybrid Arps + Random Forest (trained on smoothed subset)
+            var hybridStopwatch = Stopwatch.StartNew();
+            var config = new ForecastConfig();
+            Console.WriteLine($"Created ForecastConfig for {wellName}: {config}");
+            HybridForecaster hybridForecaster = null;
+            try
             {
-                int index = plotTime.IndexOf(t);
-                Console.WriteLine($"Time {t}: {prophetForecast[index]:F3}");
+                hybridForecaster = new HybridForecaster(forecastTime, forecastProduction, config);
+                Console.WriteLine($"Created HybridForecaster for {wellName} with config: {config}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in HybridForecaster constructor: {ex.Message}");
+                Console.WriteLine($"Stack trace: {ex.StackTrace}");
+                throw;
             }
 
-            // Hybrid Arps + Random Forest with timer
-            var hybridStopwatch = Stopwatch.StartNew();
-            var config = new ForecastConfig(); // Let HybridForecaster estimate parameters
-            var hybridForecaster = new HybridForecaster(allTime, allProduction, config);
-            var hybridForecast = hybridForecaster.Forecast(plotTime, allTime, allProduction);
+            var hybridForecast = new List<float>(); // Declare outside try-catch
+            try
+            {
+                hybridForecast = hybridForecaster.Forecast(plotTime, forecastTime, forecastProduction);
+                Console.WriteLine($"Hybrid forecast completed successfully");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in HybridForecaster.Forecast: {ex.Message}");
+                Console.WriteLine($"Stack trace: {ex.StackTrace}");
+                hybridForecast = new List<float>(prophetForecast.Select(x => (float)x)); // Fallback to Prophet forecast
+            }
             hybridStopwatch.Stop();
             Console.WriteLine($"Hybrid Arps + Random Forest Forecast Time for {wellName}: {hybridStopwatch.ElapsedMilliseconds} ms");
+            Console.WriteLine($"Hybrid forecast at historicalEndTime {historicalEndTime}: {hybridForecast[plotTime.IndexOf(historicalEndTime)]:F2}");
 
-            // Debug Hybrid forecast for plotting
+            // Prepare hybrid forecast for plotting
             var hybridForecastForPlot = new List<float>();
             foreach (var t in plotTime)
             {
-                int index = allTime.IndexOf(t);
-                if (t <= historicalEndTime && index >= 0 && index < allProduction.Count)
-                    hybridForecastForPlot.Add((float)allProduction[index]);
-                else
-                    hybridForecastForPlot.Add((float)hybridForecast[plotTime.IndexOf(t)]);
-            }
-            Console.WriteLine($"Hybrid Arps + Random Forest For Plot for {wellName} (first 5 after historicalEndTime):");
-            foreach (var t in futureTimes)
-            {
                 int index = plotTime.IndexOf(t);
-                Console.WriteLine($"Time {t}: {hybridForecastForPlot[index]:F3}");
+                if (index >= 0 && index < hybridForecast.Count)
+                    hybridForecastForPlot.Add(hybridForecast[index]);
+                else
+                    hybridForecastForPlot.Add(0.0f); // Default to 0 if index is out of range
             }
+            Console.WriteLine($"Prepared hybrid forecast for plotting for {wellName}");
 
             // Define effective date for ARPS equivalents
-            double effectiveDate = historicalEndTime + effectiveOffset; // e.g., t=1080-720=360
+            double effectiveDate = historicalEndTime + effectiveOffset;
+            if (effectiveDate < forecastTime.Min()) effectiveDate = forecastTime.Min();
+            Console.WriteLine($"Effective date for {wellName}: {effectiveDate}");
 
-            // Interpolate Qi values at t=effectiveDate from forecasts
-            int tBeforeIndex = plotTime.IndexOf(Math.Floor(effectiveDate / 100) * 100); // Nearest 100 before effectiveDate
-            int tAfterIndex = plotTime.IndexOf(Math.Ceiling(effectiveDate / 100) * 100); // Nearest 100 after effectiveDate
-            double prophetQi = prophetForecast[tBeforeIndex] + (prophetForecast[tAfterIndex] - prophetForecast[tBeforeIndex]) * (effectiveDate - plotTime[tBeforeIndex]) / (plotTime[tAfterIndex] - plotTime[tBeforeIndex]);
-            double hybridQi = hybridForecastForPlot[tBeforeIndex] + (hybridForecastForPlot[tAfterIndex] - hybridForecastForPlot[tBeforeIndex]) * (effectiveDate - plotTime[tBeforeIndex]) / (plotTime[tAfterIndex] - plotTime[tBeforeIndex]);
-            Console.WriteLine($"Qi at t={effectiveDate} (Prophet-Like Forecast) for {wellName}: {prophetQi:F3}");
-            Console.WriteLine($"Qi at t={effectiveDate} (Hybrid ARPS + RF) for {wellName}: {hybridQi:F3}");
+            // Use actual production at effectiveDate as initial Qi
+            int effectiveIndex = forecastTime.IndexOf(forecastTime.LastOrDefault(t => t <= effectiveDate));
+            Console.WriteLine($"Effective index for {wellName}: {effectiveIndex}, forecastTime count: {forecastTime.Count}");
+            double initialQi = effectiveIndex >= 0 && effectiveIndex < forecastProduction.Count ? forecastProduction[effectiveIndex] : forecastProduction.Last();
+            Console.WriteLine($"Initial Qi for {wellName} at effectiveDate {effectiveDate}: {initialQi}");
+            if (initialQi < 0.1)
+            {
+                Console.WriteLine($"Warning: Initial Qi ({initialQi}) is below 0.1. Adjusting to 0.1.");
+                initialQi = 0.1;
+            }
 
-            // Fit Arps Equation Equivalent for Prophet-Like Forecast
-            var prophetArpsStopwatch = Stopwatch.StartNew();
             var prophetArpsForecaster = new SSE();
-            prophetArpsForecaster.SetQi(prophetQi); // Set Qi to Prophet-Like Forecast at effective date
-            prophetArpsForecaster.SetReferenceTime(effectiveDate); // Set effective date
-            var prophetFitTimes = plotTime.Where(t => t >= effectiveDate).ToList();
-            var prophetFitData = prophetFitTimes.Select(t => (double)prophetForecast[plotTime.IndexOf(t)]).ToList();
-            prophetArpsForecaster.FitHyperbolic(prophetFitTimes, prophetFitData, prophetQi, 0.003, 0.8); // Use pure hyperbolic fit
-            var prophetArpsForecast = plotTime.Select(t => (float)prophetArpsForecaster.Forecast(t, effectiveDate)).ToList();
-            prophetArpsStopwatch.Stop();
-            Console.WriteLine($"Prophet-Like Arps Equivalent Forecast Time for {wellName}: {prophetArpsStopwatch.ElapsedMilliseconds} ms");
-
-            // Get ARPS parameters for Prophet-Like Equivalent
-            string prophetArpsParams = GetArpsParameters(prophetArpsForecaster, effectiveDate);
-
-            // Fit Arps Equation Equivalent for Hybrid Arps + Random Forest
-            var hybridArpsStopwatch = Stopwatch.StartNew();
+            prophetArpsForecaster.SetQi(initialQi);
+            Console.WriteLine($"Set initial Qi for Prophet ArpsForecaster: {initialQi}");
             var hybridArpsForecaster = new SSE();
-            hybridArpsForecaster.SetQi(hybridQi); // Set Qi to Hybrid ARPS + RF at effective date
-            hybridArpsForecaster.SetReferenceTime(effectiveDate); // Set effective date
-            var hybridFitTimes = plotTime.Where(t => t >= effectiveDate).ToList();
-            var hybridFitData = hybridFitTimes.Select(t => (double)hybridForecastForPlot[plotTime.IndexOf(t)]).ToList();
-            hybridArpsForecaster.FitHyperbolic(hybridFitTimes, hybridFitData, hybridQi, 0.004, 0.7); // Different initial guesses
+            hybridArpsForecaster.SetQi(initialQi);
+            Console.WriteLine($"Set initial Qi for Hybrid ArpsForecaster: {initialQi}");
+
+            // Fit ARPS for Prophet-Like with adjusted initial guesses
+            double initialDi = 0.20 / 365.0; // 20% annual
+            Console.WriteLine($"Calling FitHyperbolic for Prophet-Like with qiGuess={initialQi}, diGuess={initialDi}");
+            prophetArpsForecaster.FitHyperbolic(forecastTime, forecastProduction, initialQi, initialDi, null);
+            var prophetArpsForecast = plotTime.Select(t => (float)prophetArpsForecaster.Forecast(t, effectiveDate)).ToList();
+
+            arpsParameters.Add(new ArpsParams
+            {
+                WellName = wellName,
+                ModelType = "Prophet-Like ARPS",
+                EffectiveDate = effectiveDate,
+                Qi = prophetArpsForecaster.Qi,
+                Di = prophetArpsForecaster.Di,
+                B = prophetArpsForecaster.B
+            });
+
+            // Fit ARPS for Hybrid with adjusted initial guesses
+            Console.WriteLine($"Calling FitHyperbolic for Hybrid with qiGuess={initialQi}, diGuess={initialDi}");
+            hybridArpsForecaster.FitHyperbolic(forecastTime, forecastProduction, initialQi, initialDi, null);
             var hybridArpsForecast = plotTime.Select(t => (float)hybridArpsForecaster.Forecast(t, effectiveDate)).ToList();
-            hybridArpsStopwatch.Stop();
-            Console.WriteLine($"Hybrid Arps + Random Forest Arps Equivalent Forecast Time for {wellName}: {hybridArpsStopwatch.ElapsedMilliseconds} ms");
 
-            // Get ARPS parameters for Hybrid Equivalent
-            string hybridArpsParams = GetArpsParameters(hybridArpsForecaster, effectiveDate);
+            arpsParameters.Add(new ArpsParams
+            {
+                WellName = wellName,
+                ModelType = "Hybrid ARPS",
+                EffectiveDate = effectiveDate,
+                Qi = hybridArpsForecaster.Qi,
+                Di = hybridArpsForecaster.Di,
+                B = hybridArpsForecaster.B
+            });
 
-            // Plot the Prophet-Like Forecast (Green)
+            // Plot forecasts
             var prophetLine = plt.Add.Scatter(plotTime.ToArray(), prophetForecast.ToArray(), color: Colors.Green);
             prophetLine.Label = "Prophet-Like Forecast";
             prophetLine.MarkerSize = 0;
 
-            // Plot Hybrid Arps + Random Forest
             var hybridLine = plt.Add.Scatter(plotTime.ToArray(), hybridForecastForPlot.ToArray(), color: Colors.Cyan);
             hybridLine.Label = "Hybrid ARPS + RF";
             hybridLine.MarkerSize = 0;
 
-            // Plot ARPS equivalents last to bring them to the front
             var prophetArpsLine = plt.Add.Scatter(plotTime.ToArray(), prophetArpsForecast.ToArray(), color: Colors.Red);
-            prophetArpsLine.Label = $"Prophet-Like ARPS (Eff Date: {effectiveDate}, {prophetArpsParams})";
+            prophetArpsLine.Label = $"Prophet-Like ARPS (Qi:{prophetArpsForecaster.Qi:F2}, Di:{prophetArpsForecaster.Di * 365 * 100:F2}%, b:{prophetArpsForecaster.B:F2})";
             prophetArpsLine.MarkerSize = 0;
 
             var hybridArpsLine = plt.Add.Scatter(plotTime.ToArray(), hybridArpsForecast.ToArray(), color: Colors.Purple);
-            hybridArpsLine.Label = $"Hybrid ARPS (Eff Date: {effectiveDate}, {hybridArpsParams})";
-            hybridArpsLine.MarkerSize = 0;
-
-            // Print projections for every 100 days from 100 to 2180
-            Console.WriteLine($"\n=== Projections for Every 100 Days from 100 to 2180 for {wellName} ===");
-            var reportDays = Enumerable.Range(1, 21).Select(i => i * 100).ToList(); // 100, 200, 300, ..., 2100, 2180
-
-            Console.WriteLine($"\nActual Production Projections for {wellName}:");
-            foreach (var day in reportDays)
-            {
-                int index = allTime.IndexOf((double)day);
-                if (index >= 0 && index < allProduction.Count)
-                    Console.WriteLine($"Day {day}: {allProduction[index]:F3}");
-                else
-                    Console.WriteLine($"Day {day}: N/A (beyond historical data)");
-            }
-
-            Console.WriteLine($"\nProphet-Like Forecast Projections for {wellName}:");
-            foreach (var day in reportDays)
-            {
-                int index = plotTime.IndexOf((double)day);
-                if (index >= 0)
-                    Console.WriteLine($"Day {day}: {prophetForecast[index]:F3}");
-                else
-                    Console.WriteLine($"Day {day}: N/A");
-            }
-
-            Console.WriteLine($"\nHybrid Arps + Random Forest Projections for {wellName}:");
-            foreach (var day in reportDays)
-            {
-                int index = plotTime.IndexOf((double)day);
-                if (index >= 0)
-                    Console.WriteLine($"Day {day}: {hybridForecastForPlot[index]:F3}");
-                else
-                    Console.WriteLine($"Day {day}: N/A");
-            }
-
-            Console.WriteLine($"\nProphet-Like Arps Equivalent Projections for {wellName}:");
-            foreach (var day in reportDays)
-            {
-                int index = plotTime.IndexOf((double)day);
-                if (index >= 0)
-                    Console.WriteLine($"Day {day}: {prophetArpsForecast[index]:F3}");
-                else
-                    Console.WriteLine($"Day {day}: N/A");
-            }
-
-            Console.WriteLine($"\nHybrid Arps + Random Forest Arps Equivalent Projections for {wellName}:");
-            foreach (var day in reportDays)
-            {
-                int index = plotTime.IndexOf((double)day);
-                if (index >= 0)
-                    Console.WriteLine($"Day {day}: {hybridArpsForecast[index]:F3}");
-                else
-                    Console.WriteLine($"Day {day}: N/A");
-            }
+            hybridArpsLine.Label = $"Hybrid ARPS (Qi:{hybridArpsForecaster.Qi:F2}, Di:{hybridArpsForecaster.Di * 365 * 100:F2}%, b:{hybridArpsForecaster.B:F2})";
+            hybridLine.MarkerSize = 0;
 
             plt.Title($"{wellName} Production Data vs Forecast");
             plt.XLabel("Time (days)");
             plt.YLabel("Production (units)");
-            plt.ShowLegend(Alignment.UpperRight); // Enable legend
-            plt.Legend.Font.Size = 10; // Set font size after enabling legend
+            plt.ShowLegend(Alignment.UpperRight);
+            plt.Legend.Font.Size = 10;
 
-            // Save the plot in the Charts folder with the well name
             string outputPath = System.IO.Path.Combine(outputDir, $"{wellName}_forecast.png");
             plt.SavePng(outputPath, 800, 600);
             Console.WriteLine($"Plot saved as '{outputPath}'");
         }
 
-        private static string GetArpsParameters(SSE forecaster, double effectiveDate)
-        {
-            double diPercent = forecaster.Di * 365 * 100; // Convert daily Di to annual percentage
-            double dminPercent = forecaster.Dmin * 365 * 100; // Convert daily Dmin to annual percentage
-            if (forecaster.Dmin == 0) // Pure hyperbolic fit
-                return $"Qi:{forecaster.Qi:F2}, Di:{diPercent:F2}%, b:{forecaster.B:F2}";
-            return $"Qi:{forecaster.Qi:F2}, Di:{diPercent:F2}%, b:{forecaster.B:F2}, Dmin:{dminPercent:F2}%";
-        }
+        public List<ArpsParams> GetArpsParameters() => arpsParameters;
     }
 }

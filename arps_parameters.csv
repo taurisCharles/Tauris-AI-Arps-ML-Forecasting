@@ -1,0 +1,15 @@
+WellName,ModelType,EffectiveDate,Qi,Di,B
+Well 1,Prophet-Like ARPS,1080,50.31,1.00%,1.00
+Well 1,Hybrid ARPS,1080,50.31,1.00%,1.00
+Bluebonnet A Unit M 1H,Prophet-Like ARPS,629,117.65,33.33%,0.51
+Bluebonnet A Unit M 1H,Hybrid ARPS,629,117.65,33.33%,0.51
+Trinity A Unit M 1H,Prophet-Like ARPS,885,80.76,1.00%,1.00
+Trinity A Unit M 1H,Hybrid ARPS,885,80.76,1.00%,1.00
+Cozart A Unit # 6H,Prophet-Like ARPS,291,141.70,1.00%,1.00
+Cozart A Unit # 6H,Hybrid ARPS,291,141.70,1.00%,1.00
+Biscayne 7-64 B 1H,Prophet-Like ARPS,567,134.40,1.00%,1.00
+Biscayne 7-64 B 1H,Hybrid ARPS,567,134.40,1.00%,1.00
+Bluebonnet D Unit #M 5H,Prophet-Like ARPS,195,411.77,1.00%,1.00
+Bluebonnet D Unit #M 5H,Hybrid ARPS,195,411.77,1.00%,1.00
+Big Bend 34-5 2H,Prophet-Like ARPS,979,38.27,1.00%,1.00
+Big Bend 34-5 2H,Hybrid ARPS,979,38.27,1.00%,1.00

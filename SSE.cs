@@ -10,6 +10,10 @@ namespace ArpsForecasting
         private double hyperbolicDi;
         private double hyperbolicB;
         private double initialQi; // Store the initial Qi set by SetQi
+        public const double MaxDiAnnual = 1.0; // 100% annual (made public)
+        public const double MinDiAnnual = 0.01; // 1% annual (made public)
+        public const double MaxDi = MaxDiAnnual / 365.0; // Convert to daily (made public)
+        public const double MinDi = MinDiAnnual / 365.0; // Convert to daily (made public)
 
         // Override abstract methods
         public override void FitExponential(List<double> time, List<double> production, double qiGuess, double diGuess)
@@ -34,31 +38,34 @@ namespace ArpsForecasting
         public override void FitHyperbolic(List<double> time, List<double> production, double qiGuess, double diGuess, double? bFixed = null)
         {
             ValidateInput(time, production);
-            if (qiGuess < 0.1 || diGuess < 1e-6 || diGuess > 1.0 || (bFixed.HasValue && (bFixed < 0.01 || bFixed > 1.0)))
-                throw new ArgumentException("Initial guesses must be within valid ranges.");
+            Console.WriteLine($"FitHyperbolic - qiGuess: {qiGuess}, diGuess: {diGuess}, bFixed: {bFixed}, MinDi: {MinDi}, MaxDi: {MaxDi}");
+            if (qiGuess < 0.1 || diGuess < MinDi || diGuess > MaxDi || (bFixed.HasValue && (bFixed < 0.01 || bFixed > 1.0)))
+                throw new ArgumentException($"Initial guesses must be within valid ranges: Qi > 0.1, Di between {MinDiAnnual}% and {MaxDiAnnual}% annual, B between 0.01 and 1.0.");
 
             // Use initialQi if set, otherwise use qiGuess
             Qi = initialQi != 0 ? initialQi : qiGuess;
-            Di = diGuess;
+            Di = Math.Max(MinDi, Math.Min(MaxDi, diGuess));
             B = bFixed ?? 0.5;
             _declineType = DeclineType.Hyperbolic;
 
             Console.WriteLine($"Before optimization - Qi: {Qi}, Di: {Di}, B: {B}");
-            OptimizeParameters(time, production, optimizeB: !bFixed.HasValue); // Use raw production
+            OptimizeParameters(time, production, optimizeB: !bFixed.HasValue);
             Console.WriteLine($"After optimization - Qi: {Qi}, Di: {Di}, B: {B}");
 
             hyperbolicQi = Qi;
             hyperbolicDi = Di;
             hyperbolicB = B;
 
-            Qi = initialQi != 0 ? initialQi : hyperbolicQi; // Restore initial Qi
+            Qi = initialQi != 0 ? initialQi : hyperbolicQi;
         }
 
         public override void FitHyperbolicToExponential(List<double> time, List<double> production, double qiGuess, double diGuess, double bGuess, double dMin)
         {
             ValidateInput(time, production);
-            if (qiGuess < 0.1 || diGuess < 1e-6 || diGuess > 1.0 || bGuess < 0.01 || bGuess > 1.0 || dMin <= 0)
-                throw new ArgumentException("Initial guesses must be within valid ranges.");
+            // Log parameters before validation
+            Console.WriteLine($"FitHyperbolicToExponential - qiGuess: {qiGuess}, diGuess: {diGuess}, bGuess: {bGuess}, dMin: {dMin}, MinDi: {MinDi}, MaxDi: {MaxDi}");
+            if (qiGuess < 0.1 || diGuess < MinDi || diGuess > MaxDi || bGuess < 0.01 || bGuess > 1.0 || dMin <= 0)
+                throw new ArgumentException("Initial guesses must be within valid ranges: qiGuess > 0.1, diGuess between 1% and 100% annual, bGuess between 0.01 and 1.0, dMin > 0");
 
             // Use initialQi if set
             FitHyperbolic(time, production, qiGuess, diGuess, null);
@@ -133,7 +140,7 @@ namespace ArpsForecasting
 
             // Exponential fit
             FitExponential(time, production, qiGuess, diGuess);
-            double expSse = CalculateSSE(time, production); // Using new CalculateSSE
+            double expSse = CalculateSSE(time, production);
             if (expSse < bestSse)
             {
                 bestSse = expSse;
@@ -250,7 +257,8 @@ namespace ArpsForecasting
                 Di -= diStep;
                 if (optimizeB) B -= bStep;
 
-                Di = Math.Max(Math.Min(Di, 1.0), 1e-6);
+                // Enforce bounds
+                Di = Math.Max(MinDi, Math.Min(MaxDi, Di));
                 if (optimizeB) B = Math.Max(Math.Min(B, 1.0), 0.1);
 
                 double currentSse = CalculateSSE(time, production);
