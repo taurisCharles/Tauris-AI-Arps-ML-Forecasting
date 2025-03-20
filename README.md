@@ -55,8 +55,6 @@ This document outlines the interactions between the files in the `ArpsForecastin
 
 ## Detailed Schematic of Interactions
 
-Below is a detailed ASCII representation of how the files interrelate in Markdown:
-
 ```plaintext
 Program.cs
    └── Loads well data from CSV
