@@ -1,3 +1,4 @@
+// HybridForecaster.cs (Corrected)
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,14 +7,19 @@ using Microsoft.ML.Data;
 
 namespace ArpsForecasting
 {
-    public class ForecastConfig
+    public class HybridData
     {
-        public double? InitialRate { get; set; }
-        public double? InitialDecline { get; set; }
-        public double? BFactor { get; set; }
-        public double? TerminalDecline { get; set; }
-        public int NumLags { get; set; } = 3;
-        public int MinTrainingIndex { get; set; } = 10;
+        public float Time { get; set; }
+        public float ArpsForecast { get; set; }
+        [VectorType(3)]
+        public float[] Lags { get; set; } = new float[3];
+        public float Residuals { get; set; }
+    }
+
+    public class HybridPrediction
+    {
+        [ColumnName("Score")]
+        public float Residuals { get; set; }
     }
 
     public class HybridForecaster
@@ -24,22 +30,22 @@ namespace ArpsForecasting
         private readonly SSE arpsForecaster;
         private readonly ForecastConfig config;
 
-        public HybridForecaster(List<double> time, List<double> production, ForecastConfig config)
+        public HybridForecaster(List<double> time, List<double> production, ForecastConfig? config = null)
         {
-            this.config = config ?? throw new ArgumentNullException(nameof(config));
-            if (time.Count < config.MinTrainingIndex + config.NumLags)
+            this.config = config ?? new ForecastConfig();
+            if (time == null) throw new ArgumentNullException(nameof(time));
+            if (production == null) throw new ArgumentNullException(nameof(production));
+            if (time.Count < this.config.MinTrainingIndex + this.config.NumLags)
                 throw new ArgumentException("Insufficient data for training.");
 
             mlContext = new MLContext();
-            arpsForecaster = new SSE();
+            arpsForecaster = new SSE(this.config);
 
-            double qiGuess = config.InitialRate ?? production.Max();
-            double diGuess = config.InitialDecline ?? EstimateInitialDecline(time, production);
-            Console.WriteLine($"HybridForecaster - qiGuess: {qiGuess}, diGuess before capping: {diGuess}");
-            diGuess = Math.Max(SSE.MinDi, Math.Min(SSE.MaxDi, diGuess)); // Cap diGuess within bounds
-            Console.WriteLine($"HybridForecaster - diGuess after capping: {diGuess}");
-            double bGuess = config.BFactor ?? 0.5;
-            double dMin = config.TerminalDecline ?? 0.07 / 365;
+            double qiGuess = this.config.InitialRate ?? production.Max();
+            double diGuess = this.config.InitialDecline ?? EstimateInitialDecline(time, production);
+            diGuess = Math.Max(this.config.MinDi, Math.Min(this.config.MaxDi, diGuess));
+            double bGuess = this.config.BFactor ?? 0.5;
+            double dMin = this.config.TerminalDecline ?? 0.07 / 365;
 
             arpsForecaster.FitHyperbolicToExponential(time, production, qiGuess, diGuess, bGuess, dMin);
 
@@ -123,20 +129,5 @@ namespace ArpsForecasting
             }
             return forecasts;
         }
-    }
-
-    public class HybridData
-    {
-        public float Time { get; set; }
-        public float ArpsForecast { get; set; }
-        [VectorType(3)] // Explicitly set to match default NumLags=3, adjust if changed
-        public float[] Lags { get; set; } = new float[3]; // Default size matches VectorType
-        public float Residuals { get; set; }
-    }
-
-    public class HybridPrediction
-    {
-        [ColumnName("Score")]
-        public float Residuals { get; set; }
     }
 }
