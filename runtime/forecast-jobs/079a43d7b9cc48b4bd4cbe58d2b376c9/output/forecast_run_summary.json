@@ -1,0 +1,23 @@
+{
+  "Success": true,
+  "CsvPath": "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/079a43d7b9cc48b4bd4cbe58d2b376c9/input/production_data.csv",
+  "OutputDir": "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/079a43d7b9cc48b4bd4cbe58d2b376c9/output/Charts",
+  "ArpsParametersPath": "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/079a43d7b9cc48b4bd4cbe58d2b376c9/output/arps_parameters.csv",
+  "AriesExportPath": "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/079a43d7b9cc48b4bd4cbe58d2b376c9/output/arps_aries_phdwin.csv",
+  "SummaryPath": "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/079a43d7b9cc48b4bd4cbe58d2b376c9/output/forecast_run_summary.json",
+  "PdfReportPath": null,
+  "WellCount": 7,
+  "ChartsGenerated": 7,
+  "ArpsParameterCount": 77,
+  "GeneratedAtUtc": "2026-05-15T19:53:16.0318343Z",
+  "ChartPaths": [
+    "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/079a43d7b9cc48b4bd4cbe58d2b376c9/output/Charts/Big Bend 34-5 2H_forecast.png",
+    "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/079a43d7b9cc48b4bd4cbe58d2b376c9/output/Charts/Biscayne 7-64 B 1H_forecast.png",
+    "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/079a43d7b9cc48b4bd4cbe58d2b376c9/output/Charts/Bluebonnet A Unit M 1H_forecast.png",
+    "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/079a43d7b9cc48b4bd4cbe58d2b376c9/output/Charts/Bluebonnet D Unit #M 5H_forecast.png",
+    "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/079a43d7b9cc48b4bd4cbe58d2b376c9/output/Charts/Cozart A Unit # 6H_forecast.png",
+    "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/079a43d7b9cc48b4bd4cbe58d2b376c9/output/Charts/Trinity A Unit M 1H_forecast.png",
+    "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/079a43d7b9cc48b4bd4cbe58d2b376c9/output/Charts/Well 1_forecast.png"
+  ],
+  "Messages": []
+}

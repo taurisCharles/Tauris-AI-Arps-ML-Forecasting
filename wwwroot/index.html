@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TaurisAI Forecasting Review</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">TaurisAI Forecasting</p>
+        <h1>Batch Forecast Review Desk</h1>
+        <p class="lede">Drop a CSV, let the run start immediately, then review completed wells with QC states, VCR navigation, keyboard shortcuts, and a saved manual-review layer.</p>
+      </div>
+      <div class="hero-status">
+        <span id="health-pill" class="pill muted">Checking service</span>
+        <p class="hero-note">Designed for one CSV containing many wells. When a run completes, the latest job opens automatically.</p>
+      </div>
+    </section>
+
+    <section class="panel quick-run-panel">
+      <div class="panel-header">
+        <div>
+          <h2>Kick Off Forecast</h2>
+          <p>Choose a file or local path. Processing starts immediately after selection.</p>
+        </div>
+      </div>
+
+      <div class="submission-tabs">
+        <button type="button" id="tab-upload" class="secondary-button active-tab">Upload CSV</button>
+        <button type="button" id="tab-local" class="secondary-button">Use Local CSV Path</button>
+      </div>
+
+      <form id="forecast-form" class="forecast-form">
+        <div id="upload-fields" class="submission-block">
+          <label class="wide-field">
+            <span>Production CSV</span>
+            <input id="csv-file" name="file" type="file" accept=".csv,text/csv">
+          </label>
+        </div>
+
+        <div id="local-fields" class="submission-block hidden">
+          <label class="wide-field">
+            <span>Local CSV Path</span>
+            <input id="local-csv-path" name="localCsvPath" type="text" placeholder="/mnt/c/Dev/TaurisAI-Forecasting/harness/input/production_data.csv">
+          </label>
+          <div class="local-picker wide-field">
+            <div class="picker-header">
+              <span>Detected local CSV files</span>
+              <button type="button" id="refresh-local-files" class="secondary-button">Refresh Files</button>
+            </div>
+            <div id="local-files-empty" class="muted-note">No local CSV files detected yet.</div>
+            <div id="local-files-list" class="local-files-list"></div>
+          </div>
+        </div>
+
+        <label>
+          <span>Export Phase Mode</span>
+          <select id="phase-mode" name="phaseMode">
+            <option value="4" selected>4 - Oil + Gas + Water + Pressure</option>
+            <option value="3">3 - Oil + Gas + Water</option>
+            <option value="0">0 - Default Legacy Mode</option>
+          </select>
+        </label>
+
+        <label class="checkbox-row">
+          <input id="generate-pdf" name="generatePdf" type="checkbox">
+          <span>Generate PDF chart deck</span>
+        </label>
+
+        <button type="submit" id="submit-button">Start Forecast Job</button>
+      </form>
+
+      <div class="run-banner">
+        <div class="run-banner-copy">
+          <span class="detail-label">Run Status</span>
+          <p id="form-status" class="status-line">Waiting for selection.</p>
+        </div>
+        <div id="active-job-pill" class="pill muted">No active job</div>
+      </div>
+    </section>
+
+    <section id="review-workspace" class="workspace hidden">
+      <aside class="review-sidebar panel">
+        <div class="panel-header compact">
+          <div>
+            <h2>Wells</h2>
+            <p id="job-summary-line" class="muted-note">No completed job selected.</p>
+          </div>
+          <button type="button" id="refresh-button" class="secondary-button">Refresh</button>
+        </div>
+
+        <div class="review-job-strip">
+          <span id="review-job-name" class="job-name">No active review</span>
+          <span id="review-job-status" class="pill muted">Waiting</span>
+        </div>
+
+        <div class="qcf-filter-group">
+          <button type="button" class="filter-chip active-filter" data-filter="all">All</button>
+          <button type="button" class="filter-chip" data-filter="green">Green</button>
+          <button type="button" class="filter-chip" data-filter="yellow">Yellow</button>
+          <button type="button" class="filter-chip" data-filter="red">Red</button>
+        </div>
+
+        <div class="sidebar-counts">
+          <div class="count-card green">
+            <span class="count-label">Green</span>
+            <strong id="count-green">0</strong>
+          </div>
+          <div class="count-card yellow">
+            <span class="count-label">Yellow</span>
+            <strong id="count-yellow">0</strong>
+          </div>
+          <div class="count-card red">
+            <span class="count-label">Red</span>
+            <strong id="count-red">0</strong>
+          </div>
+        </div>
+
+        <div id="well-list" class="well-list"></div>
+      </aside>
+
+      <section class="review-main">
+        <div class="panel review-toolbar">
+          <div>
+            <p class="eyebrow">Current Well</p>
+            <h2 id="selected-well-name">No well selected</h2>
+            <p id="selected-well-meta" class="muted-note">Select a completed run to begin review.</p>
+          </div>
+
+          <div class="toolbar-side">
+            <div class="vcr-controls">
+              <button type="button" id="first-well-button" class="secondary-button">|&lt;</button>
+              <button type="button" id="prev-well-button" class="secondary-button">&lt;</button>
+              <button type="button" id="next-well-button" class="secondary-button">&gt;</button>
+              <button type="button" id="last-well-button" class="secondary-button">&gt;|</button>
+            </div>
+            <div class="shortcut-hint">Shortcuts: `,` `.` navigate · `1` `2` `3` set QC · `[` `]` fit start · `-` `=` Di · `B` `N` b · `S` save</div>
+          </div>
+        </div>
+
+        <div class="review-grid">
+          <section class="panel chart-panel">
+            <div class="panel-header compact">
+              <div>
+                <h3>Forecast Chart</h3>
+                <p id="chart-caption" class="muted-note">Completed chart output for the selected well and active phase.</p>
+              </div>
+              <div class="phase-tabs" id="phase-tabs"></div>
+            </div>
+
+            <div class="chart-frame">
+              <img id="forecast-chart" alt="Forecast chart preview">
+              <div id="chart-empty" class="chart-empty">No chart available for the current well.</div>
+            </div>
+          </section>
+
+          <section class="panel metrics-panel">
+            <div class="panel-header compact">
+              <div>
+                <h3>Well Metrics</h3>
+                <p class="muted-note">Observed cumulative volumes come from the source CSV. EUR is estimated from the current forecast row and review state.</p>
+              </div>
+            </div>
+
+            <div class="overview-cards">
+              <article class="overview-card">
+                <span class="detail-label">Lateral Length</span>
+                <strong id="lateral-length-value">n/a</strong>
+              </article>
+              <article class="overview-card">
+                <span class="detail-label">2-Stream EUR</span>
+                <strong id="twostream-eur-value">n/a</strong>
+              </article>
+              <article class="overview-card">
+                <span class="detail-label">Pressure</span>
+                <strong id="pressure-flag-value">No pressure</strong>
+              </article>
+            </div>
+
+            <div id="metric-cards" class="metric-cards"></div>
+          </section>
+        </div>
+
+        <div class="review-grid lower-grid">
+          <section class="panel review-panel">
+            <div class="panel-header compact">
+              <div>
+                <h3>Manual Review</h3>
+                <p class="muted-note">Saved review controls are stored per job and well in the browser for now.</p>
+              </div>
+              <div id="saved-review-pill" class="pill muted">Unsaved review</div>
+            </div>
+
+            <div class="review-controls">
+              <div class="qc-toggle-group">
+                <button type="button" class="qc-button green" data-qc="green">Green</button>
+                <button type="button" class="qc-button yellow" data-qc="yellow">Yellow</button>
+                <button type="button" class="qc-button red" data-qc="red">Red</button>
+              </div>
+
+              <label>
+                <span>Fit Start Shift</span>
+                <input id="fit-start-shift" type="range" min="-12" max="12" step="1" value="0">
+                <strong id="fit-start-shift-value">0</strong>
+              </label>
+
+              <label>
+                <span>Di Bias</span>
+                <input id="di-bias" type="range" min="-0.5" max="0.5" step="0.01" value="0">
+                <strong id="di-bias-value">0.00</strong>
+              </label>
+
+              <label>
+                <span>b Bias</span>
+                <input id="b-bias" type="range" min="-0.5" max="0.5" step="0.01" value="0">
+                <strong id="b-bias-value">0.00</strong>
+              </label>
+
+              <label class="wide-field">
+                <span>Review Notes</span>
+                <textarea id="review-notes" rows="4" placeholder="Notes, exceptions, lateral comments, fit observations..."></textarea>
+              </label>
+
+              <div class="review-actions">
+                <button type="button" id="save-review-button">Save Review</button>
+                <button type="button" id="clear-review-button" class="secondary-button">Clear Review</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel jobs-panel">
+            <div class="panel-header compact">
+              <div>
+                <h3>Recent Jobs</h3>
+                <p class="muted-note">Completed jobs stay selectable for re-review.</p>
+              </div>
+            </div>
+
+            <div id="jobs-empty" class="empty-state">No forecast jobs yet.</div>
+            <div id="jobs-list" class="jobs-list"></div>
+          </section>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <template id="job-template">
+    <article class="job-row">
+      <button type="button" class="job-row-button">
+        <div>
+          <strong class="job-title"></strong>
+          <p class="job-meta"></p>
+        </div>
+        <span class="pill job-status"></span>
+      </button>
+    </article>
+  </template>
+
+  <template id="metric-card-template">
+    <article class="metric-card">
+      <div class="metric-topline">
+        <h4 class="metric-name"></h4>
+        <span class="pill metric-status"></span>
+      </div>
+      <div class="metric-grid">
+        <div>
+          <span class="detail-label">Cum.</span>
+          <strong class="metric-cum"></strong>
+        </div>
+        <div>
+          <span class="detail-label">EUR</span>
+          <strong class="metric-eur"></strong>
+        </div>
+        <div>
+          <span class="detail-label">Qi</span>
+          <strong class="metric-qi"></strong>
+        </div>
+        <div>
+          <span class="detail-label">Di</span>
+          <strong class="metric-di"></strong>
+        </div>
+        <div>
+          <span class="detail-label">b</span>
+          <strong class="metric-b"></strong>
+        </div>
+        <div>
+          <span class="detail-label">Model</span>
+          <strong class="metric-model"></strong>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+WellName,ModelType,EffectiveDate,Qi,AnnualDiPercent,B
+Well 1,Prophet-Like ARPS,1002,58.501,37.426,0.5
+Well 1,Hybrid ARPS,1002,121.57,33.479,1.2551
+Well 1,Export ARPS b=0.5,1002,58.501,37.426,0.5
+Well 1,Export ARPS b=1.0,1002,58.501,47.918,1
+Well 1,Export ARPS b=1.5,1002,58.501,62.799,1.5
+Well 1,Phase4 Primary b=0.5,76,1684.5,97.401,0.5
+Well 1,Phase4 Primary b=1.0,76,1684.5,97.401,1
+Well 1,Phase4 Primary b=1.5,76,1684.5,0.99502,1.5
+Well 1,Phase4 Tail b=0.5,901,2,0.99502,0.5
+Well 1,Phase4 Tail b=1.0,901,2,0.99502,1
+Well 1,Phase4 Tail b=1.5,901,2,0.99502,1.5
+Bluebonnet A Unit M 1H,Prophet-Like ARPS,585,61.836,33.479,0.5
+Bluebonnet A Unit M 1H,Hybrid ARPS,585,75.038,37.426,0.84694
+Bluebonnet A Unit M 1H,Export ARPS b=0.5,585,61.836,33.479,0.5
+Bluebonnet A Unit M 1H,Export ARPS b=1.0,585,61.836,39.311,1
+Bluebonnet A Unit M 1H,Export ARPS b=1.5,585,61.836,47.918,1.5
+Bluebonnet A Unit M 1H,Phase4 Primary b=0.5,61,142.58,97.401,0.5
+Bluebonnet A Unit M 1H,Phase4 Primary b=1.0,61,142.58,97.401,1
+Bluebonnet A Unit M 1H,Phase4 Primary b=1.5,61,142.58,97.401,1.5
+Bluebonnet A Unit M 1H,Phase4 Tail b=0.5,450,27.89,97.401,0.5
+Bluebonnet A Unit M 1H,Phase4 Tail b=1.0,450,27.89,97.401,1
+Bluebonnet A Unit M 1H,Phase4 Tail b=1.5,450,27.89,97.401,1.5
+Trinity A Unit M 1H,Prophet-Like ARPS,832,37.828,29.282,0.5
+Trinity A Unit M 1H,Hybrid ARPS,832,82.993,39.311,1.5
+Trinity A Unit M 1H,Export ARPS b=0.5,832,37.828,29.282,0.5
+Trinity A Unit M 1H,Export ARPS b=1.0,832,37.828,35.483,1
+Trinity A Unit M 1H,Export ARPS b=1.5,832,37.828,41.14,1.5
+Trinity A Unit M 1H,Phase4 Primary b=0.5,82,885.99,0.99502,0.5
+Trinity A Unit M 1H,Phase4 Primary b=1.0,82,885.99,0.99502,1
+Trinity A Unit M 1H,Phase4 Primary b=1.5,82,885.99,0.99502,1.5
+Trinity A Unit M 1H,Phase4 Tail b=0.5,706,37.79,97.401,0.5
+Trinity A Unit M 1H,Phase4 Tail b=1.0,706,37.79,97.401,1
+Trinity A Unit M 1H,Phase4 Tail b=1.5,706,37.79,97.401,1.5
+Cozart A Unit # 6H,Prophet-Like ARPS,195,216.46,44.632,0.52041
+Cozart A Unit # 6H,Hybrid ARPS,195,126.16,81.591,1.2143
+Cozart A Unit # 6H,Export ARPS b=0.5,195,216.46,44.632,0.5
+Cozart A Unit # 6H,Export ARPS b=1.0,195,216.46,60.452,1
+Cozart A Unit # 6H,Export ARPS b=1.5,195,216.46,82.684,1.5
+Cozart A Unit # 6H,Phase4 Primary b=0.5,91,417.03,0.99502,0.5
+Cozart A Unit # 6H,Phase4 Primary b=1.0,91,417.03,0.99502,1
+Cozart A Unit # 6H,Phase4 Primary b=1.5,91,417.03,0.99502,1.5
+Cozart A Unit # 6H,Phase4 Tail b=0.5,112,250.81,0.99502,0.5
+Cozart A Unit # 6H,Phase4 Tail b=1.0,112,250.81,0.99502,1
+Cozart A Unit # 6H,Phase4 Tail b=1.5,112,250.81,0.99502,1.5
+Biscayne 7-64 B 1H,Prophet-Like ARPS,382,220.8,39.311,0.5
+Biscayne 7-64 B 1H,Hybrid ARPS,382,251.7,97.401,1.2959
+Biscayne 7-64 B 1H,Export ARPS b=0.5,382,220.8,39.311,0.5
+Biscayne 7-64 B 1H,Export ARPS b=1.0,382,220.8,53.916,1
+Biscayne 7-64 B 1H,Export ARPS b=1.5,382,220.8,73.428,1.5
+Biscayne 7-64 B 1H,Phase4 Primary b=0.5,66,1238.9,97.401,0.5
+Biscayne 7-64 B 1H,Phase4 Primary b=1.0,66,1238.9,97.401,1
+Biscayne 7-64 B 1H,Phase4 Primary b=1.5,66,1238.9,0.99502,1.5
+Biscayne 7-64 B 1H,Phase4 Tail b=0.5,388,288.4,97.401,0.5
+Biscayne 7-64 B 1H,Phase4 Tail b=1.0,388,288.4,97.401,1
+Biscayne 7-64 B 1H,Phase4 Tail b=1.5,388,288.4,97.401,1.5
+Bluebonnet D Unit #M 5H,Prophet-Like ARPS,131,682.1,42.913,0.5
+Bluebonnet D Unit #M 5H,Hybrid ARPS,131,690.83,67.083,1.5
+Bluebonnet D Unit #M 5H,Export ARPS b=0.5,131,682.1,42.913,0.5
+Bluebonnet D Unit #M 5H,Export ARPS b=1.0,131,682.1,57.957,1
+Bluebonnet D Unit #M 5H,Export ARPS b=1.5,131,682.1,78.549,1.5
+Bluebonnet D Unit #M 5H,Phase4 Primary b=0.5,77,898.72,0.99502,0.5
+Bluebonnet D Unit #M 5H,Phase4 Primary b=1.0,77,898.72,0.99502,1
+Bluebonnet D Unit #M 5H,Phase4 Primary b=1.5,77,898.72,0.99502,1.5
+Bluebonnet D Unit #M 5H,Phase4 Tail b=0.5,82,807.76,0.99502,0.5
+Bluebonnet D Unit #M 5H,Phase4 Tail b=1.0,82,807.76,0.99502,1
+Bluebonnet D Unit #M 5H,Phase4 Tail b=1.5,82,807.76,0.99502,1.5
+Big Bend 34-5 2H,Prophet-Like ARPS,654,58.984,39.311,0.5
+Big Bend 34-5 2H,Hybrid ARPS,654,67.539,81.02,1.5
+Big Bend 34-5 2H,Export ARPS b=0.5,654,58.984,39.311,0.5
+Big Bend 34-5 2H,Export ARPS b=1.0,654,58.984,55.304,1
+Big Bend 34-5 2H,Export ARPS b=1.5,654,58.984,77.196,1.5
+Big Bend 34-5 2H,Phase4 Primary b=0.5,91,445.75,97.401,0.5
+Big Bend 34-5 2H,Phase4 Primary b=1.0,91,445.75,0.99502,1
+Big Bend 34-5 2H,Phase4 Primary b=1.5,91,445.75,0.99502,1.5
+Big Bend 34-5 2H,Phase4 Tail b=0.5,800,61.6,97.401,0.5
+Big Bend 34-5 2H,Phase4 Tail b=1.0,800,61.6,97.401,1
+Big Bend 34-5 2H,Phase4 Tail b=1.5,800,61.6,97.401,1.5

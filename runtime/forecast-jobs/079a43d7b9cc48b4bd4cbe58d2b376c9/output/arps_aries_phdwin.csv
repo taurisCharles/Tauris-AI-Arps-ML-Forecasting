@@ -1,0 +1,78 @@
+WellName,CurveName,DeclineType,EffectiveTime,Qi,NominalDiPerDay,NominalDiAnnualPercent,B
+Well 1,Prophet-Like ARPS,Hyperbolic,1002,58.50143,0.00128444803,37.4262,0.5
+Well 1,Hybrid ARPS,Hyperbolic,1002,121.5665,0.00111684126,33.47864,1.255102
+Well 1,Export ARPS b=0.5,Hyperbolic,1002,58.50143,0.00128444803,37.4262,0.5
+Well 1,Export ARPS b=1.0,Hyperbolic,1002,58.50143,0.00178726833,47.91811,1
+Well 1,Export ARPS b=1.5,Hyperbolic,1002,58.50143,0.00270910556,62.79859,1.5
+Well 1,Phase4 Primary b=0.5,Hyperbolic,76,1684.46,0.01,97.40089,0.5
+Well 1,Phase4 Primary b=1.0,Hyperbolic,76,1684.46,0.01,97.40089,1
+Well 1,Phase4 Primary b=1.5,Hyperbolic,76,1684.46,2.73972603E-05,0.9950166,1.5
+Well 1,Phase4 Tail b=0.5,Hyperbolic,901,2,2.73972603E-05,0.9950166,0.5
+Well 1,Phase4 Tail b=1.0,Hyperbolic,901,2,2.73972603E-05,0.9950166,1
+Well 1,Phase4 Tail b=1.5,Hyperbolic,901,2,2.73972603E-05,0.9950166,1.5
+Bluebonnet A Unit M 1H,Prophet-Like ARPS,Hyperbolic,585,61.83607,0.00111684126,33.47864,0.5
+Bluebonnet A Unit M 1H,Hybrid ARPS,Hyperbolic,585,75.03806,0.00128444803,37.4262,0.8469388
+Bluebonnet A Unit M 1H,Export ARPS b=0.5,Hyperbolic,585,61.83607,0.00111684126,33.47864,0.5
+Bluebonnet A Unit M 1H,Export ARPS b=1.0,Hyperbolic,585,61.83607,0.00136825141,39.31125,1
+Bluebonnet A Unit M 1H,Export ARPS b=1.5,Hyperbolic,585,61.83607,0.00178726833,47.91811,1.5
+Bluebonnet A Unit M 1H,Phase4 Primary b=0.5,Hyperbolic,61,142.58,0.01,97.40089,0.5
+Bluebonnet A Unit M 1H,Phase4 Primary b=1.0,Hyperbolic,61,142.58,0.01,97.40089,1
+Bluebonnet A Unit M 1H,Phase4 Primary b=1.5,Hyperbolic,61,142.58,0.01,97.40089,1.5
+Bluebonnet A Unit M 1H,Phase4 Tail b=0.5,Hyperbolic,450,27.89,0.01,97.40089,0.5
+Bluebonnet A Unit M 1H,Phase4 Tail b=1.0,Hyperbolic,450,27.89,0.01,97.40089,1
+Bluebonnet A Unit M 1H,Phase4 Tail b=1.5,Hyperbolic,450,27.89,0.01,97.40089,1.5
+Trinity A Unit M 1H,Prophet-Like ARPS,Hyperbolic,832,37.82755,0.000949234488,29.28204,0.5
+Trinity A Unit M 1H,Hybrid ARPS,Hyperbolic,832,82.99317,0.00136825141,39.31125,1.5
+Trinity A Unit M 1H,Export ARPS b=0.5,Hyperbolic,832,37.82755,0.000949234488,29.28204,0.5
+Trinity A Unit M 1H,Export ARPS b=1.0,Hyperbolic,832,37.82755,0.00120064464,35.4826,1
+Trinity A Unit M 1H,Export ARPS b=1.5,Hyperbolic,832,37.82755,0.00145205479,41.1395,1.5
+Trinity A Unit M 1H,Phase4 Primary b=0.5,Hyperbolic,82,885.99,2.73972603E-05,0.9950166,0.5
+Trinity A Unit M 1H,Phase4 Primary b=1.0,Hyperbolic,82,885.99,2.73972603E-05,0.9950166,1
+Trinity A Unit M 1H,Phase4 Primary b=1.5,Hyperbolic,82,885.99,2.73972603E-05,0.9950166,1.5
+Trinity A Unit M 1H,Phase4 Tail b=0.5,Hyperbolic,706,37.79,0.01,97.40089,0.5
+Trinity A Unit M 1H,Phase4 Tail b=1.0,Hyperbolic,706,37.79,0.01,97.40089,1
+Trinity A Unit M 1H,Phase4 Tail b=1.5,Hyperbolic,706,37.79,0.01,97.40089,1.5
+Cozart A Unit # 6H,Prophet-Like ARPS,Hyperbolic,195,216.4632,0.00161966156,44.63245,0.5204082
+Cozart A Unit # 6H,Hybrid ARPS,Hyperbolic,195,126.1554,0.0046365834,81.59141,1.214286
+Cozart A Unit # 6H,Export ARPS b=0.5,Hyperbolic,195,216.4632,0.00161966156,44.63245,0.5
+Cozart A Unit # 6H,Export ARPS b=1.0,Hyperbolic,195,216.4632,0.00254149879,60.45168,1
+Cozart A Unit # 6H,Export ARPS b=1.5,Hyperbolic,195,216.4632,0.00480419017,82.68383,1.5
+Cozart A Unit # 6H,Phase4 Primary b=0.5,Hyperbolic,91,417.03,2.73972603E-05,0.9950166,0.5
+Cozart A Unit # 6H,Phase4 Primary b=1.0,Hyperbolic,91,417.03,2.73972603E-05,0.9950166,1
+Cozart A Unit # 6H,Phase4 Primary b=1.5,Hyperbolic,91,417.03,2.73972603E-05,0.9950166,1.5
+Cozart A Unit # 6H,Phase4 Tail b=0.5,Hyperbolic,112,250.8135,2.73972603E-05,0.9950166,0.5
+Cozart A Unit # 6H,Phase4 Tail b=1.0,Hyperbolic,112,250.8135,2.73972603E-05,0.9950166,1
+Cozart A Unit # 6H,Phase4 Tail b=1.5,Hyperbolic,112,250.8135,2.73972603E-05,0.9950166,1.5
+Biscayne 7-64 B 1H,Prophet-Like ARPS,Hyperbolic,382,220.7965,0.00136825141,39.31125,0.5
+Biscayne 7-64 B 1H,Hybrid ARPS,Hyperbolic,382,251.7026,0.01,97.40089,1.295918
+Biscayne 7-64 B 1H,Export ARPS b=0.5,Hyperbolic,382,220.7965,0.00136825141,39.31125,0.5
+Biscayne 7-64 B 1H,Export ARPS b=1.0,Hyperbolic,382,220.7965,0.00212248187,53.91607,1
+Biscayne 7-64 B 1H,Export ARPS b=1.5,Hyperbolic,382,220.7965,0.00363094279,73.42752,1.5
+Biscayne 7-64 B 1H,Phase4 Primary b=0.5,Hyperbolic,66,1238.88,0.01,97.40089,0.5
+Biscayne 7-64 B 1H,Phase4 Primary b=1.0,Hyperbolic,66,1238.88,0.01,97.40089,1
+Biscayne 7-64 B 1H,Phase4 Primary b=1.5,Hyperbolic,66,1238.88,2.73972603E-05,0.9950166,1.5
+Biscayne 7-64 B 1H,Phase4 Tail b=0.5,Hyperbolic,388,288.4,0.01,97.40089,0.5
+Biscayne 7-64 B 1H,Phase4 Tail b=1.0,Hyperbolic,388,288.4,0.01,97.40089,1
+Biscayne 7-64 B 1H,Phase4 Tail b=1.5,Hyperbolic,388,288.4,0.01,97.40089,1.5
+Bluebonnet D Unit #M 5H,Prophet-Like ARPS,Hyperbolic,131,682.1005,0.00153585818,42.91268,0.5
+Bluebonnet D Unit #M 5H,Hybrid ARPS,Hyperbolic,131,690.8313,0.0030443191,67.08285,1.5
+Bluebonnet D Unit #M 5H,Export ARPS b=0.5,Hyperbolic,131,682.1005,0.00153585818,42.91268,0.5
+Bluebonnet D Unit #M 5H,Export ARPS b=1.0,Hyperbolic,131,682.1005,0.00237389202,57.95672,1
+Bluebonnet D Unit #M 5H,Export ARPS b=1.5,Hyperbolic,131,682.1005,0.00421756648,78.54928,1.5
+Bluebonnet D Unit #M 5H,Phase4 Primary b=0.5,Hyperbolic,77,898.72,2.73972603E-05,0.9950166,0.5
+Bluebonnet D Unit #M 5H,Phase4 Primary b=1.0,Hyperbolic,77,898.72,2.73972603E-05,0.9950166,1
+Bluebonnet D Unit #M 5H,Phase4 Primary b=1.5,Hyperbolic,77,898.72,2.73972603E-05,0.9950166,1.5
+Bluebonnet D Unit #M 5H,Phase4 Tail b=0.5,Hyperbolic,82,807.76,2.73972603E-05,0.9950166,0.5
+Bluebonnet D Unit #M 5H,Phase4 Tail b=1.0,Hyperbolic,82,807.76,2.73972603E-05,0.9950166,1
+Bluebonnet D Unit #M 5H,Phase4 Tail b=1.5,Hyperbolic,82,807.76,2.73972603E-05,0.9950166,1.5
+Big Bend 34-5 2H,Prophet-Like ARPS,Hyperbolic,654,58.98416,0.00136825141,39.31125,0.5
+Big Bend 34-5 2H,Hybrid ARPS,Hyperbolic,654,67.53906,0.00455278002,81.01963,1.5
+Big Bend 34-5 2H,Export ARPS b=0.5,Hyperbolic,654,58.98416,0.00136825141,39.31125,0.5
+Big Bend 34-5 2H,Export ARPS b=1.0,Hyperbolic,654,58.98416,0.00220628525,55.30436,1
+Big Bend 34-5 2H,Export ARPS b=1.5,Hyperbolic,654,58.98416,0.00404995971,77.19602,1.5
+Big Bend 34-5 2H,Phase4 Primary b=0.5,Hyperbolic,91,445.75,0.01,97.40089,0.5
+Big Bend 34-5 2H,Phase4 Primary b=1.0,Hyperbolic,91,445.75,2.73972603E-05,0.9950166,1
+Big Bend 34-5 2H,Phase4 Primary b=1.5,Hyperbolic,91,445.75,2.73972603E-05,0.9950166,1.5
+Big Bend 34-5 2H,Phase4 Tail b=0.5,Hyperbolic,800,61.6,0.01,97.40089,0.5
+Big Bend 34-5 2H,Phase4 Tail b=1.0,Hyperbolic,800,61.6,0.01,97.40089,1
+Big Bend 34-5 2H,Phase4 Tail b=1.5,Hyperbolic,800,61.6,0.01,97.40089,1.5

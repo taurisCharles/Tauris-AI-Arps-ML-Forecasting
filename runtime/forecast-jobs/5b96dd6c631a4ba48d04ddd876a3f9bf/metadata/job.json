@@ -1,0 +1,49 @@
+{
+  "JobId": "5b96dd6c-631a-4ba4-8d04-ddd876a3f9bf",
+  "Status": "Failed",
+  "OriginalFileName": "MonthlyDataExport_202305_202604.csv",
+  "StoredCsvPath": "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/5b96dd6c631a4ba48d04ddd876a3f9bf/input/MonthlyDataExport_202305_202604.csv",
+  "ChartsOutputDir": "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/5b96dd6c631a4ba48d04ddd876a3f9bf/output/Charts",
+  "JobRootPath": "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/5b96dd6c631a4ba48d04ddd876a3f9bf",
+  "PhaseMode": 4,
+  "GeneratePdf": true,
+  "CreatedAtUtc": "2026-05-15T20:06:52.9930385Z",
+  "UpdatedAtUtc": "2026-05-15T20:06:53.0851495Z",
+  "Messages": [
+    "Upload saved and forecast job queued.",
+    "Forecast run started.",
+    "No well data found in CSV file. Exiting.",
+    "Forecast run finished with validation failures."
+  ],
+  "Artifacts": [
+    {
+      "Name": "MonthlyDataExport_202305_202604.csv",
+      "RelativePath": "input/MonthlyDataExport_202305_202604.csv",
+      "ContentType": "text/csv",
+      "DownloadUrl": "/api/forecast-jobs/5b96dd6c-631a-4ba4-8d04-ddd876a3f9bf/artifacts/input/MonthlyDataExport_202305_202604.csv"
+    },
+    {
+      "Name": "forecast_run_summary.json",
+      "RelativePath": "output/forecast_run_summary.json",
+      "ContentType": "application/json",
+      "DownloadUrl": "/api/forecast-jobs/5b96dd6c-631a-4ba4-8d04-ddd876a3f9bf/artifacts/output/forecast_run_summary.json"
+    }
+  ],
+  "Result": {
+    "Success": false,
+    "CsvPath": "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/5b96dd6c631a4ba48d04ddd876a3f9bf/input/MonthlyDataExport_202305_202604.csv",
+    "OutputDir": "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/5b96dd6c631a4ba48d04ddd876a3f9bf/output/Charts",
+    "ArpsParametersPath": "",
+    "AriesExportPath": "",
+    "SummaryPath": "/mnt/c/Dev/TaurisAI-Forecasting/runtime/forecast-jobs/5b96dd6c631a4ba48d04ddd876a3f9bf/output/forecast_run_summary.json",
+    "PdfReportPath": null,
+    "WellCount": 0,
+    "ChartsGenerated": 0,
+    "ArpsParameterCount": 0,
+    "GeneratedAtUtc": "2026-05-15T20:06:53.0517339Z",
+    "ChartPaths": [],
+    "Messages": [
+      "No well data found in CSV file. Exiting."
+    ]
+  }
+}

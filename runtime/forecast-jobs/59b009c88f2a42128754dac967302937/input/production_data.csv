@@ -1,0 +1,4627 @@
+WellName,Time, Production
+Well 1,1,89.28
+Well 1,2,225.29
+Well 1,3,391.99
+Well 1,4,138.1
+Well 1,5,312.48
+Well 1,6,442.91
+Well 1,7,476.39
+Well 1,8,488.95
+Well 1,9,504.29
+Well 1,10,541.26
+Well 1,11,548.23
+Well 1,12,581.71
+Well 1,13,592.18
+Well 1,14,617.98
+Well 1,15,613.8
+Well 1,16,1171.1
+Well 1,17,518.94
+Well 1,18,599.15
+Well 1,19,1111.81
+Well 1,20,866.29
+Well 1,21,1079.03
+Well 1,22,657.74
+Well 1,23,1028.81
+Well 1,24,962.55
+Well 1,25,917.21
+Well 1,26,1180.87
+Well 1,27,1215.05
+Well 1,28,694.01
+Well 1,29,1287.58
+Well 1,30,943.02
+Well 1,31,781.9
+Well 1,32,1383.14
+Well 1,33,999.52
+Well 1,34,1272.24
+Well 1,35,1615.41
+Well 1,36,1083.22
+Well 1,37,735.86
+Well 1,38,509.17
+Well 1,39,603.34
+Well 1,40,1163.43
+Well 1,41,1400.58
+Well 1,42,1418.71
+Well 1,43,1070.66
+Well 1,44,1187.84
+Well 1,45,877.46
+Well 1,46,1684.46
+Well 1,47,1417.32
+Well 1,48,719.12
+Well 1,49,1045.55
+Well 1,50,1321.76
+Well 1,51,736.56
+Well 1,52,421.29
+Well 1,53,416.41
+Well 1,54,396.88
+Well 1,55,1006.49
+Well 1,56,1105.54
+Well 1,57,1013.47
+Well 1,58,799.33
+Well 1,59,957.67
+Well 1,60,936.74
+Well 1,61,875.36
+Well 1,62,1290.38
+Well 1,63,910.24
+Well 1,64,569.86
+Well 1,65,1084.61
+Well 1,66,1287.58
+Well 1,67,1257.59
+Well 1,68,1408.95
+Well 1,69,1298.74
+Well 1,70,1443.13
+Well 1,71,1484.28
+Well 1,72,1194.82
+Well 1,73,1310.6
+Well 1,74,1597.97
+Well 1,75,1145.99
+Well 1,76,1332.92
+Well 1,77,1171.8
+Well 1,78,1293.17
+Well 1,79,1597.28
+Well 1,80,1187.15
+Well 1,81,1225.51
+Well 1,82,1401.97
+Well 1,83,1401.28
+Well 1,84,846.76
+Well 1,85,1321.06
+Well 1,86,1145.29
+Well 1,87,1286.19
+Well 1,88,1233.88
+Well 1,89,1092.98
+Well 1,90,1175.29
+Well 1,91,1153.67
+Well 1,92,1196.21
+Well 1,93,1087.4
+Well 1,94,1415.23
+Well 1,95,913.72
+Well 1,96,877.46
+Well 1,97,953.48
+Well 1,98,1645.4
+Well 1,99,1140.41
+Well 1,100,1170.41
+Well 1,101,1000.91
+Well 1,102,1143.2
+Well 1,103,1082.52
+Well 1,104,1245.73
+Well 1,105,832.82
+Well 1,106,1149.48
+Well 1,107,1207.37
+Well 1,108,1177.38
+Well 1,109,1202.49
+Well 1,110,828.63
+Well 1,111,1463.35
+Well 1,112,543.35
+Well 1,113,1106.93
+Well 1,114,1067.18
+Well 1,115,1076.94
+Well 1,116,1060.2
+Well 1,117,1403.37
+Well 1,118,1286.89
+Well 1,119,633.33
+Well 1,120,989.75
+Well 1,121,1053.22
+Well 1,122,919.3
+Well 1,123,988.36
+Well 1,124,1157.15
+Well 1,125,1068.57
+Well 1,126,917.91
+Well 1,127,1282.7
+Well 1,128,1090.89
+Well 1,129,638.21
+Well 1,130,1572.86
+Well 1,131,1126.46
+Well 1,132,1159.24
+Well 1,133,1056.71
+Well 1,134,767.25
+Well 1,135,1307.11
+Well 1,136,913.72
+Well 1,137,1384.54
+Well 1,138,814.68
+Well 1,139,1242.25
+Well 1,140,877.46
+Well 1,141,911.63
+Well 1,142,1228.3
+Well 1,143,811.19
+Well 1,144,1265.27
+Well 1,145,848.86
+Well 1,146,1249.92
+Well 1,147,499.41
+Well 1,148,1263.87
+Well 1,149,806.31
+Well 1,150,1091.59
+Well 1,151,202.27
+Well 1,152,1501.72
+Well 1,153,386.42
+Well 1,154,706.57
+Well 1,155,1445.22
+Well 1,156,650.07
+Well 1,157,1014.86
+Well 1,158,310.39
+Well 1,159,890.01
+Well 1,160,435.94
+Well 1,161,883.03
+Well 1,162,855.83
+Well 1,163,978.59
+Well 1,164,615.89
+Well 1,165,627.05
+Well 1,166,1136.92
+Well 1,167,788.87
+Well 1,168,978.59
+Well 1,169,611.71
+Well 1,170,759.58
+Well 1,171,711.45
+Well 1,172,781.2
+Well 1,173,818.86
+Well 1,174,710.05
+Well 1,175,712.84
+Well 1,176,802.13
+Well 1,177,767.25
+Well 1,178,671.69
+Well 1,179,896.29
+Well 1,180,720.52
+Well 1,181,902.57
+Well 1,182,691.22
+Well 1,183,931.16
+Well 1,184,809.1
+Well 1,185,896.29
+Well 1,186,814.68
+Well 1,187,843.28
+Well 1,188,845.37
+Well 1,189,752.6
+Well 1,190,737.96
+Well 1,191,812.59
+Well 1,192,825.14
+Well 1,193,833.51
+Well 1,194,687.73
+Well 1,195,827.23
+Well 1,196,754
+Well 1,197,767.95
+Well 1,198,802.13
+Well 1,199,763.76
+Well 1,200,774.22
+Well 1,201,750.51
+Well 1,202,748.42
+Well 1,203,799.33
+Well 1,204,767.25
+Well 1,205,878.85
+Well 1,206,897.68
+Well 1,207,781.2
+Well 1,208,820.26
+Well 1,209,800.03
+Well 1,210,826.54
+Well 1,211,868.39
+Well 1,212,855.14
+Well 1,213,839.09
+Well 1,214,830.72
+Well 1,215,864.9
+Well 1,216,800.03
+Well 1,217,887.92
+Well 1,218,903.26
+Well 1,219,873.97
+Well 1,220,906.75
+Well 1,221,866.29
+Well 1,222,922.79
+Well 1,223,809.8
+Well 1,224,767.25
+Well 1,225,696.1
+Well 1,226,660.53
+Well 1,227,670.3
+Well 1,228,856.53
+Well 1,229,944.41
+Well 1,230,931.86
+Well 1,231,924.19
+Well 1,232,887.22
+Well 1,233,878.85
+Well 1,234,876.06
+Well 1,235,823.05
+Well 1,236,869.78
+Well 1,237,786.78
+Well 1,238,764.46
+Well 1,239,824.45
+Well 1,240,813.98
+Well 1,241,779.8
+Well 1,242,767.25
+Well 1,243,758.18
+Well 1,244,791.66
+Well 1,245,873.97
+Well 1,246,588.69
+Well 1,247,721.91
+Well 1,248,686.34
+Well 1,249,691.22
+Well 1,250,687.73
+Well 1,251,668.9
+Well 1,252,670.99
+Well 1,253,632.63
+Well 1,254,656.35
+Well 1,255,657.74
+Well 1,256,663.32
+Well 1,257,687.73
+Well 1,258,604.03
+Well 1,259,452.68
+Well 1,260,362.7
+Well 1,261,233.66
+Well 1,262,2.09
+Well 1,263,0
+Well 1,264,0
+Well 1,265,0
+Well 1,266,0
+Well 1,267,0
+Well 1,268,0
+Well 1,269,0
+Well 1,270,0
+Well 1,271,35.57
+Well 1,272,34.18
+Well 1,273,0
+Well 1,274,0
+Well 1,275,2.09
+Well 1,276,70.45
+Well 1,277,232.96
+Well 1,278,383.63
+Well 1,279,352.93
+Well 1,280,383.63
+Well 1,281,318.06
+Well 1,282,492.43
+Well 1,283,519.64
+Well 1,284,528.71
+Well 1,285,553.12
+Well 1,286,577.53
+Well 1,287,608.92
+Well 1,288,787.48
+Well 1,289,569.86
+Well 1,290,600.55
+Well 1,291,645.88
+Well 1,292,614.5
+Well 1,293,643.09
+Well 1,294,647.28
+Well 1,295,630.54
+Well 1,296,677.27
+Well 1,297,521.73
+Well 1,298,571.95
+Well 1,299,601.24
+Well 1,300,622.17
+Well 1,301,610.31
+Well 1,302,615.2
+Well 1,303,595.66
+Well 1,304,604.03
+Well 1,305,615.2
+Well 1,306,626.35
+Well 1,307,601.24
+Well 1,308,627.75
+Well 1,309,620.77
+Well 1,310,605.43
+Well 1,311,597.06
+Well 1,312,572.65
+Well 1,313,581.02
+Well 1,314,593.57
+Well 1,315,515.45
+Well 1,316,652.86
+Well 1,317,682.85
+Well 1,318,579.62
+Well 1,319,594.27
+Well 1,320,592.88
+Well 1,321,598.46
+Well 1,322,559.4
+Well 1,323,796.54
+Well 1,324,629.84
+Well 1,325,620.08
+Well 1,326,596.36
+Well 1,327,620.77
+Well 1,328,609.61
+Well 1,329,623.57
+Well 1,330,607.52
+Well 1,331,606.83
+Well 1,332,538.47
+Well 1,333,665.41
+Well 1,334,591.48
+Well 1,335,488.25
+Well 1,336,617.29
+Well 1,337,679.36
+Well 1,338,599.85
+Well 1,339,567.07
+Well 1,340,548.23
+Well 1,341,721.91
+Well 1,342,442.21
+Well 1,343,406.64
+Well 1,344,437.33
+Well 1,345,408.73
+Well 1,346,412.22
+Well 1,347,431.75
+Well 1,348,438.03
+Well 1,349,454.07
+Well 1,350,438.73
+Well 1,351,382.23
+Well 1,352,491.04
+Well 1,353,459.65
+Well 1,354,521.03
+Well 1,355,264.35
+Well 1,356,553.82
+Well 1,357,511.96
+Well 1,358,461.74
+Well 1,359,447.1
+Well 1,360,470.81
+Well 1,361,479.88
+Well 1,362,518.94
+Well 1,363,534.28
+Well 1,364,522.43
+Well 1,365,506.38
+Well 1,366,508.48
+Well 1,367,514.76
+Well 1,368,494.53
+Well 1,369,489.64
+Well 1,370,483.37
+Well 1,371,484.76
+Well 1,372,475.69
+Well 1,373,481.27
+Well 1,374,468.72
+Well 1,375,468.72
+Well 1,376,465.23
+Well 1,377,507.08
+Well 1,378,410.13
+Well 1,379,439.42
+Well 1,380,421.29
+Well 1,381,320.85
+Well 1,382,404.55
+Well 1,383,345.26
+Well 1,384,373.86
+Well 1,385,331.31
+Well 1,386,403.15
+Well 1,387,382.93
+Well 1,388,431.75
+Well 1,389,434.54
+Well 1,390,387.11
+Well 1,391,366.19
+Well 1,392,338.29
+Well 1,393,325.73
+Well 1,394,336.2
+Well 1,395,340.38
+Well 1,396,353.63
+Well 1,397,341.77
+Well 1,398,345.96
+Well 1,399,325.73
+Well 1,400,352.24
+Well 1,401,343.17
+Well 1,402,329.22
+Well 1,403,305.51
+Well 1,404,343.17
+Well 1,405,315.97
+Well 1,406,314.57
+Well 1,407,317.36
+Well 1,408,93.46
+Well 1,409,169.49
+Well 1,410,256.68
+Well 1,411,327.82
+Well 1,412,271.33
+Well 1,413,318.76
+Well 1,414,279.7
+Well 1,415,279.7
+Well 1,416,273.42
+Well 1,417,274.82
+Well 1,418,265.05
+Well 1,419,265.75
+Well 1,420,196.69
+Well 1,421,314.57
+Well 1,422,233.66
+Well 1,423,184.84
+Well 1,424,258.07
+Well 1,425,218.32
+Well 1,426,279.7
+Well 1,427,55.1
+Well 1,428,127.64
+Well 1,429,0
+Well 1,430,0
+Well 1,431,0
+Well 1,432,0
+Well 1,433,0
+Well 1,434,152.05
+Well 1,435,357.12
+Well 1,436,313.88
+Well 1,437,304.81
+Well 1,438,270.63
+Well 1,439,269.24
+Well 1,440,252.49
+Well 1,441,289.46
+Well 1,442,284.58
+Well 1,443,255.98
+Well 1,444,217.62
+Well 1,445,311.78
+Well 1,446,184.84
+Well 1,447,258.07
+Well 1,448,263.65
+Well 1,449,199.49
+Well 1,450,297.83
+Well 1,451,237.85
+Well 1,452,230.18
+Well 1,453,274.12
+Well 1,454,262.26
+Well 1,455,242.03
+Well 1,456,226.69
+Well 1,457,260.17
+Well 1,458,295.74
+Well 1,459,419.89
+Well 1,460,324.34
+Well 1,461,308.29
+Well 1,462,293.65
+Well 1,463,292.95
+Well 1,464,261.56
+Well 1,465,259.47
+Well 1,466,275.51
+Well 1,467,302.02
+Well 1,468,280.39
+Well 1,469,256.68
+Well 1,470,248.31
+Well 1,471,230.18
+Well 1,472,288.76
+Well 1,473,325.04
+Well 1,474,246.91
+Well 1,475,285.28
+Well 1,476,281.09
+Well 1,477,290.86
+Well 1,478,297.83
+Well 1,479,296.44
+Well 1,480,279
+Well 1,481,292.25
+Well 1,482,288.76
+Well 1,483,285.28
+Well 1,484,276.21
+Well 1,485,275.51
+Well 1,486,267.84
+Well 1,487,264.35
+Well 1,488,274.82
+Well 1,489,262.96
+Well 1,490,249.01
+Well 1,491,260.17
+Well 1,492,276.21
+Well 1,493,244.13
+Well 1,494,262.96
+Well 1,495,267.84
+Well 1,496,179.96
+Well 1,497,358.52
+Well 1,498,285.98
+Well 1,499,272.72
+Well 1,500,272.72
+Well 1,501,269.93
+Well 1,502,274.12
+Well 1,503,255.98
+Well 1,504,229.48
+Well 1,505,286.67
+Well 1,506,291.55
+Well 1,507,255.98
+Well 1,508,254.59
+Well 1,509,271.33
+Well 1,510,254.59
+Well 1,511,253.89
+Well 1,512,240.64
+Well 1,513,254.59
+Well 1,514,253.89
+Well 1,515,238.54
+Well 1,516,262.96
+Well 1,517,221.81
+Well 1,518,235.75
+Well 1,519,246.22
+Well 1,520,222.5
+Well 1,521,256.68
+Well 1,522,251.1
+Well 1,523,232.96
+Well 1,524,233.66
+Well 1,525,242.73
+Well 1,526,228.78
+Well 1,527,249.71
+Well 1,528,230.87
+Well 1,529,235.75
+Well 1,530,230.87
+Well 1,531,228.78
+Well 1,532,215.53
+Well 1,533,252.49
+Well 1,534,231.57
+Well 1,535,228.78
+Well 1,536,237.15
+Well 1,537,236.45
+Well 1,538,232.96
+Well 1,539,221.8
+Well 1,540,225.99
+Well 1,541,242.03
+Well 1,542,214.13
+Well 1,543,230.87
+Well 1,544,223.2
+Well 1,545,232.96
+Well 1,546,225.99
+Well 1,547,241.33
+Well 1,548,196.69
+Well 1,549,219.01
+Well 1,550,227.38
+Well 1,551,209.95
+Well 1,552,217.62
+Well 1,553,222.5
+Well 1,554,217.62
+Well 1,555,198.79
+Well 1,556,219.71
+Well 1,557,202.97
+Well 1,558,170.89
+Well 1,559,0
+Well 1,560,66.26
+Well 1,561,189.02
+Well 1,562,198.09
+Well 1,563,196
+Well 1,564,140.2
+Well 1,565,255.29
+Well 1,566,215.53
+Well 1,567,78.12
+Well 1,568,206.46
+Well 1,569,359.91
+Well 1,570,206.46
+Well 1,571,219.71
+Well 1,572,213.43
+Well 1,573,219.71
+Well 1,574,212.04
+Well 1,575,213.43
+Well 1,576,26.5
+Well 1,577,214.83
+Well 1,578,191.12
+Well 1,579,224.6
+Well 1,580,138.8
+Well 1,581,78.82
+Well 1,582,213.43
+Well 1,583,217.62
+Well 1,584,222.5
+Well 1,585,214.83
+Well 1,586,187.63
+Well 1,587,216.92
+Well 1,588,224.6
+Well 1,589,198.09
+Well 1,590,202.27
+Well 1,591,161.82
+Well 1,592,260.17
+Well 1,593,213.43
+Well 1,594,395.48
+Well 1,595,11.16
+Well 1,596,202.97
+Well 1,597,198.79
+Well 1,598,201.58
+Well 1,599,200.18
+Well 1,600,181.35
+Well 1,601,211.34
+Well 1,602,173.68
+Well 1,603,207.85
+Well 1,604,213.43
+Well 1,605,193.9
+Well 1,606,189.02
+Well 1,607,188.32
+Well 1,608,194.6
+Well 1,609,182.05
+Well 1,610,195.3
+Well 1,611,192.51
+Well 1,612,131.83
+Well 1,613,190.42
+Well 1,614,179.26
+Well 1,615,196.69
+Well 1,616,177.86
+Well 1,617,187.63
+Well 1,618,184.84
+Well 1,619,168.1
+Well 1,620,189.72
+Well 1,621,179.96
+Well 1,622,164.61
+Well 1,623,133.22
+Well 1,624,239.24
+Well 1,625,174.38
+Well 1,626,176.47
+Well 1,627,174.38
+Well 1,628,182.74
+Well 1,629,159.03
+Well 1,630,156.94
+Well 1,631,103.93
+Well 1,632,50.22
+Well 1,633,163.91
+Well 1,634,158.33
+Well 1,635,149.96
+Well 1,636,142.29
+Well 1,637,155.54
+Well 1,638,158.33
+Well 1,639,147.17
+Well 1,640,159.03
+Well 1,641,156.24
+Well 1,642,46.03
+Well 1,643,0
+Well 1,644,0
+Well 1,645,58.59
+Well 1,646,160.43
+Well 1,647,129.04
+Well 1,648,166.7
+Well 1,649,180.65
+Well 1,650,170.19
+Well 1,651,160.43
+Well 1,652,153.45
+Well 1,653,149.96
+Well 1,654,90.67
+Well 1,655,108.81
+Well 1,656,153.45
+Well 1,657,148.57
+Well 1,658,205.07
+Well 1,659,174.38
+Well 1,660,168.1
+Well 1,661,177.86
+Well 1,662,163.91
+Well 1,663,187.63
+Well 1,664,176.47
+Well 1,665,126.25
+Well 1,666,203.67
+Well 1,667,170.89
+Well 1,668,170.89
+Well 1,669,171.58
+Well 1,670,175.77
+Well 1,671,164.61
+Well 1,672,177.16
+Well 1,673,168.1
+Well 1,674,169.49
+Well 1,675,172.98
+Well 1,676,156.24
+Well 1,677,169.49
+Well 1,678,169.49
+Well 1,679,163.91
+Well 1,680,163.21
+Well 1,681,142.29
+Well 1,682,155.54
+Well 1,683,159.03
+Well 1,684,181.35
+Well 1,685,142.29
+Well 1,686,133.22
+Well 1,687,193.9
+Well 1,688,160.43
+Well 1,689,160.43
+Well 1,690,164.61
+Well 1,691,163.21
+Well 1,692,136.71
+Well 1,693,179.96
+Well 1,694,154.15
+Well 1,695,160.43
+Well 1,696,154.85
+Well 1,697,152.05
+Well 1,698,96.95
+Well 1,699,0
+Well 1,700,0
+Well 1,701,0
+Well 1,702,0
+Well 1,703,0
+Well 1,704,0
+Well 1,705,0
+Well 1,706,0
+Well 1,707,0
+Well 1,708,0
+Well 1,709,0
+Well 1,710,0
+Well 1,711,0
+Well 1,712,0
+Well 1,713,0
+Well 1,714,0
+Well 1,715,0
+Well 1,716,0
+Well 1,717,0
+Well 1,718,0
+Well 1,719,0
+Well 1,720,0
+Well 1,721,0
+Well 1,722,0
+Well 1,723,0
+Well 1,724,13.25
+Well 1,725,77.42
+Well 1,726,116.48
+Well 1,727,121.36
+Well 1,728,132.52
+Well 1,729,145.08
+Well 1,730,145
+Well 1,731,158
+Well 1,732,165
+Well 1,733,164
+Well 1,734,172
+Well 1,735,169
+Well 1,736,169
+Well 1,737,171
+Well 1,738,176
+Well 1,739,172
+Well 1,740,174
+Well 1,741,180
+Well 1,742,174
+Well 1,743,179
+Well 1,744,181
+Well 1,745,170
+Well 1,746,177
+Well 1,747,166
+Well 1,748,160
+Well 1,749,174
+Well 1,750,155
+Well 1,751,195
+Well 1,752,172
+Well 1,753,164
+Well 1,754,176
+Well 1,755,165
+Well 1,756,170
+Well 1,757,130
+Well 1,758,177
+Well 1,759,167
+Well 1,760,181
+Well 1,761,156
+Well 1,762,180
+Well 1,763,163
+Well 1,764,168
+Well 1,765,161
+Well 1,766,162
+Well 1,767,167
+Well 1,768,166
+Well 1,769,173
+Well 1,770,171
+Well 1,771,167
+Well 1,772,169
+Well 1,773,156
+Well 1,774,166
+Well 1,775,172
+Well 1,776,147
+Well 1,777,155
+Well 1,778,164
+Well 1,779,164
+Well 1,780,63
+Well 1,781,0
+Well 1,782,0
+Well 1,783,0
+Well 1,784,0
+Well 1,785,1
+Well 1,786,1
+Well 1,787,67
+Well 1,788,0
+Well 1,789,21
+Well 1,790,144
+Well 1,791,146
+Well 1,792,178
+Well 1,793,167
+Well 1,794,130
+Well 1,795,154.15
+Well 1,796,144.38
+Well 1,797,160.43
+Well 1,798,139.5
+Well 1,799,141.59
+Well 1,800,149.96
+Well 1,801,150.66
+Well 1,802,149.26
+Well 1,803,150.66
+Well 1,804,153.45
+Well 1,805,148.57
+Well 1,806,149.26
+Well 1,807,144.38
+Well 1,808,150.66
+Well 1,809,147.17
+Well 1,810,20.92
+Well 1,811,142.29
+Well 1,812,139.5
+Well 1,813,151.36
+Well 1,814,170.89
+Well 1,815,159.73
+Well 1,816,144.38
+Well 1,817,142.29
+Well 1,818,124.15
+Well 1,819,177.86
+Well 1,820,113.69
+Well 1,821,140.9
+Well 1,822,140.9
+Well 1,823,132.52
+Well 1,824,127.64
+Well 1,825,97.65
+Well 1,826,103.23
+Well 1,827,124.85
+Well 1,828,108.81
+Well 1,829,125.55
+Well 1,830,131.83
+Well 1,831,131.13
+Well 1,832,133.92
+Well 1,833,136.71
+Well 1,834,105.32
+Well 1,835,149.26
+Well 1,836,92.77
+Well 1,837,132.52
+Well 1,838,136.01
+Well 1,839,130.43
+Well 1,840,110.9
+Well 1,841,129.04
+Well 1,842,121.95
+Well 1,843,69.47
+Well 1,844,30.58
+Well 1,845,0
+Well 1,846,0
+Well 1,847,10.91
+Well 1,848,0
+Well 1,849,0
+Well 1,850,0
+Well 1,851,70
+Well 1,852,33
+Well 1,853,2
+Well 1,854,1
+Well 1,855,59
+Well 1,856,59
+Well 1,857,20
+Well 1,858,0
+Well 1,859,0
+Well 1,860,0
+Well 1,861,77
+Well 1,862,18
+Well 1,863,0
+Well 1,864,0
+Well 1,865,0
+Well 1,866,0
+Well 1,867,0
+Well 1,868,0
+Well 1,869,0
+Well 1,870,22
+Well 1,871,10
+Well 1,872,37
+Well 1,873,213
+Well 1,874,252
+Well 1,875,227
+Well 1,876,222
+Well 1,877,219
+Well 1,878,214
+Well 1,879,204
+Well 1,880,198
+Well 1,881,208
+Well 1,882,100
+Well 1,883,28
+Well 1,884,43
+Well 1,885,41
+Well 1,886,31
+Well 1,887,37
+Well 1,888,68
+Well 1,889,63
+Well 1,890,95
+Well 1,891,126
+Well 1,892,36
+Well 1,893,128
+Well 1,894,130
+Well 1,895,142
+Well 1,896,33
+Well 1,897,79
+Well 1,898,78
+Well 1,899,204
+Well 1,900,140
+Well 1,901,2
+Well 1,902,0
+Well 1,903,2
+Well 1,904,19
+Well 1,905,92
+Well 1,906,168
+Well 1,907,197
+Well 1,908,0
+Well 1,909,31
+Well 1,910,84
+Well 1,911,66
+Well 1,912,294
+Well 1,913,286
+Well 1,914,281
+Well 1,915,287
+Well 1,916,114
+Well 1,917,25
+Well 1,918,16
+Well 1,919,77
+Well 1,920,61
+Well 1,921,64
+Well 1,922,29
+Well 1,923,72
+Well 1,924,51
+Well 1,925,59
+Well 1,926,32
+Well 1,927,30
+Well 1,928,58
+Well 1,929,72
+Well 1,930,71
+Well 1,931,79
+Well 1,932,29
+Well 1,933,52
+Well 1,934,6
+Well 1,935,49
+Well 1,936,49
+Well 1,937,47
+Well 1,938,31
+Well 1,939,54
+Well 1,940,40
+Well 1,941,31
+Well 1,942,40
+Well 1,943,52
+Well 1,944,43
+Well 1,945,46
+Well 1,946,48
+Well 1,947,40
+Well 1,948,45
+Well 1,949,55.1
+Well 1,950,28.6
+Well 1,951,43.94
+Well 1,952,47.43
+Well 1,953,0
+Well 1,954,111.32
+Well 1,955,40.26
+Well 1,956,49
+Well 1,957,62.62
+Well 1,958,39.54
+Well 1,959,69.18
+Well 1,960,36.78
+Well 1,961,34.39
+Well 1,962,38.18
+Well 1,963,41.15
+Well 1,964,43.24
+Well 1,965,43.24
+Well 1,966,30.69
+Well 1,967,55.51
+Well 1,968,0
+Well 1,969,0
+Well 1,970,38.45
+Well 1,971,37.95
+Well 1,972,35.17
+Well 1,973,34.54
+Well 1,974,48.15
+Well 1,975,46.5
+Well 1,976,44.33
+Well 1,977,41.83
+Well 1,978,47.85
+Well 1,979,41.64
+Well 1,980,33.11
+Well 1,981,47.56
+Well 1,982,60.18
+Well 1,983,37.82
+Well 1,984,45.15
+Well 1,985,50.26
+Well 1,986,40.37
+Well 1,987,29.32
+Well 1,988,55.01
+Well 1,989,25.13
+Well 1,990,17.31
+Well 1,991,41.98
+Well 1,992,50.49
+Well 1,993,35.27
+Well 1,994,45.93
+Well 1,995,26.89
+Well 1,996,35.67
+Well 1,997,56.25
+Well 1,998,33.21
+Well 1,999,3.67
+Well 1,1000,47.43
+Well 1,1001,8.4
+Well 1,1002,77.22
+Well 1,1003,56.05
+Well 1,1004,56.05
+Well 1,1005,56.05
+Well 1,1006,65.13
+Well 1,1007,71.79
+Well 1,1008,20.11
+Well 1,1009,85.73
+Well 1,1010,65.59
+Well 1,1011,52.27
+Well 1,1012,79.85
+Well 1,1013,67.73
+Well 1,1014,34.81
+Well 1,1015,70.25
+Well 1,1016,58.92
+Well 1,1017,59.6
+Well 1,1018,68.89
+Well 1,1019,33.03
+Well 1,1020,55.44
+Well 1,1021,43.61
+Well 1,1022,65.48
+Well 1,1023,67
+Well 1,1024,42.97
+Well 1,1025,69.86
+Well 1,1026,64.36
+Well 1,1027,27.1
+Well 1,1028,79.47
+Well 1,1029,60.36
+Well 1,1030,51.48
+Well 1,1031,43.78
+Well 1,1032,87.85
+Well 1,1033,40.35
+Well 1,1034,64.38
+Well 1,1035,57.95
+Well 1,1036,44.1
+Well 1,1037,55.26
+Well 1,1038,55.99
+Well 1,1039,64.02
+Well 1,1040,35.91
+Well 1,1041,49.53
+Well 1,1042,57.65
+Well 1,1043,43.18
+Well 1,1044,37.56
+Well 1,1045,54.87
+Well 1,1046,39.58
+Well 1,1047,56.47
+Well 1,1048,60.43
+Well 1,1049,67.19
+Well 1,1050,46.49
+Well 1,1051,49.47
+Well 1,1052,50.37
+Well 1,1053,41.66
+Well 1,1054,58.69
+Well 1,1055,52.41
+Well 1,1056,90.01
+Well 1,1057,44.6
+Well 1,1058,49.32
+Well 1,1059,48.74
+Well 1,1060,81.94
+Well 1,1061,60.42
+Well 1,1062,89.42
+Well 1,1063,78.17
+Well 1,1064,73.27
+Well 1,1065,48.73
+Well 1,1066,61.66
+Well 1,1067,50.46
+Well 1,1068,56.93
+Well 1,1069,35.52
+Well 1,1070,30.9
+Well 1,1071,77.19
+Well 1,1072,33.48
+Well 1,1073,36.67
+Well 1,1074,57.63
+Well 1,1075,31.3
+Well 1,1076,60.87
+Well 1,1077,35.77
+Well 1,1078,53.76
+Well 1,1079,43.4
+Well 1,1080,53.76
+Bluebonnet A Unit M 1H,1,153.92
+Bluebonnet A Unit M 1H,2,150.96
+Bluebonnet A Unit M 1H,3,148.19
+Bluebonnet A Unit M 1H,4,145.66
+Bluebonnet A Unit M 1H,5,139.83
+Bluebonnet A Unit M 1H,6,156.16
+Bluebonnet A Unit M 1H,7,142.59
+Bluebonnet A Unit M 1H,8,148.17
+Bluebonnet A Unit M 1H,9,144.2
+Bluebonnet A Unit M 1H,10,140.51
+Bluebonnet A Unit M 1H,11,114.62
+Bluebonnet A Unit M 1H,12,0
+Bluebonnet A Unit M 1H,13,83.84
+Bluebonnet A Unit M 1H,14,128.65
+Bluebonnet A Unit M 1H,15,142.52
+Bluebonnet A Unit M 1H,16,142.7
+Bluebonnet A Unit M 1H,17,145.37
+Bluebonnet A Unit M 1H,18,142.61
+Bluebonnet A Unit M 1H,19,145.31
+Bluebonnet A Unit M 1H,20,145.39
+Bluebonnet A Unit M 1H,21,144.14
+Bluebonnet A Unit M 1H,22,142.61
+Bluebonnet A Unit M 1H,23,148.17
+Bluebonnet A Unit M 1H,24,153.78
+Bluebonnet A Unit M 1H,25,142.84
+Bluebonnet A Unit M 1H,26,139.8
+Bluebonnet A Unit M 1H,27,145.38
+Bluebonnet A Unit M 1H,28,139.78
+Bluebonnet A Unit M 1H,29,148.3
+Bluebonnet A Unit M 1H,30,141.84
+Bluebonnet A Unit M 1H,31,142.58
+Bluebonnet A Unit M 1H,32,139.54
+Bluebonnet A Unit M 1H,33,134.19
+Bluebonnet A Unit M 1H,34,139.78
+Bluebonnet A Unit M 1H,35,133.22
+Bluebonnet A Unit M 1H,36,131.76
+Bluebonnet A Unit M 1H,37,134.23
+Bluebonnet A Unit M 1H,38,139.8
+Bluebonnet A Unit M 1H,39,131.43
+Bluebonnet A Unit M 1H,40,136.98
+Bluebonnet A Unit M 1H,41,132.92
+Bluebonnet A Unit M 1H,42,128.88
+Bluebonnet A Unit M 1H,43,128.63
+Bluebonnet A Unit M 1H,44,134.19
+Bluebonnet A Unit M 1H,45,128.61
+Bluebonnet A Unit M 1H,46,125.71
+Bluebonnet A Unit M 1H,47,128.87
+Bluebonnet A Unit M 1H,48,126.08
+Bluebonnet A Unit M 1H,49,120.24
+Bluebonnet A Unit M 1H,50,125.78
+Bluebonnet A Unit M 1H,51,131.39
+Bluebonnet A Unit M 1H,52,122.45
+Bluebonnet A Unit M 1H,53,122.95
+Bluebonnet A Unit M 1H,54,120.24
+Bluebonnet A Unit M 1H,55,123.04
+Bluebonnet A Unit M 1H,56,125.8
+Bluebonnet A Unit M 1H,57,117.69
+Bluebonnet A Unit M 1H,58,128.6
+Bluebonnet A Unit M 1H,59,125.8
+Bluebonnet A Unit M 1H,60,117.95
+Bluebonnet A Unit M 1H,61,106.25
+Bluebonnet A Unit M 1H,62,112.51
+Bluebonnet A Unit M 1H,63,110.79
+Bluebonnet A Unit M 1H,64,123.02
+Bluebonnet A Unit M 1H,65,78.32
+Bluebonnet A Unit M 1H,66,117.43
+Bluebonnet A Unit M 1H,67,123.02
+Bluebonnet A Unit M 1H,68,116.61
+Bluebonnet A Unit M 1H,69,125.78
+Bluebonnet A Unit M 1H,70,128.58
+Bluebonnet A Unit M 1H,71,117.42
+Bluebonnet A Unit M 1H,72,118.31
+Bluebonnet A Unit M 1H,73,117.42
+Bluebonnet A Unit M 1H,74,119.71
+Bluebonnet A Unit M 1H,75,125.73
+Bluebonnet A Unit M 1H,76,125.8
+Bluebonnet A Unit M 1H,77,109.06
+Bluebonnet A Unit M 1H,78,120.2
+Bluebonnet A Unit M 1H,79,113.18
+Bluebonnet A Unit M 1H,80,116.81
+Bluebonnet A Unit M 1H,81,120.21
+Bluebonnet A Unit M 1H,82,107.7
+Bluebonnet A Unit M 1H,83,114.65
+Bluebonnet A Unit M 1H,84,117.41
+Bluebonnet A Unit M 1H,85,108.25
+Bluebonnet A Unit M 1H,86,110.68
+Bluebonnet A Unit M 1H,87,120.17
+Bluebonnet A Unit M 1H,88,103.51
+Bluebonnet A Unit M 1H,89,114.63
+Bluebonnet A Unit M 1H,90,114.6
+Bluebonnet A Unit M 1H,91,110.73
+Bluebonnet A Unit M 1H,92,117.4
+Bluebonnet A Unit M 1H,93,104.69
+Bluebonnet A Unit M 1H,94,73.84
+Bluebonnet A Unit M 1H,95,16.79
+Bluebonnet A Unit M 1H,96,78.23
+Bluebonnet A Unit M 1H,97,97.52
+Bluebonnet A Unit M 1H,98,106.23
+Bluebonnet A Unit M 1H,99,110.58
+Bluebonnet A Unit M 1H,100,107.9
+Bluebonnet A Unit M 1H,101,111.39
+Bluebonnet A Unit M 1H,102,111.86
+Bluebonnet A Unit M 1H,103,116.86
+Bluebonnet A Unit M 1H,104,114.65
+Bluebonnet A Unit M 1H,105,109.75
+Bluebonnet A Unit M 1H,106,117.18
+Bluebonnet A Unit M 1H,107,111.36
+Bluebonnet A Unit M 1H,108,97.28
+Bluebonnet A Unit M 1H,109,111.84
+Bluebonnet A Unit M 1H,110,122.1
+Bluebonnet A Unit M 1H,111,114.63
+Bluebonnet A Unit M 1H,112,109.04
+Bluebonnet A Unit M 1H,113,105.54
+Bluebonnet A Unit M 1H,114,111.57
+Bluebonnet A Unit M 1H,115,114.63
+Bluebonnet A Unit M 1H,116,105.08
+Bluebonnet A Unit M 1H,117,115.17
+Bluebonnet A Unit M 1H,118,106.26
+Bluebonnet A Unit M 1H,119,111.4
+Bluebonnet A Unit M 1H,120,103.47
+Bluebonnet A Unit M 1H,121,105.67
+Bluebonnet A Unit M 1H,122,109.5
+Bluebonnet A Unit M 1H,123,106.22
+Bluebonnet A Unit M 1H,124,105.6
+Bluebonnet A Unit M 1H,125,106.25
+Bluebonnet A Unit M 1H,126,109.37
+Bluebonnet A Unit M 1H,127,100.39
+Bluebonnet A Unit M 1H,128,103.16
+Bluebonnet A Unit M 1H,129,100.67
+Bluebonnet A Unit M 1H,130,100.65
+Bluebonnet A Unit M 1H,131,85.44
+Bluebonnet A Unit M 1H,132,105.55
+Bluebonnet A Unit M 1H,133,92.94
+Bluebonnet A Unit M 1H,134,103.45
+Bluebonnet A Unit M 1H,135,103.45
+Bluebonnet A Unit M 1H,136,100.67
+Bluebonnet A Unit M 1H,137,97.18
+Bluebonnet A Unit M 1H,138,101.61
+Bluebonnet A Unit M 1H,139,100.65
+Bluebonnet A Unit M 1H,140,109.02
+Bluebonnet A Unit M 1H,141,41.84
+Bluebonnet A Unit M 1H,142,78.35
+Bluebonnet A Unit M 1H,143,108.99
+Bluebonnet A Unit M 1H,144,97.89
+Bluebonnet A Unit M 1H,145,103.43
+Bluebonnet A Unit M 1H,146,43.42
+Bluebonnet A Unit M 1H,147,69.44
+Bluebonnet A Unit M 1H,148,108.68
+Bluebonnet A Unit M 1H,149,89.83
+Bluebonnet A Unit M 1H,150,100.64
+Bluebonnet A Unit M 1H,151,87.44
+Bluebonnet A Unit M 1H,152,102.49
+Bluebonnet A Unit M 1H,153,100.67
+Bluebonnet A Unit M 1H,154,98.43
+Bluebonnet A Unit M 1H,155,104
+Bluebonnet A Unit M 1H,156,100.83
+Bluebonnet A Unit M 1H,157,103.43
+Bluebonnet A Unit M 1H,158,103.47
+Bluebonnet A Unit M 1H,159,103.43
+Bluebonnet A Unit M 1H,160,95.14
+Bluebonnet A Unit M 1H,161,99.49
+Bluebonnet A Unit M 1H,162,98.88
+Bluebonnet A Unit M 1H,163,98.7
+Bluebonnet A Unit M 1H,164,97.88
+Bluebonnet A Unit M 1H,165,97.88
+Bluebonnet A Unit M 1H,166,97.86
+Bluebonnet A Unit M 1H,167,96.93
+Bluebonnet A Unit M 1H,168,96.58
+Bluebonnet A Unit M 1H,169,95.14
+Bluebonnet A Unit M 1H,170,93.86
+Bluebonnet A Unit M 1H,171,106.22
+Bluebonnet A Unit M 1H,172,95.08
+Bluebonnet A Unit M 1H,173,81.06
+Bluebonnet A Unit M 1H,174,97.84
+Bluebonnet A Unit M 1H,175,97.88
+Bluebonnet A Unit M 1H,176,95.05
+Bluebonnet A Unit M 1H,177,95.33
+Bluebonnet A Unit M 1H,178,90.06
+Bluebonnet A Unit M 1H,179,84.88
+Bluebonnet A Unit M 1H,180,92.83
+Bluebonnet A Unit M 1H,181,90.12
+Bluebonnet A Unit M 1H,182,92.33
+Bluebonnet A Unit M 1H,183,92.27
+Bluebonnet A Unit M 1H,184,83.92
+Bluebonnet A Unit M 1H,185,83.88
+Bluebonnet A Unit M 1H,186,61.51
+Bluebonnet A Unit M 1H,187,89.43
+Bluebonnet A Unit M 1H,188,84.83
+Bluebonnet A Unit M 1H,189,76.47
+Bluebonnet A Unit M 1H,190,71.06
+Bluebonnet A Unit M 1H,191,53.67
+Bluebonnet A Unit M 1H,192,22.33
+Bluebonnet A Unit M 1H,193,30.79
+Bluebonnet A Unit M 1H,194,55.97
+Bluebonnet A Unit M 1H,195,67.08
+Bluebonnet A Unit M 1H,196,67.08
+Bluebonnet A Unit M 1H,197,67.07
+Bluebonnet A Unit M 1H,198,62.79
+Bluebonnet A Unit M 1H,199,57.3
+Bluebonnet A Unit M 1H,200,33.59
+Bluebonnet A Unit M 1H,201,64.18
+Bluebonnet A Unit M 1H,202,83.9
+Bluebonnet A Unit M 1H,203,81.12
+Bluebonnet A Unit M 1H,204,88.29
+Bluebonnet A Unit M 1H,205,86.52
+Bluebonnet A Unit M 1H,206,86.66
+Bluebonnet A Unit M 1H,207,86.69
+Bluebonnet A Unit M 1H,208,85.87
+Bluebonnet A Unit M 1H,209,83.82
+Bluebonnet A Unit M 1H,210,84.73
+Bluebonnet A Unit M 1H,211,78.99
+Bluebonnet A Unit M 1H,212,84
+Bluebonnet A Unit M 1H,213,86.64
+Bluebonnet A Unit M 1H,214,19.61
+Bluebonnet A Unit M 1H,215,61.49
+Bluebonnet A Unit M 1H,216,86.66
+Bluebonnet A Unit M 1H,217,83.88
+Bluebonnet A Unit M 1H,218,85.82
+Bluebonnet A Unit M 1H,219,83.86
+Bluebonnet A Unit M 1H,220,83.88
+Bluebonnet A Unit M 1H,221,83.13
+Bluebonnet A Unit M 1H,222,83.26
+Bluebonnet A Unit M 1H,223,69.07
+Bluebonnet A Unit M 1H,224,79.47
+Bluebonnet A Unit M 1H,225,78.3
+Bluebonnet A Unit M 1H,226,78.29
+Bluebonnet A Unit M 1H,227,55.9
+Bluebonnet A Unit M 1H,228,69.92
+Bluebonnet A Unit M 1H,229,72.68
+Bluebonnet A Unit M 1H,230,69.9
+Bluebonnet A Unit M 1H,231,64.34
+Bluebonnet A Unit M 1H,232,58.8
+Bluebonnet A Unit M 1H,233,50.19
+Bluebonnet A Unit M 1H,234,50.16
+Bluebonnet A Unit M 1H,235,27.97
+Bluebonnet A Unit M 1H,236,2.78
+Bluebonnet A Unit M 1H,237,25.17
+Bluebonnet A Unit M 1H,238,41.94
+Bluebonnet A Unit M 1H,239,58.68
+Bluebonnet A Unit M 1H,240,85.89
+Bluebonnet A Unit M 1H,241,85.19
+Bluebonnet A Unit M 1H,242,97.86
+Bluebonnet A Unit M 1H,243,99.7
+Bluebonnet A Unit M 1H,244,97.84
+Bluebonnet A Unit M 1H,245,97.86
+Bluebonnet A Unit M 1H,246,96.05
+Bluebonnet A Unit M 1H,247,103.45
+Bluebonnet A Unit M 1H,248,102.95
+Bluebonnet A Unit M 1H,249,104.09
+Bluebonnet A Unit M 1H,250,100.65
+Bluebonnet A Unit M 1H,251,104.53
+Bluebonnet A Unit M 1H,252,103.45
+Bluebonnet A Unit M 1H,253,105.44
+Bluebonnet A Unit M 1H,254,100.67
+Bluebonnet A Unit M 1H,255,100.69
+Bluebonnet A Unit M 1H,256,103.72
+Bluebonnet A Unit M 1H,257,103.59
+Bluebonnet A Unit M 1H,258,106.26
+Bluebonnet A Unit M 1H,259,109.06
+Bluebonnet A Unit M 1H,260,109.55
+Bluebonnet A Unit M 1H,261,104.86
+Bluebonnet A Unit M 1H,262,109.01
+Bluebonnet A Unit M 1H,263,101.94
+Bluebonnet A Unit M 1H,264,100.58
+Bluebonnet A Unit M 1H,265,104.55
+Bluebonnet A Unit M 1H,266,100.69
+Bluebonnet A Unit M 1H,267,97.88
+Bluebonnet A Unit M 1H,268,109.01
+Bluebonnet A Unit M 1H,269,102.91
+Bluebonnet A Unit M 1H,270,103.49
+Bluebonnet A Unit M 1H,271,106.21
+Bluebonnet A Unit M 1H,272,108.99
+Bluebonnet A Unit M 1H,273,100.25
+Bluebonnet A Unit M 1H,274,100.65
+Bluebonnet A Unit M 1H,275,100.65
+Bluebonnet A Unit M 1H,276,99.38
+Bluebonnet A Unit M 1H,277,103.54
+Bluebonnet A Unit M 1H,278,97.86
+Bluebonnet A Unit M 1H,279,95.08
+Bluebonnet A Unit M 1H,280,91.54
+Bluebonnet A Unit M 1H,281,92.19
+Bluebonnet A Unit M 1H,282,88.6
+Bluebonnet A Unit M 1H,283,89.49
+Bluebonnet A Unit M 1H,284,86.69
+Bluebonnet A Unit M 1H,285,27.92
+Bluebonnet A Unit M 1H,286,0
+Bluebonnet A Unit M 1H,287,0
+Bluebonnet A Unit M 1H,288,30.77
+Bluebonnet A Unit M 1H,289,69.88
+Bluebonnet A Unit M 1H,290,64.33
+Bluebonnet A Unit M 1H,291,64.29
+Bluebonnet A Unit M 1H,292,75.44
+Bluebonnet A Unit M 1H,293,58.75
+Bluebonnet A Unit M 1H,294,64.33
+Bluebonnet A Unit M 1H,295,62.62
+Bluebonnet A Unit M 1H,296,61.66
+Bluebonnet A Unit M 1H,297,52.37
+Bluebonnet A Unit M 1H,298,14
+Bluebonnet A Unit M 1H,299,0
+Bluebonnet A Unit M 1H,300,2.8
+Bluebonnet A Unit M 1H,301,0
+Bluebonnet A Unit M 1H,302,19.57
+Bluebonnet A Unit M 1H,303,30.77
+Bluebonnet A Unit M 1H,304,27.96
+Bluebonnet A Unit M 1H,305,27.78
+Bluebonnet A Unit M 1H,306,47.24
+Bluebonnet A Unit M 1H,307,61.46
+Bluebonnet A Unit M 1H,308,100.58
+Bluebonnet A Unit M 1H,309,102.67
+Bluebonnet A Unit M 1H,310,89.47
+Bluebonnet A Unit M 1H,311,95.03
+Bluebonnet A Unit M 1H,312,93.82
+Bluebonnet A Unit M 1H,313,97.8
+Bluebonnet A Unit M 1H,314,98.14
+Bluebonnet A Unit M 1H,315,100.71
+Bluebonnet A Unit M 1H,316,97.86
+Bluebonnet A Unit M 1H,317,100.64
+Bluebonnet A Unit M 1H,318,100.67
+Bluebonnet A Unit M 1H,319,100.62
+Bluebonnet A Unit M 1H,320,103.11
+Bluebonnet A Unit M 1H,321,103.02
+Bluebonnet A Unit M 1H,322,102.75
+Bluebonnet A Unit M 1H,323,102.72
+Bluebonnet A Unit M 1H,324,100.62
+Bluebonnet A Unit M 1H,325,108.27
+Bluebonnet A Unit M 1H,326,106.25
+Bluebonnet A Unit M 1H,327,106.25
+Bluebonnet A Unit M 1H,328,95.1
+Bluebonnet A Unit M 1H,329,102.28
+Bluebonnet A Unit M 1H,330,39.14
+Bluebonnet A Unit M 1H,331,0
+Bluebonnet A Unit M 1H,332,0
+Bluebonnet A Unit M 1H,333,0
+Bluebonnet A Unit M 1H,334,17.65
+Bluebonnet A Unit M 1H,335,0
+Bluebonnet A Unit M 1H,336,0
+Bluebonnet A Unit M 1H,337,25.28
+Bluebonnet A Unit M 1H,338,97.89
+Bluebonnet A Unit M 1H,339,89.32
+Bluebonnet A Unit M 1H,340,78.37
+Bluebonnet A Unit M 1H,341,93.15
+Bluebonnet A Unit M 1H,342,87.68
+Bluebonnet A Unit M 1H,343,88.17
+Bluebonnet A Unit M 1H,344,91.74
+Bluebonnet A Unit M 1H,345,94.06
+Bluebonnet A Unit M 1H,346,98.92
+Bluebonnet A Unit M 1H,347,102.98
+Bluebonnet A Unit M 1H,348,104.95
+Bluebonnet A Unit M 1H,349,117.69
+Bluebonnet A Unit M 1H,350,101.12
+Bluebonnet A Unit M 1H,351,102.66
+Bluebonnet A Unit M 1H,352,109.34
+Bluebonnet A Unit M 1H,353,108.26
+Bluebonnet A Unit M 1H,354,107.92
+Bluebonnet A Unit M 1H,355,106.59
+Bluebonnet A Unit M 1H,356,106.41
+Bluebonnet A Unit M 1H,357,108.21
+Bluebonnet A Unit M 1H,358,112.33
+Bluebonnet A Unit M 1H,359,108.05
+Bluebonnet A Unit M 1H,360,104.76
+Bluebonnet A Unit M 1H,361,80.93
+Bluebonnet A Unit M 1H,362,104.16
+Bluebonnet A Unit M 1H,363,110.62
+Bluebonnet A Unit M 1H,364,109.17
+Bluebonnet A Unit M 1H,365,108.07
+Bluebonnet A Unit M 1H,366,107.52
+Bluebonnet A Unit M 1H,367,106.08
+Bluebonnet A Unit M 1H,368,106.95
+Bluebonnet A Unit M 1H,369,105.6
+Bluebonnet A Unit M 1H,370,100.2
+Bluebonnet A Unit M 1H,371,104.1
+Bluebonnet A Unit M 1H,372,112.51
+Bluebonnet A Unit M 1H,373,107.39
+Bluebonnet A Unit M 1H,374,106.59
+Bluebonnet A Unit M 1H,375,104.83
+Bluebonnet A Unit M 1H,376,98.14
+Bluebonnet A Unit M 1H,377,102.31
+Bluebonnet A Unit M 1H,378,103.04
+Bluebonnet A Unit M 1H,379,101.89
+Bluebonnet A Unit M 1H,380,103.12
+Bluebonnet A Unit M 1H,381,98.9
+Bluebonnet A Unit M 1H,382,102.13
+Bluebonnet A Unit M 1H,383,99.69
+Bluebonnet A Unit M 1H,384,99.18
+Bluebonnet A Unit M 1H,385,98.75
+Bluebonnet A Unit M 1H,386,97.3
+Bluebonnet A Unit M 1H,387,98.34
+Bluebonnet A Unit M 1H,388,99.14
+Bluebonnet A Unit M 1H,389,96.25
+Bluebonnet A Unit M 1H,390,95.17
+Bluebonnet A Unit M 1H,391,94.4
+Bluebonnet A Unit M 1H,392,97.02
+Bluebonnet A Unit M 1H,393,102.47
+Bluebonnet A Unit M 1H,394,104.02
+Bluebonnet A Unit M 1H,395,100.56
+Bluebonnet A Unit M 1H,396,100.54
+Bluebonnet A Unit M 1H,397,102.72
+Bluebonnet A Unit M 1H,398,97.95
+Bluebonnet A Unit M 1H,399,97.76
+Bluebonnet A Unit M 1H,400,97.38
+Bluebonnet A Unit M 1H,401,34.68
+Bluebonnet A Unit M 1H,402,0
+Bluebonnet A Unit M 1H,403,0
+Bluebonnet A Unit M 1H,404,0
+Bluebonnet A Unit M 1H,405,0
+Bluebonnet A Unit M 1H,406,0
+Bluebonnet A Unit M 1H,407,2.58
+Bluebonnet A Unit M 1H,408,80.21
+Bluebonnet A Unit M 1H,409,53.95
+Bluebonnet A Unit M 1H,410,86.32
+Bluebonnet A Unit M 1H,411,80.56
+Bluebonnet A Unit M 1H,412,73.69
+Bluebonnet A Unit M 1H,413,88.72
+Bluebonnet A Unit M 1H,414,36.68
+Bluebonnet A Unit M 1H,415,0
+Bluebonnet A Unit M 1H,416,6.4
+Bluebonnet A Unit M 1H,417,67.99
+Bluebonnet A Unit M 1H,418,82.29
+Bluebonnet A Unit M 1H,419,83.86
+Bluebonnet A Unit M 1H,420,82.89
+Bluebonnet A Unit M 1H,421,83.72
+Bluebonnet A Unit M 1H,422,79.31
+Bluebonnet A Unit M 1H,423,86.62
+Bluebonnet A Unit M 1H,424,83.59
+Bluebonnet A Unit M 1H,425,83.92
+Bluebonnet A Unit M 1H,426,88.92
+Bluebonnet A Unit M 1H,427,87.3
+Bluebonnet A Unit M 1H,428,89.17
+Bluebonnet A Unit M 1H,429,87.52
+Bluebonnet A Unit M 1H,430,88.31
+Bluebonnet A Unit M 1H,431,87.49
+Bluebonnet A Unit M 1H,432,83.07
+Bluebonnet A Unit M 1H,433,100.04
+Bluebonnet A Unit M 1H,434,87.71
+Bluebonnet A Unit M 1H,435,89.62
+Bluebonnet A Unit M 1H,436,91.06
+Bluebonnet A Unit M 1H,437,91.6
+Bluebonnet A Unit M 1H,438,92.29
+Bluebonnet A Unit M 1H,439,63.69
+Bluebonnet A Unit M 1H,440,48.82
+Bluebonnet A Unit M 1H,441,96.18
+Bluebonnet A Unit M 1H,442,95.43
+Bluebonnet A Unit M 1H,443,95.54
+Bluebonnet A Unit M 1H,444,98.61
+Bluebonnet A Unit M 1H,445,100.5
+Bluebonnet A Unit M 1H,446,103.07
+Bluebonnet A Unit M 1H,447,103.18
+Bluebonnet A Unit M 1H,448,102.02
+Bluebonnet A Unit M 1H,449,27.63
+Bluebonnet A Unit M 1H,450,27.89
+Bluebonnet A Unit M 1H,451,84.02
+Bluebonnet A Unit M 1H,452,91.11
+Bluebonnet A Unit M 1H,453,76.1
+Bluebonnet A Unit M 1H,454,56.51
+Bluebonnet A Unit M 1H,455,96.82
+Bluebonnet A Unit M 1H,456,90.45
+Bluebonnet A Unit M 1H,457,98.17
+Bluebonnet A Unit M 1H,458,86.97
+Bluebonnet A Unit M 1H,459,98.48
+Bluebonnet A Unit M 1H,460,93.03
+Bluebonnet A Unit M 1H,461,90.27
+Bluebonnet A Unit M 1H,462,89.64
+Bluebonnet A Unit M 1H,463,85.63
+Bluebonnet A Unit M 1H,464,82.25
+Bluebonnet A Unit M 1H,465,34.62
+Bluebonnet A Unit M 1H,466,0
+Bluebonnet A Unit M 1H,467,8.55
+Bluebonnet A Unit M 1H,468,20.81
+Bluebonnet A Unit M 1H,469,16.88
+Bluebonnet A Unit M 1H,470,6.26
+Bluebonnet A Unit M 1H,471,0
+Bluebonnet A Unit M 1H,472,0
+Bluebonnet A Unit M 1H,473,3.13
+Bluebonnet A Unit M 1H,474,0.21
+Bluebonnet A Unit M 1H,475,15.9
+Bluebonnet A Unit M 1H,476,37.65
+Bluebonnet A Unit M 1H,477,36.61
+Bluebonnet A Unit M 1H,478,4.73
+Bluebonnet A Unit M 1H,479,0
+Bluebonnet A Unit M 1H,480,7.65
+Bluebonnet A Unit M 1H,481,42.08
+Bluebonnet A Unit M 1H,482,28.24
+Bluebonnet A Unit M 1H,483,30.24
+Bluebonnet A Unit M 1H,484,42.31
+Bluebonnet A Unit M 1H,485,55.53
+Bluebonnet A Unit M 1H,486,88.16
+Bluebonnet A Unit M 1H,487,88.74
+Bluebonnet A Unit M 1H,488,96.61
+Bluebonnet A Unit M 1H,489,80.3
+Bluebonnet A Unit M 1H,490,100.68
+Bluebonnet A Unit M 1H,491,105.01
+Bluebonnet A Unit M 1H,492,104.89
+Bluebonnet A Unit M 1H,493,106.33
+Bluebonnet A Unit M 1H,494,104.4
+Bluebonnet A Unit M 1H,495,105.7
+Bluebonnet A Unit M 1H,496,107.71
+Bluebonnet A Unit M 1H,497,104.98
+Bluebonnet A Unit M 1H,498,107.72
+Bluebonnet A Unit M 1H,499,108.52
+Bluebonnet A Unit M 1H,500,115.26
+Bluebonnet A Unit M 1H,501,255.35
+Bluebonnet A Unit M 1H,502,61.52
+Bluebonnet A Unit M 1H,503,127.69
+Bluebonnet A Unit M 1H,504,92.24
+Bluebonnet A Unit M 1H,505,9.1
+Bluebonnet A Unit M 1H,506,19.94
+Bluebonnet A Unit M 1H,507,39.18
+Bluebonnet A Unit M 1H,508,104.16
+Bluebonnet A Unit M 1H,509,106.28
+Bluebonnet A Unit M 1H,510,102.08
+Bluebonnet A Unit M 1H,511,103.26
+Bluebonnet A Unit M 1H,512,75.27
+Bluebonnet A Unit M 1H,513,38.67
+Bluebonnet A Unit M 1H,514,56.21
+Bluebonnet A Unit M 1H,515,103.56
+Bluebonnet A Unit M 1H,516,111.23
+Bluebonnet A Unit M 1H,517,96.73
+Bluebonnet A Unit M 1H,518,113.5
+Bluebonnet A Unit M 1H,519,117.4
+Bluebonnet A Unit M 1H,520,79.5
+Bluebonnet A Unit M 1H,521,0
+Bluebonnet A Unit M 1H,522,22.57
+Bluebonnet A Unit M 1H,523,52.86
+Bluebonnet A Unit M 1H,524,92.6
+Bluebonnet A Unit M 1H,525,94.46
+Bluebonnet A Unit M 1H,526,98.63
+Bluebonnet A Unit M 1H,527,104.39
+Bluebonnet A Unit M 1H,528,107.59
+Bluebonnet A Unit M 1H,529,115.17
+Bluebonnet A Unit M 1H,530,132.34
+Bluebonnet A Unit M 1H,531,37.73
+Bluebonnet A Unit M 1H,532,157.42
+Bluebonnet A Unit M 1H,533,113.31
+Bluebonnet A Unit M 1H,534,0
+Bluebonnet A Unit M 1H,535,13.41
+Bluebonnet A Unit M 1H,536,71.5
+Bluebonnet A Unit M 1H,537,103.28
+Bluebonnet A Unit M 1H,538,98.86
+Bluebonnet A Unit M 1H,539,99.6
+Bluebonnet A Unit M 1H,540,103.16
+Bluebonnet A Unit M 1H,541,103.74
+Bluebonnet A Unit M 1H,542,94.62
+Bluebonnet A Unit M 1H,543,0
+Bluebonnet A Unit M 1H,544,9.07
+Bluebonnet A Unit M 1H,545,1.57
+Bluebonnet A Unit M 1H,546,35.39
+Bluebonnet A Unit M 1H,547,34.03
+Bluebonnet A Unit M 1H,548,9.69
+Bluebonnet A Unit M 1H,549,14.24
+Bluebonnet A Unit M 1H,550,7.23
+Bluebonnet A Unit M 1H,551,6.42
+Bluebonnet A Unit M 1H,552,2.62
+Bluebonnet A Unit M 1H,553,10.41
+Bluebonnet A Unit M 1H,554,8
+Bluebonnet A Unit M 1H,555,6.53
+Bluebonnet A Unit M 1H,556,0.33
+Bluebonnet A Unit M 1H,557,0.02
+Bluebonnet A Unit M 1H,558,0
+Bluebonnet A Unit M 1H,559,0
+Bluebonnet A Unit M 1H,560,0
+Bluebonnet A Unit M 1H,561,0
+Bluebonnet A Unit M 1H,562,0
+Bluebonnet A Unit M 1H,563,0
+Bluebonnet A Unit M 1H,564,0
+Bluebonnet A Unit M 1H,565,0
+Bluebonnet A Unit M 1H,566,0
+Bluebonnet A Unit M 1H,567,0
+Bluebonnet A Unit M 1H,568,0
+Bluebonnet A Unit M 1H,569,0
+Bluebonnet A Unit M 1H,570,0
+Bluebonnet A Unit M 1H,571,0
+Bluebonnet A Unit M 1H,572,0.26
+Bluebonnet A Unit M 1H,573,49.52
+Bluebonnet A Unit M 1H,574,56.96
+Bluebonnet A Unit M 1H,575,61.94
+Bluebonnet A Unit M 1H,576,65.36
+Bluebonnet A Unit M 1H,577,74.26
+Bluebonnet A Unit M 1H,578,74.84
+Bluebonnet A Unit M 1H,579,78
+Bluebonnet A Unit M 1H,580,76.67
+Bluebonnet A Unit M 1H,581,35.06
+Bluebonnet A Unit M 1H,582,50.18
+Bluebonnet A Unit M 1H,583,74.48
+Bluebonnet A Unit M 1H,584,72.21
+Bluebonnet A Unit M 1H,585,82.39
+Bluebonnet A Unit M 1H,586,80.51
+Bluebonnet A Unit M 1H,587,91.25
+Bluebonnet A Unit M 1H,588,90.43
+Bluebonnet A Unit M 1H,589,94.22
+Bluebonnet A Unit M 1H,590,84.54
+Bluebonnet A Unit M 1H,591,99.07
+Bluebonnet A Unit M 1H,592,92.13
+Bluebonnet A Unit M 1H,593,90.74
+Bluebonnet A Unit M 1H,594,95.16
+Bluebonnet A Unit M 1H,595,74.76
+Bluebonnet A Unit M 1H,596,49.31
+Bluebonnet A Unit M 1H,597,67.63
+Bluebonnet A Unit M 1H,598,114.78
+Bluebonnet A Unit M 1H,599,86.43
+Bluebonnet A Unit M 1H,600,98.4
+Bluebonnet A Unit M 1H,601,113.91
+Bluebonnet A Unit M 1H,602,118.33
+Bluebonnet A Unit M 1H,603,75.42
+Bluebonnet A Unit M 1H,604,9.33
+Bluebonnet A Unit M 1H,605,48.2
+Bluebonnet A Unit M 1H,606,121.82
+Bluebonnet A Unit M 1H,607,116.43
+Bluebonnet A Unit M 1H,608,118.09
+Bluebonnet A Unit M 1H,609,116.47
+Bluebonnet A Unit M 1H,610,115.08
+Bluebonnet A Unit M 1H,611,121.28
+Bluebonnet A Unit M 1H,612,114.67
+Bluebonnet A Unit M 1H,613,116.87
+Bluebonnet A Unit M 1H,614,111.6
+Bluebonnet A Unit M 1H,615,105.96
+Bluebonnet A Unit M 1H,616,117.24
+Bluebonnet A Unit M 1H,617,115.33
+Bluebonnet A Unit M 1H,618,108.32
+Bluebonnet A Unit M 1H,619,112.22
+Bluebonnet A Unit M 1H,620,37.67
+Bluebonnet A Unit M 1H,621,10.16
+Bluebonnet A Unit M 1H,622,76.21
+Bluebonnet A Unit M 1H,623,119.67
+Bluebonnet A Unit M 1H,624,111.41
+Bluebonnet A Unit M 1H,625,117.56
+Bluebonnet A Unit M 1H,626,118.83
+Bluebonnet A Unit M 1H,627,118.87
+Bluebonnet A Unit M 1H,628,117.14
+Bluebonnet A Unit M 1H,629,116.93
+Trinity A Unit M 1H,1,276.78
+Trinity A Unit M 1H,2,727.8
+Trinity A Unit M 1H,3,692.4
+Trinity A Unit M 1H,4,530.45
+Trinity A Unit M 1H,5,6.92
+Trinity A Unit M 1H,6,421.05
+Trinity A Unit M 1H,7,750.55
+Trinity A Unit M 1H,8,718.87
+Trinity A Unit M 1H,9,731.12
+Trinity A Unit M 1H,10,734.9
+Trinity A Unit M 1H,11,697.58
+Trinity A Unit M 1H,12,766.77
+Trinity A Unit M 1H,13,776.44
+Trinity A Unit M 1H,14,798.62
+Trinity A Unit M 1H,15,794.13
+Trinity A Unit M 1H,16,787.66
+Trinity A Unit M 1H,17,789.71
+Trinity A Unit M 1H,18,806.97
+Trinity A Unit M 1H,19,757.09
+Trinity A Unit M 1H,20,669.6
+Trinity A Unit M 1H,21,814.73
+Trinity A Unit M 1H,22,815.79
+Trinity A Unit M 1H,23,823.83
+Trinity A Unit M 1H,24,846.9
+Trinity A Unit M 1H,25,750.31
+Trinity A Unit M 1H,26,846.75
+Trinity A Unit M 1H,27,852.39
+Trinity A Unit M 1H,28,706.01
+Trinity A Unit M 1H,29,832.41
+Trinity A Unit M 1H,30,808.63
+Trinity A Unit M 1H,31,799.91
+Trinity A Unit M 1H,32,725.6
+Trinity A Unit M 1H,33,803.36
+Trinity A Unit M 1H,34,800.09
+Trinity A Unit M 1H,35,759.34
+Trinity A Unit M 1H,36,682.09
+Trinity A Unit M 1H,37,823.15
+Trinity A Unit M 1H,38,734.33
+Trinity A Unit M 1H,39,731.57
+Trinity A Unit M 1H,40,649.08
+Trinity A Unit M 1H,41,804.1
+Trinity A Unit M 1H,42,738.73
+Trinity A Unit M 1H,43,643.34
+Trinity A Unit M 1H,44,770.75
+Trinity A Unit M 1H,45,790.66
+Trinity A Unit M 1H,46,764.44
+Trinity A Unit M 1H,47,765.39
+Trinity A Unit M 1H,48,780.76
+Trinity A Unit M 1H,49,825.51
+Trinity A Unit M 1H,50,826.12
+Trinity A Unit M 1H,51,843.53
+Trinity A Unit M 1H,52,885.99
+Trinity A Unit M 1H,53,867.54
+Trinity A Unit M 1H,54,858.39
+Trinity A Unit M 1H,55,859.28
+Trinity A Unit M 1H,56,857.57
+Trinity A Unit M 1H,57,843.28
+Trinity A Unit M 1H,58,743.74
+Trinity A Unit M 1H,59,852.81
+Trinity A Unit M 1H,60,779.58
+Trinity A Unit M 1H,61,867.63
+Trinity A Unit M 1H,62,833.21
+Trinity A Unit M 1H,63,782.57
+Trinity A Unit M 1H,64,51.91
+Trinity A Unit M 1H,65,237.83
+Trinity A Unit M 1H,66,693.21
+Trinity A Unit M 1H,67,771.87
+Trinity A Unit M 1H,68,907.22
+Trinity A Unit M 1H,69,835.88
+Trinity A Unit M 1H,70,792.7
+Trinity A Unit M 1H,71,736.72
+Trinity A Unit M 1H,72,858.34
+Trinity A Unit M 1H,73,763.06
+Trinity A Unit M 1H,74,229.67
+Trinity A Unit M 1H,75,241.82
+Trinity A Unit M 1H,76,545.2
+Trinity A Unit M 1H,77,777.72
+Trinity A Unit M 1H,78,801.44
+Trinity A Unit M 1H,79,704.24
+Trinity A Unit M 1H,80,771.39
+Trinity A Unit M 1H,81,721.87
+Trinity A Unit M 1H,82,718.51
+Trinity A Unit M 1H,83,707.99
+Trinity A Unit M 1H,84,498.72
+Trinity A Unit M 1H,85,333.11
+Trinity A Unit M 1H,86,694.77
+Trinity A Unit M 1H,87,687.28
+Trinity A Unit M 1H,88,654.89
+Trinity A Unit M 1H,89,584.54
+Trinity A Unit M 1H,90,735.67
+Trinity A Unit M 1H,91,615.81
+Trinity A Unit M 1H,92,609.24
+Trinity A Unit M 1H,93,482.17
+Trinity A Unit M 1H,94,624.86
+Trinity A Unit M 1H,95,608.98
+Trinity A Unit M 1H,96,586.97
+Trinity A Unit M 1H,97,585.61
+Trinity A Unit M 1H,98,556.36
+Trinity A Unit M 1H,99,391.18
+Trinity A Unit M 1H,100,557.16
+Trinity A Unit M 1H,101,546.16
+Trinity A Unit M 1H,102,487.7
+Trinity A Unit M 1H,103,568.99
+Trinity A Unit M 1H,104,515.24
+Trinity A Unit M 1H,105,492.85
+Trinity A Unit M 1H,106,532.13
+Trinity A Unit M 1H,107,397.45
+Trinity A Unit M 1H,108,0
+Trinity A Unit M 1H,109,0
+Trinity A Unit M 1H,110,0
+Trinity A Unit M 1H,111,0
+Trinity A Unit M 1H,112,0
+Trinity A Unit M 1H,113,0.52
+Trinity A Unit M 1H,114,86.95
+Trinity A Unit M 1H,115,0
+Trinity A Unit M 1H,116,0
+Trinity A Unit M 1H,117,0
+Trinity A Unit M 1H,118,0.83
+Trinity A Unit M 1H,119,0
+Trinity A Unit M 1H,120,0
+Trinity A Unit M 1H,121,0
+Trinity A Unit M 1H,122,0.27
+Trinity A Unit M 1H,123,0
+Trinity A Unit M 1H,124,0
+Trinity A Unit M 1H,125,4.39
+Trinity A Unit M 1H,126,104.05
+Trinity A Unit M 1H,127,199.04
+Trinity A Unit M 1H,128,221.5
+Trinity A Unit M 1H,129,197.24
+Trinity A Unit M 1H,130,27.52
+Trinity A Unit M 1H,131,26.3
+Trinity A Unit M 1H,132,217.65
+Trinity A Unit M 1H,133,291.8
+Trinity A Unit M 1H,134,120.15
+Trinity A Unit M 1H,135,335.05
+Trinity A Unit M 1H,136,343.87
+Trinity A Unit M 1H,137,353.68
+Trinity A Unit M 1H,138,391.8
+Trinity A Unit M 1H,139,412.87
+Trinity A Unit M 1H,140,429.54
+Trinity A Unit M 1H,141,425.25
+Trinity A Unit M 1H,142,353.78
+Trinity A Unit M 1H,143,421.21
+Trinity A Unit M 1H,144,389.01
+Trinity A Unit M 1H,145,484.57
+Trinity A Unit M 1H,146,301.89
+Trinity A Unit M 1H,147,259.92
+Trinity A Unit M 1H,148,322.78
+Trinity A Unit M 1H,149,377.59
+Trinity A Unit M 1H,150,375.23
+Trinity A Unit M 1H,151,404.49
+Trinity A Unit M 1H,152,360.2
+Trinity A Unit M 1H,153,300.03
+Trinity A Unit M 1H,154,382.74
+Trinity A Unit M 1H,155,370.59
+Trinity A Unit M 1H,156,396.88
+Trinity A Unit M 1H,157,396.52
+Trinity A Unit M 1H,158,395.11
+Trinity A Unit M 1H,159,393.27
+Trinity A Unit M 1H,160,398.27
+Trinity A Unit M 1H,161,398.02
+Trinity A Unit M 1H,162,391.38
+Trinity A Unit M 1H,163,344.56
+Trinity A Unit M 1H,164,452.69
+Trinity A Unit M 1H,165,435.4
+Trinity A Unit M 1H,166,361.37
+Trinity A Unit M 1H,167,393.95
+Trinity A Unit M 1H,168,403.45
+Trinity A Unit M 1H,169,418.59
+Trinity A Unit M 1H,170,445.43
+Trinity A Unit M 1H,171,443.29
+Trinity A Unit M 1H,172,420.89
+Trinity A Unit M 1H,173,407.49
+Trinity A Unit M 1H,174,435.87
+Trinity A Unit M 1H,175,399.57
+Trinity A Unit M 1H,176,427.94
+Trinity A Unit M 1H,177,377.62
+Trinity A Unit M 1H,178,408.58
+Trinity A Unit M 1H,179,395.85
+Trinity A Unit M 1H,180,197.2
+Trinity A Unit M 1H,181,390.65
+Trinity A Unit M 1H,182,427.47
+Trinity A Unit M 1H,183,423.82
+Trinity A Unit M 1H,184,409.85
+Trinity A Unit M 1H,185,394.48
+Trinity A Unit M 1H,186,399.83
+Trinity A Unit M 1H,187,401.21
+Trinity A Unit M 1H,188,305.61
+Trinity A Unit M 1H,189,457.11
+Trinity A Unit M 1H,190,465.76
+Trinity A Unit M 1H,191,449.44
+Trinity A Unit M 1H,192,437.67
+Trinity A Unit M 1H,193,444.34
+Trinity A Unit M 1H,194,328.3
+Trinity A Unit M 1H,195,157.21
+Trinity A Unit M 1H,196,260.03
+Trinity A Unit M 1H,197,185.37
+Trinity A Unit M 1H,198,103.01
+Trinity A Unit M 1H,199,167.71
+Trinity A Unit M 1H,200,180
+Trinity A Unit M 1H,201,304.32
+Trinity A Unit M 1H,202,332.09
+Trinity A Unit M 1H,203,343.62
+Trinity A Unit M 1H,204,337.1
+Trinity A Unit M 1H,205,346.02
+Trinity A Unit M 1H,206,334.64
+Trinity A Unit M 1H,207,340.82
+Trinity A Unit M 1H,208,323.23
+Trinity A Unit M 1H,209,335.3
+Trinity A Unit M 1H,210,322.03
+Trinity A Unit M 1H,211,318.14
+Trinity A Unit M 1H,212,292.46
+Trinity A Unit M 1H,213,292.85
+Trinity A Unit M 1H,214,337.15
+Trinity A Unit M 1H,215,303.15
+Trinity A Unit M 1H,216,308.22
+Trinity A Unit M 1H,217,308
+Trinity A Unit M 1H,218,51.73
+Trinity A Unit M 1H,219,292.26
+Trinity A Unit M 1H,220,290.14
+Trinity A Unit M 1H,221,274.65
+Trinity A Unit M 1H,222,309.92
+Trinity A Unit M 1H,223,346.82
+Trinity A Unit M 1H,224,529.68
+Trinity A Unit M 1H,225,499.86
+Trinity A Unit M 1H,226,474.6
+Trinity A Unit M 1H,227,450.58
+Trinity A Unit M 1H,228,416.65
+Trinity A Unit M 1H,229,458.45
+Trinity A Unit M 1H,230,355.71
+Trinity A Unit M 1H,231,373.27
+Trinity A Unit M 1H,232,407.26
+Trinity A Unit M 1H,233,407.24
+Trinity A Unit M 1H,234,388.91
+Trinity A Unit M 1H,235,377.72
+Trinity A Unit M 1H,236,365.9
+Trinity A Unit M 1H,237,370.49
+Trinity A Unit M 1H,238,32.61
+Trinity A Unit M 1H,239,270.26
+Trinity A Unit M 1H,240,367.86
+Trinity A Unit M 1H,241,116.38
+Trinity A Unit M 1H,242,134.99
+Trinity A Unit M 1H,243,123.63
+Trinity A Unit M 1H,244,151.31
+Trinity A Unit M 1H,245,162.79
+Trinity A Unit M 1H,246,166.4
+Trinity A Unit M 1H,247,111.54
+Trinity A Unit M 1H,248,163.8
+Trinity A Unit M 1H,249,204.81
+Trinity A Unit M 1H,250,123.35
+Trinity A Unit M 1H,251,278.35
+Trinity A Unit M 1H,252,344.86
+Trinity A Unit M 1H,253,368.05
+Trinity A Unit M 1H,254,393.74
+Trinity A Unit M 1H,255,333.42
+Trinity A Unit M 1H,256,403.71
+Trinity A Unit M 1H,257,352.24
+Trinity A Unit M 1H,258,353.39
+Trinity A Unit M 1H,259,350.51
+Trinity A Unit M 1H,260,335.9
+Trinity A Unit M 1H,261,339.1
+Trinity A Unit M 1H,262,336.65
+Trinity A Unit M 1H,263,350.51
+Trinity A Unit M 1H,264,338.38
+Trinity A Unit M 1H,265,331.86
+Trinity A Unit M 1H,266,304.94
+Trinity A Unit M 1H,267,299.48
+Trinity A Unit M 1H,268,303.35
+Trinity A Unit M 1H,269,301.97
+Trinity A Unit M 1H,270,311.9
+Trinity A Unit M 1H,271,297.09
+Trinity A Unit M 1H,272,293.35
+Trinity A Unit M 1H,273,285.74
+Trinity A Unit M 1H,274,285.6
+Trinity A Unit M 1H,275,285.2
+Trinity A Unit M 1H,276,280.3
+Trinity A Unit M 1H,277,275.2
+Trinity A Unit M 1H,278,240.48
+Trinity A Unit M 1H,279,0
+Trinity A Unit M 1H,280,23.74
+Trinity A Unit M 1H,281,51.52
+Trinity A Unit M 1H,282,70.87
+Trinity A Unit M 1H,283,41.15
+Trinity A Unit M 1H,284,4.4
+Trinity A Unit M 1H,285,74.76
+Trinity A Unit M 1H,286,91.15
+Trinity A Unit M 1H,287,108.5
+Trinity A Unit M 1H,288,162.03
+Trinity A Unit M 1H,289,126.96
+Trinity A Unit M 1H,290,154.12
+Trinity A Unit M 1H,291,306.14
+Trinity A Unit M 1H,292,312.49
+Trinity A Unit M 1H,293,317.34
+Trinity A Unit M 1H,294,341.83
+Trinity A Unit M 1H,295,343.01
+Trinity A Unit M 1H,296,243.78
+Trinity A Unit M 1H,297,86.52
+Trinity A Unit M 1H,298,315.79
+Trinity A Unit M 1H,299,375.23
+Trinity A Unit M 1H,300,337.01
+Trinity A Unit M 1H,301,342.38
+Trinity A Unit M 1H,302,328.72
+Trinity A Unit M 1H,303,319.92
+Trinity A Unit M 1H,304,313.64
+Trinity A Unit M 1H,305,306.05
+Trinity A Unit M 1H,306,296.26
+Trinity A Unit M 1H,307,287.07
+Trinity A Unit M 1H,308,281.67
+Trinity A Unit M 1H,309,275.71
+Trinity A Unit M 1H,310,231.44
+Trinity A Unit M 1H,311,5.29
+Trinity A Unit M 1H,312,0
+Trinity A Unit M 1H,313,0
+Trinity A Unit M 1H,314,0
+Trinity A Unit M 1H,315,0
+Trinity A Unit M 1H,316,0
+Trinity A Unit M 1H,317,0
+Trinity A Unit M 1H,318,0
+Trinity A Unit M 1H,319,0
+Trinity A Unit M 1H,320,0
+Trinity A Unit M 1H,321,0
+Trinity A Unit M 1H,322,0
+Trinity A Unit M 1H,323,28.37
+Trinity A Unit M 1H,324,98.17
+Trinity A Unit M 1H,325,113.6
+Trinity A Unit M 1H,326,138.67
+Trinity A Unit M 1H,327,158.17
+Trinity A Unit M 1H,328,162.85
+Trinity A Unit M 1H,329,201.22
+Trinity A Unit M 1H,330,197.42
+Trinity A Unit M 1H,331,201.13
+Trinity A Unit M 1H,332,305.07
+Trinity A Unit M 1H,333,253.96
+Trinity A Unit M 1H,334,250.4
+Trinity A Unit M 1H,335,269.87
+Trinity A Unit M 1H,336,269.19
+Trinity A Unit M 1H,337,266.37
+Trinity A Unit M 1H,338,266.27
+Trinity A Unit M 1H,339,248.61
+Trinity A Unit M 1H,340,270.27
+Trinity A Unit M 1H,341,268.11
+Trinity A Unit M 1H,342,262.77
+Trinity A Unit M 1H,343,258.8
+Trinity A Unit M 1H,344,260.81
+Trinity A Unit M 1H,345,209.41
+Trinity A Unit M 1H,346,100.17
+Trinity A Unit M 1H,347,69.68
+Trinity A Unit M 1H,348,101.29
+Trinity A Unit M 1H,349,83
+Trinity A Unit M 1H,350,99.09
+Trinity A Unit M 1H,351,83.45
+Trinity A Unit M 1H,352,66.92
+Trinity A Unit M 1H,353,71.85
+Trinity A Unit M 1H,354,73.6
+Trinity A Unit M 1H,355,81.4
+Trinity A Unit M 1H,356,132.29
+Trinity A Unit M 1H,357,201.25
+Trinity A Unit M 1H,358,303.35
+Trinity A Unit M 1H,359,296.74
+Trinity A Unit M 1H,360,347.48
+Trinity A Unit M 1H,361,276.56
+Trinity A Unit M 1H,362,253.98
+Trinity A Unit M 1H,363,284.78
+Trinity A Unit M 1H,364,279.07
+Trinity A Unit M 1H,365,266.52
+Trinity A Unit M 1H,366,259.21
+Trinity A Unit M 1H,367,250.13
+Trinity A Unit M 1H,368,245.15
+Trinity A Unit M 1H,369,239.5
+Trinity A Unit M 1H,370,236.46
+Trinity A Unit M 1H,371,222.33
+Trinity A Unit M 1H,372,226.34
+Trinity A Unit M 1H,373,123.99
+Trinity A Unit M 1H,374,165.78
+Trinity A Unit M 1H,375,83.87
+Trinity A Unit M 1H,376,21.62
+Trinity A Unit M 1H,377,68.75
+Trinity A Unit M 1H,378,215.59
+Trinity A Unit M 1H,379,231.79
+Trinity A Unit M 1H,380,230.92
+Trinity A Unit M 1H,381,235.04
+Trinity A Unit M 1H,382,230.37
+Trinity A Unit M 1H,383,228.62
+Trinity A Unit M 1H,384,225.7
+Trinity A Unit M 1H,385,219.12
+Trinity A Unit M 1H,386,218.98
+Trinity A Unit M 1H,387,171.95
+Trinity A Unit M 1H,388,128.4
+Trinity A Unit M 1H,389,216.41
+Trinity A Unit M 1H,390,213.66
+Trinity A Unit M 1H,391,210.41
+Trinity A Unit M 1H,392,206.61
+Trinity A Unit M 1H,393,204.76
+Trinity A Unit M 1H,394,200.09
+Trinity A Unit M 1H,395,196.2
+Trinity A Unit M 1H,396,188.93
+Trinity A Unit M 1H,397,189.73
+Trinity A Unit M 1H,398,32.84
+Trinity A Unit M 1H,399,0
+Trinity A Unit M 1H,400,0
+Trinity A Unit M 1H,401,6.33
+Trinity A Unit M 1H,402,0
+Trinity A Unit M 1H,403,0
+Trinity A Unit M 1H,404,0
+Trinity A Unit M 1H,405,0
+Trinity A Unit M 1H,406,0
+Trinity A Unit M 1H,407,0
+Trinity A Unit M 1H,408,28.84
+Trinity A Unit M 1H,409,65.2
+Trinity A Unit M 1H,410,77.62
+Trinity A Unit M 1H,411,77.92
+Trinity A Unit M 1H,412,73.1
+Trinity A Unit M 1H,413,72.26
+Trinity A Unit M 1H,414,66.03
+Trinity A Unit M 1H,415,72.24
+Trinity A Unit M 1H,416,75.64
+Trinity A Unit M 1H,417,80.93
+Trinity A Unit M 1H,418,80.33
+Trinity A Unit M 1H,419,72.66
+Trinity A Unit M 1H,420,62.79
+Trinity A Unit M 1H,421,73.11
+Trinity A Unit M 1H,422,97.99
+Trinity A Unit M 1H,423,102.08
+Trinity A Unit M 1H,424,99.53
+Trinity A Unit M 1H,425,91.71
+Trinity A Unit M 1H,426,95.22
+Trinity A Unit M 1H,427,96.78
+Trinity A Unit M 1H,428,95.6
+Trinity A Unit M 1H,429,82.94
+Trinity A Unit M 1H,430,107.41
+Trinity A Unit M 1H,431,79.24
+Trinity A Unit M 1H,432,42.31
+Trinity A Unit M 1H,433,79.91
+Trinity A Unit M 1H,434,108.81
+Trinity A Unit M 1H,435,127.27
+Trinity A Unit M 1H,436,116.63
+Trinity A Unit M 1H,437,120.79
+Trinity A Unit M 1H,438,117.14
+Trinity A Unit M 1H,439,112.34
+Trinity A Unit M 1H,440,86.51
+Trinity A Unit M 1H,441,82.19
+Trinity A Unit M 1H,442,113.99
+Trinity A Unit M 1H,443,10.07
+Trinity A Unit M 1H,444,121.96
+Trinity A Unit M 1H,445,118.05
+Trinity A Unit M 1H,446,108.29
+Trinity A Unit M 1H,447,65.04
+Trinity A Unit M 1H,448,69.44
+Trinity A Unit M 1H,449,88.89
+Trinity A Unit M 1H,450,101.06
+Trinity A Unit M 1H,451,113.89
+Trinity A Unit M 1H,452,104.15
+Trinity A Unit M 1H,453,115.08
+Trinity A Unit M 1H,454,102.78
+Trinity A Unit M 1H,455,113.42
+Trinity A Unit M 1H,456,102.46
+Trinity A Unit M 1H,457,104.29
+Trinity A Unit M 1H,458,106.77
+Trinity A Unit M 1H,459,101.01
+Trinity A Unit M 1H,460,111.61
+Trinity A Unit M 1H,461,110.87
+Trinity A Unit M 1H,462,110.75
+Trinity A Unit M 1H,463,106.27
+Trinity A Unit M 1H,464,109.4
+Trinity A Unit M 1H,465,98.12
+Trinity A Unit M 1H,466,110.2
+Trinity A Unit M 1H,467,107.57
+Trinity A Unit M 1H,468,122.84
+Trinity A Unit M 1H,469,108.73
+Trinity A Unit M 1H,470,95.97
+Trinity A Unit M 1H,471,107.73
+Trinity A Unit M 1H,472,108.44
+Trinity A Unit M 1H,473,114.15
+Trinity A Unit M 1H,474,102.6
+Trinity A Unit M 1H,475,116.15
+Trinity A Unit M 1H,476,115.9
+Trinity A Unit M 1H,477,109.36
+Trinity A Unit M 1H,478,114.89
+Trinity A Unit M 1H,479,110.27
+Trinity A Unit M 1H,480,112.34
+Trinity A Unit M 1H,481,103.13
+Trinity A Unit M 1H,482,105.17
+Trinity A Unit M 1H,483,62.71
+Trinity A Unit M 1H,484,100.92
+Trinity A Unit M 1H,485,117.06
+Trinity A Unit M 1H,486,112.93
+Trinity A Unit M 1H,487,113.46
+Trinity A Unit M 1H,488,110.11
+Trinity A Unit M 1H,489,110.09
+Trinity A Unit M 1H,490,109.63
+Trinity A Unit M 1H,491,102.77
+Trinity A Unit M 1H,492,112.76
+Trinity A Unit M 1H,493,108.01
+Trinity A Unit M 1H,494,109.78
+Trinity A Unit M 1H,495,114.15
+Trinity A Unit M 1H,496,112.22
+Trinity A Unit M 1H,497,108.66
+Trinity A Unit M 1H,498,110.22
+Trinity A Unit M 1H,499,105.64
+Trinity A Unit M 1H,500,105.76
+Trinity A Unit M 1H,501,103.14
+Trinity A Unit M 1H,502,113.3
+Trinity A Unit M 1H,503,107.17
+Trinity A Unit M 1H,504,103.38
+Trinity A Unit M 1H,505,96.97
+Trinity A Unit M 1H,506,113.99
+Trinity A Unit M 1H,507,105.41
+Trinity A Unit M 1H,508,67.12
+Trinity A Unit M 1H,509,70.69
+Trinity A Unit M 1H,510,73.9
+Trinity A Unit M 1H,511,73.78
+Trinity A Unit M 1H,512,89.76
+Trinity A Unit M 1H,513,76.44
+Trinity A Unit M 1H,514,97.77
+Trinity A Unit M 1H,515,115.54
+Trinity A Unit M 1H,516,105.89
+Trinity A Unit M 1H,517,90.38
+Trinity A Unit M 1H,518,70.51
+Trinity A Unit M 1H,519,101.12
+Trinity A Unit M 1H,520,117.43
+Trinity A Unit M 1H,521,84.81
+Trinity A Unit M 1H,522,20.53
+Trinity A Unit M 1H,523,26.58
+Trinity A Unit M 1H,524,18.98
+Trinity A Unit M 1H,525,1.3
+Trinity A Unit M 1H,526,0
+Trinity A Unit M 1H,527,0
+Trinity A Unit M 1H,528,0
+Trinity A Unit M 1H,529,0
+Trinity A Unit M 1H,530,0
+Trinity A Unit M 1H,531,10.46
+Trinity A Unit M 1H,532,54.29
+Trinity A Unit M 1H,533,54.06
+Trinity A Unit M 1H,534,60.87
+Trinity A Unit M 1H,535,66
+Trinity A Unit M 1H,536,73.11
+Trinity A Unit M 1H,537,75.82
+Trinity A Unit M 1H,538,76
+Trinity A Unit M 1H,539,83.3
+Trinity A Unit M 1H,540,82.78
+Trinity A Unit M 1H,541,80.11
+Trinity A Unit M 1H,542,81.47
+Trinity A Unit M 1H,543,85.31
+Trinity A Unit M 1H,544,66.81
+Trinity A Unit M 1H,545,52.07
+Trinity A Unit M 1H,546,97.22
+Trinity A Unit M 1H,547,99.11
+Trinity A Unit M 1H,548,105.56
+Trinity A Unit M 1H,549,109.13
+Trinity A Unit M 1H,550,114.96
+Trinity A Unit M 1H,551,111.11
+Trinity A Unit M 1H,552,70.03
+Trinity A Unit M 1H,553,105.56
+Trinity A Unit M 1H,554,106.15
+Trinity A Unit M 1H,555,104.18
+Trinity A Unit M 1H,556,108.33
+Trinity A Unit M 1H,557,111.11
+Trinity A Unit M 1H,558,103.48
+Trinity A Unit M 1H,559,100.79
+Trinity A Unit M 1H,560,102.78
+Trinity A Unit M 1H,561,105.79
+Trinity A Unit M 1H,562,103.7
+Trinity A Unit M 1H,563,108.33
+Trinity A Unit M 1H,564,105.86
+Trinity A Unit M 1H,565,108.33
+Trinity A Unit M 1H,566,39.89
+Trinity A Unit M 1H,567,2.77
+Trinity A Unit M 1H,568,0
+Trinity A Unit M 1H,569,0
+Trinity A Unit M 1H,570,0
+Trinity A Unit M 1H,571,0
+Trinity A Unit M 1H,572,0
+Trinity A Unit M 1H,573,0
+Trinity A Unit M 1H,574,0
+Trinity A Unit M 1H,575,0
+Trinity A Unit M 1H,576,0
+Trinity A Unit M 1H,577,0
+Trinity A Unit M 1H,578,0
+Trinity A Unit M 1H,579,0
+Trinity A Unit M 1H,580,35.18
+Trinity A Unit M 1H,581,49.95
+Trinity A Unit M 1H,582,61.57
+Trinity A Unit M 1H,583,69.93
+Trinity A Unit M 1H,584,72.7
+Trinity A Unit M 1H,585,42.55
+Trinity A Unit M 1H,586,85.31
+Trinity A Unit M 1H,587,86.72
+Trinity A Unit M 1H,588,87.99
+Trinity A Unit M 1H,589,94.4
+Trinity A Unit M 1H,590,94.26
+Trinity A Unit M 1H,591,102.74
+Trinity A Unit M 1H,592,105.76
+Trinity A Unit M 1H,593,105.71
+Trinity A Unit M 1H,594,111.66
+Trinity A Unit M 1H,595,116.09
+Trinity A Unit M 1H,596,110.45
+Trinity A Unit M 1H,597,121.95
+Trinity A Unit M 1H,598,120.15
+Trinity A Unit M 1H,599,119.56
+Trinity A Unit M 1H,600,127.58
+Trinity A Unit M 1H,601,125.21
+Trinity A Unit M 1H,602,129.4
+Trinity A Unit M 1H,603,126.53
+Trinity A Unit M 1H,604,122.85
+Trinity A Unit M 1H,605,130.46
+Trinity A Unit M 1H,606,124.31
+Trinity A Unit M 1H,607,129.47
+Trinity A Unit M 1H,608,130.86
+Trinity A Unit M 1H,609,132.06
+Trinity A Unit M 1H,610,133.55
+Trinity A Unit M 1H,611,132.84
+Trinity A Unit M 1H,612,134.03
+Trinity A Unit M 1H,613,140.55
+Trinity A Unit M 1H,614,136.42
+Trinity A Unit M 1H,615,136.42
+Trinity A Unit M 1H,616,80.29
+Trinity A Unit M 1H,617,125.6
+Trinity A Unit M 1H,618,115.84
+Trinity A Unit M 1H,619,139.09
+Trinity A Unit M 1H,620,140.53
+Trinity A Unit M 1H,621,151.47
+Trinity A Unit M 1H,622,137.46
+Trinity A Unit M 1H,623,132.96
+Trinity A Unit M 1H,624,134.46
+Trinity A Unit M 1H,625,132.64
+Trinity A Unit M 1H,626,162.28
+Trinity A Unit M 1H,627,109.17
+Trinity A Unit M 1H,628,131.57
+Trinity A Unit M 1H,629,131.58
+Trinity A Unit M 1H,630,129.24
+Trinity A Unit M 1H,631,127.93
+Trinity A Unit M 1H,632,126.26
+Trinity A Unit M 1H,633,125.84
+Trinity A Unit M 1H,634,122.76
+Trinity A Unit M 1H,635,119.12
+Trinity A Unit M 1H,636,121.29
+Trinity A Unit M 1H,637,121.64
+Trinity A Unit M 1H,638,121.01
+Trinity A Unit M 1H,639,123.24
+Trinity A Unit M 1H,640,121.43
+Trinity A Unit M 1H,641,118.13
+Trinity A Unit M 1H,642,119.5
+Trinity A Unit M 1H,643,119.12
+Trinity A Unit M 1H,644,117.91
+Trinity A Unit M 1H,645,119.02
+Trinity A Unit M 1H,646,114.76
+Trinity A Unit M 1H,647,113.42
+Trinity A Unit M 1H,648,112.49
+Trinity A Unit M 1H,649,118.1
+Trinity A Unit M 1H,650,113.91
+Trinity A Unit M 1H,651,112.41
+Trinity A Unit M 1H,652,115.99
+Trinity A Unit M 1H,653,113.63
+Trinity A Unit M 1H,654,114.25
+Trinity A Unit M 1H,655,109.3
+Trinity A Unit M 1H,656,111.47
+Trinity A Unit M 1H,657,110.64
+Trinity A Unit M 1H,658,109.91
+Trinity A Unit M 1H,659,110.11
+Trinity A Unit M 1H,660,111.29
+Trinity A Unit M 1H,661,107.04
+Trinity A Unit M 1H,662,109.81
+Trinity A Unit M 1H,663,106.4
+Trinity A Unit M 1H,664,106.75
+Trinity A Unit M 1H,665,66.3
+Trinity A Unit M 1H,666,70.42
+Trinity A Unit M 1H,667,85.58
+Trinity A Unit M 1H,668,113.02
+Trinity A Unit M 1H,669,117.04
+Trinity A Unit M 1H,670,107.56
+Trinity A Unit M 1H,671,110.2
+Trinity A Unit M 1H,672,114.49
+Trinity A Unit M 1H,673,109.73
+Trinity A Unit M 1H,674,109.63
+Trinity A Unit M 1H,675,111.86
+Trinity A Unit M 1H,676,112.8
+Trinity A Unit M 1H,677,110.95
+Trinity A Unit M 1H,678,95.03
+Trinity A Unit M 1H,679,107.45
+Trinity A Unit M 1H,680,82.94
+Trinity A Unit M 1H,681,101.55
+Trinity A Unit M 1H,682,89.21
+Trinity A Unit M 1H,683,99.8
+Trinity A Unit M 1H,684,96.67
+Trinity A Unit M 1H,685,98.75
+Trinity A Unit M 1H,686,97.11
+Trinity A Unit M 1H,687,90.35
+Trinity A Unit M 1H,688,96.45
+Trinity A Unit M 1H,689,57.61
+Trinity A Unit M 1H,690,91.25
+Trinity A Unit M 1H,691,85.77
+Trinity A Unit M 1H,692,92.56
+Trinity A Unit M 1H,693,89.91
+Trinity A Unit M 1H,694,97.49
+Trinity A Unit M 1H,695,94.74
+Trinity A Unit M 1H,696,84.22
+Trinity A Unit M 1H,697,87.9
+Trinity A Unit M 1H,698,88.65
+Trinity A Unit M 1H,699,79.53
+Trinity A Unit M 1H,700,97.01
+Trinity A Unit M 1H,701,90.86
+Trinity A Unit M 1H,702,92.66
+Trinity A Unit M 1H,703,93.74
+Trinity A Unit M 1H,704,93.53
+Trinity A Unit M 1H,705,0.8
+Trinity A Unit M 1H,706,37.79
+Trinity A Unit M 1H,707,69.89
+Trinity A Unit M 1H,708,81.46
+Trinity A Unit M 1H,709,81.14
+Trinity A Unit M 1H,710,79.94
+Trinity A Unit M 1H,711,95.76
+Trinity A Unit M 1H,712,91.22
+Trinity A Unit M 1H,713,89.18
+Trinity A Unit M 1H,714,87.63
+Trinity A Unit M 1H,715,85.64
+Trinity A Unit M 1H,716,87.52
+Trinity A Unit M 1H,717,84.24
+Trinity A Unit M 1H,718,89.06
+Trinity A Unit M 1H,719,91.88
+Trinity A Unit M 1H,720,86.16
+Trinity A Unit M 1H,721,80.56
+Trinity A Unit M 1H,722,55.87
+Trinity A Unit M 1H,723,68.08
+Trinity A Unit M 1H,724,88.22
+Trinity A Unit M 1H,725,87.83
+Trinity A Unit M 1H,726,86.83
+Trinity A Unit M 1H,727,88.1
+Trinity A Unit M 1H,728,95.16
+Trinity A Unit M 1H,729,89.35
+Trinity A Unit M 1H,730,92.35
+Trinity A Unit M 1H,731,84.96
+Trinity A Unit M 1H,732,83.04
+Trinity A Unit M 1H,733,95.1
+Trinity A Unit M 1H,734,88.82
+Trinity A Unit M 1H,735,90.01
+Trinity A Unit M 1H,736,86.96
+Trinity A Unit M 1H,737,86.21
+Trinity A Unit M 1H,738,88.87
+Trinity A Unit M 1H,739,84.51
+Trinity A Unit M 1H,740,77.58
+Trinity A Unit M 1H,741,81.82
+Trinity A Unit M 1H,742,81.72
+Trinity A Unit M 1H,743,82.84
+Trinity A Unit M 1H,744,74.38
+Trinity A Unit M 1H,745,79.65
+Trinity A Unit M 1H,746,80.91
+Trinity A Unit M 1H,747,77.04
+Trinity A Unit M 1H,748,85.31
+Trinity A Unit M 1H,749,86.84
+Trinity A Unit M 1H,750,94.35
+Trinity A Unit M 1H,751,93.59
+Trinity A Unit M 1H,752,95.86
+Trinity A Unit M 1H,753,77.79
+Trinity A Unit M 1H,754,70.76
+Trinity A Unit M 1H,755,69.95
+Trinity A Unit M 1H,756,68.33
+Trinity A Unit M 1H,757,76.49
+Trinity A Unit M 1H,758,81.72
+Trinity A Unit M 1H,759,76.83
+Trinity A Unit M 1H,760,74.85
+Trinity A Unit M 1H,761,82.74
+Trinity A Unit M 1H,762,79.99
+Trinity A Unit M 1H,763,87.36
+Trinity A Unit M 1H,764,88.34
+Trinity A Unit M 1H,765,89.89
+Trinity A Unit M 1H,766,77.58
+Trinity A Unit M 1H,767,70.43
+Trinity A Unit M 1H,768,69.37
+Trinity A Unit M 1H,769,72.16
+Trinity A Unit M 1H,770,75.95
+Trinity A Unit M 1H,771,76.3
+Trinity A Unit M 1H,772,75.16
+Trinity A Unit M 1H,773,87.86
+Trinity A Unit M 1H,774,88.22
+Trinity A Unit M 1H,775,86.36
+Trinity A Unit M 1H,776,72.95
+Trinity A Unit M 1H,777,81.3
+Trinity A Unit M 1H,778,71.65
+Trinity A Unit M 1H,779,83.92
+Trinity A Unit M 1H,780,74.11
+Trinity A Unit M 1H,781,72.66
+Trinity A Unit M 1H,782,76.35
+Trinity A Unit M 1H,783,75.09
+Trinity A Unit M 1H,784,71.83
+Trinity A Unit M 1H,785,68.4
+Trinity A Unit M 1H,786,67.57
+Trinity A Unit M 1H,787,70.09
+Trinity A Unit M 1H,788,73.86
+Trinity A Unit M 1H,789,76.23
+Trinity A Unit M 1H,790,79.67
+Trinity A Unit M 1H,791,80.66
+Trinity A Unit M 1H,792,82.28
+Trinity A Unit M 1H,793,78.71
+Trinity A Unit M 1H,794,58.07
+Trinity A Unit M 1H,795,12.56
+Trinity A Unit M 1H,796,12.94
+Trinity A Unit M 1H,797,11.69
+Trinity A Unit M 1H,798,3.81
+Trinity A Unit M 1H,799,20.54
+Trinity A Unit M 1H,800,0
+Trinity A Unit M 1H,801,0
+Trinity A Unit M 1H,802,0
+Trinity A Unit M 1H,803,0
+Trinity A Unit M 1H,804,0
+Trinity A Unit M 1H,805,4.41
+Trinity A Unit M 1H,806,36.58
+Trinity A Unit M 1H,807,42.38
+Trinity A Unit M 1H,808,50.7
+Trinity A Unit M 1H,809,55.09
+Trinity A Unit M 1H,810,46.12
+Trinity A Unit M 1H,811,61.39
+Trinity A Unit M 1H,812,63.32
+Trinity A Unit M 1H,813,69.54
+Trinity A Unit M 1H,814,47.95
+Trinity A Unit M 1H,815,45.3
+Trinity A Unit M 1H,816,69.05
+Trinity A Unit M 1H,817,0
+Trinity A Unit M 1H,818,0
+Trinity A Unit M 1H,819,0
+Trinity A Unit M 1H,820,25.87
+Trinity A Unit M 1H,821,53.68
+Trinity A Unit M 1H,822,58.79
+Trinity A Unit M 1H,823,63.06
+Trinity A Unit M 1H,824,66.11
+Trinity A Unit M 1H,825,65.59
+Trinity A Unit M 1H,826,80.56
+Trinity A Unit M 1H,827,68.29
+Trinity A Unit M 1H,828,73.31
+Trinity A Unit M 1H,829,85.22
+Trinity A Unit M 1H,830,77.04
+Trinity A Unit M 1H,831,77.57
+Trinity A Unit M 1H,832,80.26
+Trinity A Unit M 1H,833,81.57
+Trinity A Unit M 1H,834,83.57
+Trinity A Unit M 1H,835,80.32
+Trinity A Unit M 1H,836,84.24
+Trinity A Unit M 1H,837,89.94
+Trinity A Unit M 1H,838,82.44
+Trinity A Unit M 1H,839,86.61
+Trinity A Unit M 1H,840,87.41
+Trinity A Unit M 1H,841,88.1
+Trinity A Unit M 1H,842,85.35
+Trinity A Unit M 1H,843,76.91
+Trinity A Unit M 1H,844,74.67
+Trinity A Unit M 1H,845,77.34
+Trinity A Unit M 1H,846,79.7
+Trinity A Unit M 1H,847,84.01
+Trinity A Unit M 1H,848,83.67
+Trinity A Unit M 1H,849,85.57
+Trinity A Unit M 1H,850,90.91
+Trinity A Unit M 1H,851,85.19
+Trinity A Unit M 1H,852,80.59
+Trinity A Unit M 1H,853,80.88
+Trinity A Unit M 1H,854,79.04
+Trinity A Unit M 1H,855,84.03
+Trinity A Unit M 1H,856,83.48
+Trinity A Unit M 1H,857,82.8
+Trinity A Unit M 1H,858,84.8
+Trinity A Unit M 1H,859,78.64
+Trinity A Unit M 1H,860,84.56
+Trinity A Unit M 1H,861,86.77
+Trinity A Unit M 1H,862,84.16
+Trinity A Unit M 1H,863,78.79
+Trinity A Unit M 1H,864,85.25
+Trinity A Unit M 1H,865,62.44
+Trinity A Unit M 1H,866,80.72
+Trinity A Unit M 1H,867,81.22
+Trinity A Unit M 1H,868,69.84
+Trinity A Unit M 1H,869,80.4
+Trinity A Unit M 1H,870,79.73
+Trinity A Unit M 1H,871,82.96
+Trinity A Unit M 1H,872,79.55
+Trinity A Unit M 1H,873,79.63
+Trinity A Unit M 1H,874,81.63
+Trinity A Unit M 1H,875,85.39
+Trinity A Unit M 1H,876,78.91
+Trinity A Unit M 1H,877,78.72
+Trinity A Unit M 1H,878,81.05
+Trinity A Unit M 1H,879,79.44
+Trinity A Unit M 1H,880,79.51
+Trinity A Unit M 1H,881,74.2
+Trinity A Unit M 1H,882,78.02
+Trinity A Unit M 1H,883,79.96
+Trinity A Unit M 1H,884,83.2
+Trinity A Unit M 1H,885,79.13
+Cozart A Unit # 6H,1,62.83
+Cozart A Unit # 6H,2,48.49
+Cozart A Unit # 6H,3,71.58
+Cozart A Unit # 6H,4,80.04
+Cozart A Unit # 6H,5,88.51
+Cozart A Unit # 6H,6,104.16
+Cozart A Unit # 6H,7,120.25
+Cozart A Unit # 6H,8,134.99
+Cozart A Unit # 6H,9,152.87
+Cozart A Unit # 6H,10,167.81
+Cozart A Unit # 6H,11,179.05
+Cozart A Unit # 6H,12,199.13
+Cozart A Unit # 6H,13,201.9
+Cozart A Unit # 6H,14,186.97
+Cozart A Unit # 6H,15,222.79
+Cozart A Unit # 6H,16,244.31
+Cozart A Unit # 6H,17,252.07
+Cozart A Unit # 6H,18,259.8
+Cozart A Unit # 6H,19,266.84
+Cozart A Unit # 6H,20,284.42
+Cozart A Unit # 6H,21,294.11
+Cozart A Unit # 6H,22,293.59
+Cozart A Unit # 6H,23,316.03
+Cozart A Unit # 6H,24,312.96
+Cozart A Unit # 6H,25,322.61
+Cozart A Unit # 6H,26,322.8
+Cozart A Unit # 6H,27,328.05
+Cozart A Unit # 6H,28,331.01
+Cozart A Unit # 6H,29,342.39
+Cozart A Unit # 6H,30,342.73
+Cozart A Unit # 6H,31,339.4
+Cozart A Unit # 6H,32,322.86
+Cozart A Unit # 6H,33,239.94
+Cozart A Unit # 6H,34,87.55
+Cozart A Unit # 6H,35,351.17
+Cozart A Unit # 6H,36,345.88
+Cozart A Unit # 6H,37,350.46
+Cozart A Unit # 6H,38,334.72
+Cozart A Unit # 6H,39,345.57
+Cozart A Unit # 6H,40,351.44
+Cozart A Unit # 6H,41,344.47
+Cozart A Unit # 6H,42,355.81
+Cozart A Unit # 6H,43,338.99
+Cozart A Unit # 6H,44,353.59
+Cozart A Unit # 6H,45,344.81
+Cozart A Unit # 6H,46,347.09
+Cozart A Unit # 6H,47,351.32
+Cozart A Unit # 6H,48,345.42
+Cozart A Unit # 6H,49,346.37
+Cozart A Unit # 6H,50,344.06
+Cozart A Unit # 6H,51,337.63
+Cozart A Unit # 6H,52,337.51
+Cozart A Unit # 6H,53,332.46
+Cozart A Unit # 6H,54,338.39
+Cozart A Unit # 6H,55,342.51
+Cozart A Unit # 6H,56,354
+Cozart A Unit # 6H,57,364
+Cozart A Unit # 6H,58,381.35
+Cozart A Unit # 6H,59,393.29
+Cozart A Unit # 6H,60,407.99
+Cozart A Unit # 6H,61,417.03
+Cozart A Unit # 6H,62,424
+Cozart A Unit # 6H,63,420.35
+Cozart A Unit # 6H,64,422.41
+Cozart A Unit # 6H,65,412.78
+Cozart A Unit # 6H,66,404.03
+Cozart A Unit # 6H,67,401.44
+Cozart A Unit # 6H,68,396.83
+Cozart A Unit # 6H,69,394.04
+Cozart A Unit # 6H,70,387.33
+Cozart A Unit # 6H,71,396.26
+Cozart A Unit # 6H,72,393.68
+Cozart A Unit # 6H,73,374.65
+Cozart A Unit # 6H,74,381.21
+Cozart A Unit # 6H,75,368.98
+Cozart A Unit # 6H,76,371.75
+Cozart A Unit # 6H,77,357.83
+Cozart A Unit # 6H,78,363.4
+Cozart A Unit # 6H,79,344.34
+Cozart A Unit # 6H,80,345.14
+Cozart A Unit # 6H,81,343.88
+Cozart A Unit # 6H,82,342.03
+Cozart A Unit # 6H,83,267.73
+Cozart A Unit # 6H,84,182.78
+Cozart A Unit # 6H,85,355.12
+Cozart A Unit # 6H,86,182.98
+Cozart A Unit # 6H,87,354.12
+Cozart A Unit # 6H,88,337.85
+Cozart A Unit # 6H,89,329.31
+Cozart A Unit # 6H,90,328
+Cozart A Unit # 6H,91,319.46
+Cozart A Unit # 6H,92,315.79
+Cozart A Unit # 6H,93,308.17
+Cozart A Unit # 6H,94,287.05
+Cozart A Unit # 6H,95,337.01
+Cozart A Unit # 6H,96,302.85
+Cozart A Unit # 6H,97,296.36
+Cozart A Unit # 6H,98,296.92
+Cozart A Unit # 6H,99,300.4
+Cozart A Unit # 6H,100,303.81
+Cozart A Unit # 6H,101,227.65
+Cozart A Unit # 6H,102,123.75
+Cozart A Unit # 6H,103,349.68
+Cozart A Unit # 6H,104,317.87
+Cozart A Unit # 6H,105,327.27
+Cozart A Unit # 6H,106,324.02
+Cozart A Unit # 6H,107,317.59
+Cozart A Unit # 6H,108,313.12
+Cozart A Unit # 6H,109,310.61
+Cozart A Unit # 6H,110,315.13
+Cozart A Unit # 6H,111,84.29
+Cozart A Unit # 6H,112,138.55
+Cozart A Unit # 6H,113,318.87
+Cozart A Unit # 6H,114,309.05
+Cozart A Unit # 6H,115,272.13
+Cozart A Unit # 6H,116,319.62
+Cozart A Unit # 6H,117,314.15
+Cozart A Unit # 6H,118,292.36
+Cozart A Unit # 6H,119,312.74
+Cozart A Unit # 6H,120,290.54
+Cozart A Unit # 6H,121,296.62
+Cozart A Unit # 6H,122,295.23
+Cozart A Unit # 6H,123,289.94
+Cozart A Unit # 6H,124,287.98
+Cozart A Unit # 6H,125,285.18
+Cozart A Unit # 6H,126,284.12
+Cozart A Unit # 6H,127,186.32
+Cozart A Unit # 6H,128,134.15
+Cozart A Unit # 6H,129,346.72
+Cozart A Unit # 6H,130,139.91
+Cozart A Unit # 6H,131,319.82
+Cozart A Unit # 6H,132,331.95
+Cozart A Unit # 6H,133,297.71
+Cozart A Unit # 6H,134,302.59
+Cozart A Unit # 6H,135,304.56
+Cozart A Unit # 6H,136,299.5
+Cozart A Unit # 6H,137,297.25
+Cozart A Unit # 6H,138,285.39
+Cozart A Unit # 6H,139,245.78
+Cozart A Unit # 6H,140,8.82
+Cozart A Unit # 6H,141,0
+Cozart A Unit # 6H,142,196.4
+Cozart A Unit # 6H,143,293.36
+Cozart A Unit # 6H,144,273.9
+Cozart A Unit # 6H,145,255.13
+Cozart A Unit # 6H,146,258.57
+Cozart A Unit # 6H,147,303.77
+Cozart A Unit # 6H,148,291.16
+Cozart A Unit # 6H,149,306.88
+Cozart A Unit # 6H,150,306.05
+Cozart A Unit # 6H,151,306.38
+Cozart A Unit # 6H,152,305.88
+Cozart A Unit # 6H,153,290.13
+Cozart A Unit # 6H,154,303.78
+Cozart A Unit # 6H,155,288.88
+Cozart A Unit # 6H,156,281.19
+Cozart A Unit # 6H,157,274.56
+Cozart A Unit # 6H,158,272.05
+Cozart A Unit # 6H,159,269.06
+Cozart A Unit # 6H,160,260.83
+Cozart A Unit # 6H,161,269
+Cozart A Unit # 6H,162,273.35
+Cozart A Unit # 6H,163,618.96
+Cozart A Unit # 6H,164,145.26
+Cozart A Unit # 6H,165,299.23
+Cozart A Unit # 6H,166,228.37
+Cozart A Unit # 6H,167,171.67
+Cozart A Unit # 6H,168,265.72
+Cozart A Unit # 6H,169,262.37
+Cozart A Unit # 6H,170,264.61
+Cozart A Unit # 6H,171,253.65
+Cozart A Unit # 6H,172,262.55
+Cozart A Unit # 6H,173,244.49
+Cozart A Unit # 6H,174,290.28
+Cozart A Unit # 6H,175,278.5
+Cozart A Unit # 6H,176,234.62
+Cozart A Unit # 6H,177,246.58
+Cozart A Unit # 6H,178,250.95
+Cozart A Unit # 6H,179,213.31
+Cozart A Unit # 6H,180,243.73
+Cozart A Unit # 6H,181,242.38
+Cozart A Unit # 6H,182,218.25
+Cozart A Unit # 6H,183,240.1
+Cozart A Unit # 6H,184,240.37
+Cozart A Unit # 6H,185,232.3
+Cozart A Unit # 6H,186,238.8
+Cozart A Unit # 6H,187,235.5
+Cozart A Unit # 6H,188,231.38
+Cozart A Unit # 6H,189,230.24
+Cozart A Unit # 6H,190,225.07
+Cozart A Unit # 6H,191,229.73
+Cozart A Unit # 6H,192,231.11
+Cozart A Unit # 6H,193,63.01
+Cozart A Unit # 6H,194,265.77
+Cozart A Unit # 6H,195,200.76
+Cozart A Unit # 6H,196,212.53
+Cozart A Unit # 6H,197,217.48
+Cozart A Unit # 6H,198,216.16
+Cozart A Unit # 6H,199,219.12
+Cozart A Unit # 6H,200,216.18
+Cozart A Unit # 6H,201,213.87
+Cozart A Unit # 6H,202,214.65
+Cozart A Unit # 6H,203,211.64
+Cozart A Unit # 6H,204,193.12
+Cozart A Unit # 6H,205,213.33
+Cozart A Unit # 6H,206,213.58
+Cozart A Unit # 6H,207,209.55
+Cozart A Unit # 6H,208,205.09
+Cozart A Unit # 6H,209,200.62
+Cozart A Unit # 6H,210,209.99
+Cozart A Unit # 6H,211,202.71
+Cozart A Unit # 6H,212,199.52
+Cozart A Unit # 6H,213,202.97
+Cozart A Unit # 6H,214,193.1
+Cozart A Unit # 6H,215,199.09
+Cozart A Unit # 6H,216,184.85
+Cozart A Unit # 6H,217,203.55
+Cozart A Unit # 6H,218,185.55
+Cozart A Unit # 6H,219,191.77
+Cozart A Unit # 6H,220,171.13
+Cozart A Unit # 6H,221,200.33
+Cozart A Unit # 6H,222,183.46
+Cozart A Unit # 6H,223,0
+Cozart A Unit # 6H,224,187.35
+Cozart A Unit # 6H,225,180.93
+Cozart A Unit # 6H,226,193.5
+Cozart A Unit # 6H,227,183.14
+Cozart A Unit # 6H,228,185.82
+Cozart A Unit # 6H,229,189.48
+Cozart A Unit # 6H,230,180.17
+Cozart A Unit # 6H,231,180.99
+Cozart A Unit # 6H,232,177.41
+Cozart A Unit # 6H,233,153.8
+Cozart A Unit # 6H,234,186.94
+Cozart A Unit # 6H,235,176.6
+Cozart A Unit # 6H,236,189.04
+Cozart A Unit # 6H,237,176.23
+Cozart A Unit # 6H,238,177.66
+Cozart A Unit # 6H,239,185.64
+Cozart A Unit # 6H,240,174.09
+Cozart A Unit # 6H,241,168.65
+Cozart A Unit # 6H,242,166.35
+Cozart A Unit # 6H,243,153.99
+Cozart A Unit # 6H,244,183.36
+Cozart A Unit # 6H,245,169.53
+Cozart A Unit # 6H,246,167.45
+Cozart A Unit # 6H,247,171.95
+Cozart A Unit # 6H,248,162.18
+Cozart A Unit # 6H,249,165.79
+Cozart A Unit # 6H,250,165.92
+Cozart A Unit # 6H,251,170.61
+Cozart A Unit # 6H,252,161.28
+Cozart A Unit # 6H,253,164.31
+Cozart A Unit # 6H,254,165
+Cozart A Unit # 6H,255,164.86
+Cozart A Unit # 6H,256,165.62
+Cozart A Unit # 6H,257,156.38
+Cozart A Unit # 6H,258,160.57
+Cozart A Unit # 6H,259,157.97
+Cozart A Unit # 6H,260,154.31
+Cozart A Unit # 6H,261,158.76
+Cozart A Unit # 6H,262,154.67
+Cozart A Unit # 6H,263,154.49
+Cozart A Unit # 6H,264,161.42
+Cozart A Unit # 6H,265,154.42
+Cozart A Unit # 6H,266,137
+Cozart A Unit # 6H,267,92.92
+Cozart A Unit # 6H,268,143.76
+Cozart A Unit # 6H,269,166.65
+Cozart A Unit # 6H,270,157.86
+Cozart A Unit # 6H,271,155.95
+Cozart A Unit # 6H,272,152.72
+Cozart A Unit # 6H,273,161.74
+Cozart A Unit # 6H,274,160.58
+Cozart A Unit # 6H,275,160.66
+Cozart A Unit # 6H,276,157.71
+Cozart A Unit # 6H,277,148.58
+Cozart A Unit # 6H,278,155.36
+Cozart A Unit # 6H,279,152.2
+Cozart A Unit # 6H,280,143.88
+Cozart A Unit # 6H,281,150.57
+Cozart A Unit # 6H,282,147.21
+Cozart A Unit # 6H,283,139.92
+Cozart A Unit # 6H,284,146.99
+Cozart A Unit # 6H,285,146.35
+Cozart A Unit # 6H,286,143.38
+Cozart A Unit # 6H,287,142.29
+Cozart A Unit # 6H,288,147.04
+Cozart A Unit # 6H,289,143.9
+Cozart A Unit # 6H,290,138.56
+Cozart A Unit # 6H,291,142.63
+Biscayne 7-64 B 1H,1,509.6
+Biscayne 7-64 B 1H,2,585.2
+Biscayne 7-64 B 1H,3,685
+Biscayne 7-64 B 1H,4,736.98
+Biscayne 7-64 B 1H,5,834.44
+Biscayne 7-64 B 1H,6,898.5
+Biscayne 7-64 B 1H,7,926.8
+Biscayne 7-64 B 1H,8,768.62
+Biscayne 7-64 B 1H,9,980.41
+Biscayne 7-64 B 1H,10,841.76
+Biscayne 7-64 B 1H,11,826.89
+Biscayne 7-64 B 1H,12,843.5
+Biscayne 7-64 B 1H,13,759.25
+Biscayne 7-64 B 1H,14,870.14
+Biscayne 7-64 B 1H,15,1015.41
+Biscayne 7-64 B 1H,16,880.54
+Biscayne 7-64 B 1H,17,1025.96
+Biscayne 7-64 B 1H,18,975.79
+Biscayne 7-64 B 1H,19,949.95
+Biscayne 7-64 B 1H,20,814.82
+Biscayne 7-64 B 1H,21,1078.07
+Biscayne 7-64 B 1H,22,1021.43
+Biscayne 7-64 B 1H,23,961.79
+Biscayne 7-64 B 1H,24,1029.42
+Biscayne 7-64 B 1H,25,1010.08
+Biscayne 7-64 B 1H,26,1035.72
+Biscayne 7-64 B 1H,27,1032.45
+Biscayne 7-64 B 1H,28,944.64
+Biscayne 7-64 B 1H,29,970
+Biscayne 7-64 B 1H,30,1034.7
+Biscayne 7-64 B 1H,31,994.43
+Biscayne 7-64 B 1H,32,859.15
+Biscayne 7-64 B 1H,33,922.47
+Biscayne 7-64 B 1H,34,844.9
+Biscayne 7-64 B 1H,35,1008.31
+Biscayne 7-64 B 1H,36,1238.88
+Biscayne 7-64 B 1H,37,1030.8
+Biscayne 7-64 B 1H,38,1047.53
+Biscayne 7-64 B 1H,39,919.21
+Biscayne 7-64 B 1H,40,1035.63
+Biscayne 7-64 B 1H,41,923.53
+Biscayne 7-64 B 1H,42,991.44
+Biscayne 7-64 B 1H,43,1059.08
+Biscayne 7-64 B 1H,44,957.8
+Biscayne 7-64 B 1H,45,893.61
+Biscayne 7-64 B 1H,46,684.78
+Biscayne 7-64 B 1H,47,1153.67
+Biscayne 7-64 B 1H,48,884.29
+Biscayne 7-64 B 1H,49,960.43
+Biscayne 7-64 B 1H,50,1028.15
+Biscayne 7-64 B 1H,51,956.45
+Biscayne 7-64 B 1H,52,847.22
+Biscayne 7-64 B 1H,53,695.87
+Biscayne 7-64 B 1H,54,815.93
+Biscayne 7-64 B 1H,55,1149.94
+Biscayne 7-64 B 1H,56,927.75
+Biscayne 7-64 B 1H,57,836.45
+Biscayne 7-64 B 1H,58,1072.64
+Biscayne 7-64 B 1H,59,504.64
+Biscayne 7-64 B 1H,60,761.43
+Biscayne 7-64 B 1H,61,557.14
+Biscayne 7-64 B 1H,62,634.76
+Biscayne 7-64 B 1H,63,691.04
+Biscayne 7-64 B 1H,64,1069.6
+Biscayne 7-64 B 1H,65,988.4
+Biscayne 7-64 B 1H,66,1246
+Biscayne 7-64 B 1H,67,926.8
+Biscayne 7-64 B 1H,68,775.6
+Biscayne 7-64 B 1H,69,890.4
+Biscayne 7-64 B 1H,70,859.6
+Biscayne 7-64 B 1H,71,897.4
+Biscayne 7-64 B 1H,72,952
+Biscayne 7-64 B 1H,73,887.6
+Biscayne 7-64 B 1H,74,756
+Biscayne 7-64 B 1H,75,882
+Biscayne 7-64 B 1H,76,795.76
+Biscayne 7-64 B 1H,77,681.52
+Biscayne 7-64 B 1H,78,803.32
+Biscayne 7-64 B 1H,79,574
+Biscayne 7-64 B 1H,80,940.8
+Biscayne 7-64 B 1H,81,996.8
+Biscayne 7-64 B 1H,82,686
+Biscayne 7-64 B 1H,83,859.04
+Biscayne 7-64 B 1H,84,835.24
+Biscayne 7-64 B 1H,85,818.16
+Biscayne 7-64 B 1H,86,754.04
+Biscayne 7-64 B 1H,87,702.8
+Biscayne 7-64 B 1H,88,910
+Biscayne 7-64 B 1H,89,725.2
+Biscayne 7-64 B 1H,90,725.2
+Biscayne 7-64 B 1H,91,747.6
+Biscayne 7-64 B 1H,92,786.8
+Biscayne 7-64 B 1H,93,767.2
+Biscayne 7-64 B 1H,94,711.2
+Biscayne 7-64 B 1H,95,740.88
+Biscayne 7-64 B 1H,96,711.48
+Biscayne 7-64 B 1H,97,756.28
+Biscayne 7-64 B 1H,98,658
+Biscayne 7-64 B 1H,99,688.52
+Biscayne 7-64 B 1H,100,722.4
+Biscayne 7-64 B 1H,101,730.8
+Biscayne 7-64 B 1H,102,702.8
+Biscayne 7-64 B 1H,103,537.6
+Biscayne 7-64 B 1H,104,590.8
+Biscayne 7-64 B 1H,105,750.12
+Biscayne 7-64 B 1H,106,610.4
+Biscayne 7-64 B 1H,107,652.4
+Biscayne 7-64 B 1H,108,661.92
+Biscayne 7-64 B 1H,109,733.6
+Biscayne 7-64 B 1H,110,632.8
+Biscayne 7-64 B 1H,111,686.28
+Biscayne 7-64 B 1H,112,614.32
+Biscayne 7-64 B 1H,113,703.08
+Biscayne 7-64 B 1H,114,579.88
+Biscayne 7-64 B 1H,115,739.2
+Biscayne 7-64 B 1H,116,646.8
+Biscayne 7-64 B 1H,117,590.8
+Biscayne 7-64 B 1H,118,616
+Biscayne 7-64 B 1H,119,501.2
+Biscayne 7-64 B 1H,120,725.2
+Biscayne 7-64 B 1H,121,604.8
+Biscayne 7-64 B 1H,122,582.4
+Biscayne 7-64 B 1H,123,618.8
+Biscayne 7-64 B 1H,124,608.16
+Biscayne 7-64 B 1H,125,608.72
+Biscayne 7-64 B 1H,126,628.32
+Biscayne 7-64 B 1H,127,568.4
+Biscayne 7-64 B 1H,128,546
+Biscayne 7-64 B 1H,129,686
+Biscayne 7-64 B 1H,130,691.6
+Biscayne 7-64 B 1H,131,356.72
+Biscayne 7-64 B 1H,132,702.8
+Biscayne 7-64 B 1H,133,521.36
+Biscayne 7-64 B 1H,134,504.56
+Biscayne 7-64 B 1H,135,577.08
+Biscayne 7-64 B 1H,136,497.56
+Biscayne 7-64 B 1H,137,585.2
+Biscayne 7-64 B 1H,138,529.2
+Biscayne 7-64 B 1H,139,543.2
+Biscayne 7-64 B 1H,140,553.56
+Biscayne 7-64 B 1H,141,467.6
+Biscayne 7-64 B 1H,142,568.4
+Biscayne 7-64 B 1H,143,560
+Biscayne 7-64 B 1H,144,467.6
+Biscayne 7-64 B 1H,145,621.6
+Biscayne 7-64 B 1H,146,557.2
+Biscayne 7-64 B 1H,147,403.2
+Biscayne 7-64 B 1H,148,520.8
+Biscayne 7-64 B 1H,149,523.6
+Biscayne 7-64 B 1H,150,490
+Biscayne 7-64 B 1H,151,496.44
+Biscayne 7-64 B 1H,152,58.8
+Biscayne 7-64 B 1H,153,0
+Biscayne 7-64 B 1H,154,0
+Biscayne 7-64 B 1H,155,557.2
+Biscayne 7-64 B 1H,156,602
+Biscayne 7-64 B 1H,157,702.8
+Biscayne 7-64 B 1H,158,445.2
+Biscayne 7-64 B 1H,159,677.6
+Biscayne 7-64 B 1H,160,484.4
+Biscayne 7-64 B 1H,161,439.6
+Biscayne 7-64 B 1H,162,568.4
+Biscayne 7-64 B 1H,163,596.4
+Biscayne 7-64 B 1H,164,540.4
+Biscayne 7-64 B 1H,165,490
+Biscayne 7-64 B 1H,166,425.6
+Biscayne 7-64 B 1H,167,459.76
+Biscayne 7-64 B 1H,168,501.2
+Biscayne 7-64 B 1H,169,400.4
+Biscayne 7-64 B 1H,170,474.32
+Biscayne 7-64 B 1H,171,476
+Biscayne 7-64 B 1H,172,445.2
+Biscayne 7-64 B 1H,173,490
+Biscayne 7-64 B 1H,174,445.2
+Biscayne 7-64 B 1H,175,400.4
+Biscayne 7-64 B 1H,176,369.6
+Biscayne 7-64 B 1H,177,467.6
+Biscayne 7-64 B 1H,178,495.88
+Biscayne 7-64 B 1H,179,411.6
+Biscayne 7-64 B 1H,180,380.8
+Biscayne 7-64 B 1H,181,425.6
+Biscayne 7-64 B 1H,182,422.24
+Biscayne 7-64 B 1H,183,450.8
+Biscayne 7-64 B 1H,184,361.2
+Biscayne 7-64 B 1H,185,420
+Biscayne 7-64 B 1H,186,366.8
+Biscayne 7-64 B 1H,187,484.4
+Biscayne 7-64 B 1H,188,392
+Biscayne 7-64 B 1H,189,310.8
+Biscayne 7-64 B 1H,190,414.4
+Biscayne 7-64 B 1H,191,394.8
+Biscayne 7-64 B 1H,192,434.28
+Biscayne 7-64 B 1H,193,456.68
+Biscayne 7-64 B 1H,194,353.08
+Biscayne 7-64 B 1H,195,383.6
+Biscayne 7-64 B 1H,196,378
+Biscayne 7-64 B 1H,197,397.6
+Biscayne 7-64 B 1H,198,372.4
+Biscayne 7-64 B 1H,199,434
+Biscayne 7-64 B 1H,200,394.8
+Biscayne 7-64 B 1H,201,344.4
+Biscayne 7-64 B 1H,202,336
+Biscayne 7-64 B 1H,203,358.68
+Biscayne 7-64 B 1H,204,376.04
+Biscayne 7-64 B 1H,205,350
+Biscayne 7-64 B 1H,206,386.4
+Biscayne 7-64 B 1H,207,350
+Biscayne 7-64 B 1H,208,392
+Biscayne 7-64 B 1H,209,353.92
+Biscayne 7-64 B 1H,210,305.2
+Biscayne 7-64 B 1H,211,366.8
+Biscayne 7-64 B 1H,212,411.6
+Biscayne 7-64 B 1H,213,338.8
+Biscayne 7-64 B 1H,214,397.6
+Biscayne 7-64 B 1H,215,330.4
+Biscayne 7-64 B 1H,216,92.4
+Biscayne 7-64 B 1H,217,0
+Biscayne 7-64 B 1H,218,0
+Biscayne 7-64 B 1H,219,0
+Biscayne 7-64 B 1H,220,229.6
+Biscayne 7-64 B 1H,221,512.4
+Biscayne 7-64 B 1H,222,358.4
+Biscayne 7-64 B 1H,223,265.16
+Biscayne 7-64 B 1H,224,355.6
+Biscayne 7-64 B 1H,225,389.2
+Biscayne 7-64 B 1H,226,429.52
+Biscayne 7-64 B 1H,227,492.8
+Biscayne 7-64 B 1H,228,428.4
+Biscayne 7-64 B 1H,229,394.8
+Biscayne 7-64 B 1H,230,420
+Biscayne 7-64 B 1H,231,291.2
+Biscayne 7-64 B 1H,232,383.6
+Biscayne 7-64 B 1H,233,336.28
+Biscayne 7-64 B 1H,234,386.4
+Biscayne 7-64 B 1H,235,364
+Biscayne 7-64 B 1H,236,383.32
+Biscayne 7-64 B 1H,237,326.76
+Biscayne 7-64 B 1H,238,358.4
+Biscayne 7-64 B 1H,239,454.44
+Biscayne 7-64 B 1H,240,357.56
+Biscayne 7-64 B 1H,241,358.4
+Biscayne 7-64 B 1H,242,352.8
+Biscayne 7-64 B 1H,243,336
+Biscayne 7-64 B 1H,244,352.8
+Biscayne 7-64 B 1H,245,269.92
+Biscayne 7-64 B 1H,246,310.8
+Biscayne 7-64 B 1H,247,346.08
+Biscayne 7-64 B 1H,248,324.8
+Biscayne 7-64 B 1H,249,371.56
+Biscayne 7-64 B 1H,250,271.6
+Biscayne 7-64 B 1H,251,280.28
+Biscayne 7-64 B 1H,252,348.32
+Biscayne 7-64 B 1H,253,291.76
+Biscayne 7-64 B 1H,254,392.56
+Biscayne 7-64 B 1H,255,280
+Biscayne 7-64 B 1H,256,282.8
+Biscayne 7-64 B 1H,257,296.8
+Biscayne 7-64 B 1H,258,333.2
+Biscayne 7-64 B 1H,259,198.8
+Biscayne 7-64 B 1H,260,285.6
+Biscayne 7-64 B 1H,261,307.16
+Biscayne 7-64 B 1H,262,327.6
+Biscayne 7-64 B 1H,263,282.8
+Biscayne 7-64 B 1H,264,252
+Biscayne 7-64 B 1H,265,277.2
+Biscayne 7-64 B 1H,266,266
+Biscayne 7-64 B 1H,267,285.6
+Biscayne 7-64 B 1H,268,291.2
+Biscayne 7-64 B 1H,269,282.8
+Biscayne 7-64 B 1H,270,229.6
+Biscayne 7-64 B 1H,271,282.8
+Biscayne 7-64 B 1H,272,268.8
+Biscayne 7-64 B 1H,273,235.2
+Biscayne 7-64 B 1H,274,284.48
+Biscayne 7-64 B 1H,275,249.2
+Biscayne 7-64 B 1H,276,300.72
+Biscayne 7-64 B 1H,277,296.8
+Biscayne 7-64 B 1H,278,226.8
+Biscayne 7-64 B 1H,279,288.68
+Biscayne 7-64 B 1H,280,268.8
+Biscayne 7-64 B 1H,281,218.4
+Biscayne 7-64 B 1H,282,266.28
+Biscayne 7-64 B 1H,283,297.08
+Biscayne 7-64 B 1H,284,257.88
+Biscayne 7-64 B 1H,285,249.2
+Biscayne 7-64 B 1H,286,316.4
+Biscayne 7-64 B 1H,287,207.2
+Biscayne 7-64 B 1H,288,254.8
+Biscayne 7-64 B 1H,289,207.2
+Biscayne 7-64 B 1H,290,330.4
+Biscayne 7-64 B 1H,291,249.2
+Biscayne 7-64 B 1H,292,243.6
+Biscayne 7-64 B 1H,293,224
+Biscayne 7-64 B 1H,294,254.8
+Biscayne 7-64 B 1H,295,243.6
+Biscayne 7-64 B 1H,296,243.6
+Biscayne 7-64 B 1H,297,263.2
+Biscayne 7-64 B 1H,298,238
+Biscayne 7-64 B 1H,299,218.4
+Biscayne 7-64 B 1H,300,235.2
+Biscayne 7-64 B 1H,301,190.4
+Biscayne 7-64 B 1H,302,210
+Biscayne 7-64 B 1H,303,240.8
+Biscayne 7-64 B 1H,304,246.4
+Biscayne 7-64 B 1H,305,277.48
+Biscayne 7-64 B 1H,306,214.76
+Biscayne 7-64 B 1H,307,108.36
+Biscayne 7-64 B 1H,308,129.92
+Biscayne 7-64 B 1H,309,288.4
+Biscayne 7-64 B 1H,310,240.8
+Biscayne 7-64 B 1H,311,299.6
+Biscayne 7-64 B 1H,312,232.4
+Biscayne 7-64 B 1H,313,252
+Biscayne 7-64 B 1H,314,240.8
+Biscayne 7-64 B 1H,315,220.36
+Biscayne 7-64 B 1H,316,226.8
+Biscayne 7-64 B 1H,317,95.2
+Biscayne 7-64 B 1H,318,207.2
+Biscayne 7-64 B 1H,319,243.88
+Biscayne 7-64 B 1H,320,214.76
+Biscayne 7-64 B 1H,321,0
+Biscayne 7-64 B 1H,322,205.52
+Biscayne 7-64 B 1H,323,263.2
+Biscayne 7-64 B 1H,324,504
+Biscayne 7-64 B 1H,325,277.2
+Biscayne 7-64 B 1H,326,266
+Biscayne 7-64 B 1H,327,229.6
+Biscayne 7-64 B 1H,328,249.2
+Biscayne 7-64 B 1H,329,198.8
+Biscayne 7-64 B 1H,330,226.8
+Biscayne 7-64 B 1H,331,197.96
+Biscayne 7-64 B 1H,332,297.92
+Biscayne 7-64 B 1H,333,179.2
+Biscayne 7-64 B 1H,334,187.88
+Biscayne 7-64 B 1H,335,243.6
+Biscayne 7-64 B 1H,336,204.4
+Biscayne 7-64 B 1H,337,154
+Biscayne 7-64 B 1H,338,225.4
+Biscayne 7-64 B 1H,339,243.6
+Biscayne 7-64 B 1H,340,235.2
+Biscayne 7-64 B 1H,341,210
+Biscayne 7-64 B 1H,342,224
+Biscayne 7-64 B 1H,343,232.4
+Biscayne 7-64 B 1H,344,232.4
+Biscayne 7-64 B 1H,345,267.96
+Biscayne 7-64 B 1H,346,248.36
+Biscayne 7-64 B 1H,347,271.6
+Biscayne 7-64 B 1H,348,268.8
+Biscayne 7-64 B 1H,349,226.8
+Biscayne 7-64 B 1H,350,272.72
+Biscayne 7-64 B 1H,351,279.16
+Biscayne 7-64 B 1H,352,212.8
+Biscayne 7-64 B 1H,353,327.6
+Biscayne 7-64 B 1H,354,310.8
+Biscayne 7-64 B 1H,355,182
+Biscayne 7-64 B 1H,356,260.4
+Biscayne 7-64 B 1H,357,249.2
+Biscayne 7-64 B 1H,358,269.08
+Biscayne 7-64 B 1H,359,238
+Biscayne 7-64 B 1H,360,249.2
+Biscayne 7-64 B 1H,361,140
+Biscayne 7-64 B 1H,362,235.2
+Biscayne 7-64 B 1H,363,121.52
+Biscayne 7-64 B 1H,364,83.16
+Biscayne 7-64 B 1H,365,126
+Biscayne 7-64 B 1H,366,212.8
+Biscayne 7-64 B 1H,367,50.4
+Biscayne 7-64 B 1H,368,0
+Biscayne 7-64 B 1H,369,0
+Biscayne 7-64 B 1H,370,0
+Biscayne 7-64 B 1H,371,0
+Biscayne 7-64 B 1H,372,0
+Biscayne 7-64 B 1H,373,0
+Biscayne 7-64 B 1H,374,266
+Biscayne 7-64 B 1H,375,302.4
+Biscayne 7-64 B 1H,376,305.2
+Biscayne 7-64 B 1H,377,280.84
+Biscayne 7-64 B 1H,378,257.6
+Biscayne 7-64 B 1H,379,240.8
+Biscayne 7-64 B 1H,380,246.4
+Biscayne 7-64 B 1H,381,75.6
+Biscayne 7-64 B 1H,382,224
+Biscayne 7-64 B 1H,383,249.2
+Biscayne 7-64 B 1H,384,232.4
+Biscayne 7-64 B 1H,385,235.2
+Biscayne 7-64 B 1H,386,238
+Biscayne 7-64 B 1H,387,243.6
+Biscayne 7-64 B 1H,388,288.4
+Biscayne 7-64 B 1H,389,224
+Biscayne 7-64 B 1H,390,224
+Biscayne 7-64 B 1H,391,271.88
+Biscayne 7-64 B 1H,392,196
+Biscayne 7-64 B 1H,393,231.56
+Biscayne 7-64 B 1H,394,197.96
+Biscayne 7-64 B 1H,395,268.8
+Biscayne 7-64 B 1H,396,243.6
+Biscayne 7-64 B 1H,397,218.4
+Biscayne 7-64 B 1H,398,212.8
+Biscayne 7-64 B 1H,399,252
+Biscayne 7-64 B 1H,400,240.8
+Biscayne 7-64 B 1H,401,249.2
+Biscayne 7-64 B 1H,402,274.4
+Biscayne 7-64 B 1H,403,257.6
+Biscayne 7-64 B 1H,404,235.2
+Biscayne 7-64 B 1H,405,235.2
+Biscayne 7-64 B 1H,406,268.8
+Biscayne 7-64 B 1H,407,221.2
+Biscayne 7-64 B 1H,408,254.8
+Biscayne 7-64 B 1H,409,252
+Biscayne 7-64 B 1H,410,229.6
+Biscayne 7-64 B 1H,411,240.8
+Biscayne 7-64 B 1H,412,243.6
+Biscayne 7-64 B 1H,413,232.4
+Biscayne 7-64 B 1H,414,184.8
+Biscayne 7-64 B 1H,415,232.4
+Biscayne 7-64 B 1H,416,235.2
+Biscayne 7-64 B 1H,417,240.8
+Biscayne 7-64 B 1H,418,201.6
+Biscayne 7-64 B 1H,419,212.8
+Biscayne 7-64 B 1H,420,228.76
+Biscayne 7-64 B 1H,421,232.4
+Biscayne 7-64 B 1H,422,226.8
+Biscayne 7-64 B 1H,423,232.4
+Biscayne 7-64 B 1H,424,226.8
+Biscayne 7-64 B 1H,425,216.3
+Biscayne 7-64 B 1H,426,218.4
+Biscayne 7-64 B 1H,427,183.68
+Biscayne 7-64 B 1H,428,227.64
+Biscayne 7-64 B 1H,429,201.6
+Biscayne 7-64 B 1H,430,224
+Biscayne 7-64 B 1H,431,227.92
+Biscayne 7-64 B 1H,432,204.4
+Biscayne 7-64 B 1H,433,186.76
+Biscayne 7-64 B 1H,434,221.2
+Biscayne 7-64 B 1H,435,204.4
+Biscayne 7-64 B 1H,436,207.2
+Biscayne 7-64 B 1H,437,221.2
+Biscayne 7-64 B 1H,438,201.6
+Biscayne 7-64 B 1H,439,226.8
+Biscayne 7-64 B 1H,440,204.4
+Biscayne 7-64 B 1H,441,198.8
+Biscayne 7-64 B 1H,442,176.4
+Biscayne 7-64 B 1H,443,231.56
+Biscayne 7-64 B 1H,444,201.6
+Biscayne 7-64 B 1H,445,170.24
+Biscayne 7-64 B 1H,446,184.8
+Biscayne 7-64 B 1H,447,243.6
+Biscayne 7-64 B 1H,448,159.6
+Biscayne 7-64 B 1H,449,187.6
+Biscayne 7-64 B 1H,450,201.6
+Biscayne 7-64 B 1H,451,235.2
+Biscayne 7-64 B 1H,452,179.2
+Biscayne 7-64 B 1H,453,184.8
+Biscayne 7-64 B 1H,454,364
+Biscayne 7-64 B 1H,455,154
+Biscayne 7-64 B 1H,456,184.8
+Biscayne 7-64 B 1H,457,238
+Biscayne 7-64 B 1H,458,201.6
+Biscayne 7-64 B 1H,459,183.68
+Biscayne 7-64 B 1H,460,185.08
+Biscayne 7-64 B 1H,461,156.8
+Biscayne 7-64 B 1H,462,210
+Biscayne 7-64 B 1H,463,189.28
+Biscayne 7-64 B 1H,464,193.2
+Biscayne 7-64 B 1H,465,176.4
+Biscayne 7-64 B 1H,466,184.8
+Biscayne 7-64 B 1H,467,134.4
+Biscayne 7-64 B 1H,468,182
+Biscayne 7-64 B 1H,469,173.6
+Biscayne 7-64 B 1H,470,151.2
+Biscayne 7-64 B 1H,471,196.28
+Biscayne 7-64 B 1H,472,199.92
+Biscayne 7-64 B 1H,473,176.4
+Biscayne 7-64 B 1H,474,175.56
+Biscayne 7-64 B 1H,475,173.6
+Biscayne 7-64 B 1H,476,179.2
+Biscayne 7-64 B 1H,477,182
+Biscayne 7-64 B 1H,478,173.6
+Biscayne 7-64 B 1H,479,193.2
+Biscayne 7-64 B 1H,480,170.8
+Biscayne 7-64 B 1H,481,179.2
+Biscayne 7-64 B 1H,482,190.4
+Biscayne 7-64 B 1H,483,159.6
+Biscayne 7-64 B 1H,484,160.72
+Biscayne 7-64 B 1H,485,183.68
+Biscayne 7-64 B 1H,486,159.88
+Biscayne 7-64 B 1H,487,157.92
+Biscayne 7-64 B 1H,488,184.8
+Biscayne 7-64 B 1H,489,162.4
+Biscayne 7-64 B 1H,490,173.6
+Biscayne 7-64 B 1H,491,166.88
+Biscayne 7-64 B 1H,492,165.2
+Biscayne 7-64 B 1H,493,170.8
+Biscayne 7-64 B 1H,494,159.6
+Biscayne 7-64 B 1H,495,176.4
+Biscayne 7-64 B 1H,496,137.2
+Biscayne 7-64 B 1H,497,170.8
+Biscayne 7-64 B 1H,498,137.2
+Biscayne 7-64 B 1H,499,165.2
+Biscayne 7-64 B 1H,500,188.44
+Biscayne 7-64 B 1H,501,184.8
+Biscayne 7-64 B 1H,502,156.8
+Biscayne 7-64 B 1H,503,25.2
+Biscayne 7-64 B 1H,504,0
+Biscayne 7-64 B 1H,505,0
+Biscayne 7-64 B 1H,506,0
+Biscayne 7-64 B 1H,507,106.4
+Biscayne 7-64 B 1H,508,184.8
+Biscayne 7-64 B 1H,509,173.6
+Biscayne 7-64 B 1H,510,173.6
+Biscayne 7-64 B 1H,511,173.6
+Biscayne 7-64 B 1H,512,170.8
+Biscayne 7-64 B 1H,513,182
+Biscayne 7-64 B 1H,514,179.48
+Biscayne 7-64 B 1H,515,168
+Biscayne 7-64 B 1H,516,156.8
+Biscayne 7-64 B 1H,517,171.08
+Biscayne 7-64 B 1H,518,163.24
+Biscayne 7-64 B 1H,519,134.68
+Biscayne 7-64 B 1H,520,165.2
+Biscayne 7-64 B 1H,521,168
+Biscayne 7-64 B 1H,522,173.6
+Biscayne 7-64 B 1H,523,151.2
+Biscayne 7-64 B 1H,524,162.4
+Biscayne 7-64 B 1H,525,168
+Biscayne 7-64 B 1H,526,173.6
+Biscayne 7-64 B 1H,527,162.4
+Biscayne 7-64 B 1H,528,142.8
+Biscayne 7-64 B 1H,529,168
+Biscayne 7-64 B 1H,530,151.2
+Biscayne 7-64 B 1H,531,140
+Biscayne 7-64 B 1H,532,159.6
+Biscayne 7-64 B 1H,533,156.8
+Biscayne 7-64 B 1H,534,154
+Biscayne 7-64 B 1H,535,145.6
+Biscayne 7-64 B 1H,536,148.4
+Biscayne 7-64 B 1H,537,148.4
+Biscayne 7-64 B 1H,538,151.2
+Biscayne 7-64 B 1H,539,126
+Biscayne 7-64 B 1H,540,148.4
+Biscayne 7-64 B 1H,541,151.2
+Biscayne 7-64 B 1H,542,156.8
+Biscayne 7-64 B 1H,543,148.4
+Biscayne 7-64 B 1H,544,151.48
+Biscayne 7-64 B 1H,545,140
+Biscayne 7-64 B 1H,546,154
+Biscayne 7-64 B 1H,547,134.4
+Biscayne 7-64 B 1H,548,142.8
+Biscayne 7-64 B 1H,549,148.4
+Biscayne 7-64 B 1H,550,131.6
+Biscayne 7-64 B 1H,551,134.4
+Biscayne 7-64 B 1H,552,148.4
+Biscayne 7-64 B 1H,553,142.8
+Biscayne 7-64 B 1H,554,142.8
+Biscayne 7-64 B 1H,555,156.8
+Biscayne 7-64 B 1H,556,126
+Biscayne 7-64 B 1H,557,145.6
+Biscayne 7-64 B 1H,558,120.4
+Biscayne 7-64 B 1H,559,141.12
+Biscayne 7-64 B 1H,560,148.4
+Biscayne 7-64 B 1H,561,107.24
+Biscayne 7-64 B 1H,562,112
+Biscayne 7-64 B 1H,563,128.8
+Biscayne 7-64 B 1H,564,137.2
+Biscayne 7-64 B 1H,565,128.8
+Biscayne 7-64 B 1H,566,128.8
+Biscayne 7-64 B 1H,567,145.6
+Bluebonnet D Unit #M 5H,1,54
+Bluebonnet D Unit #M 5H,2,173.99
+Bluebonnet D Unit #M 5H,3,245.12
+Bluebonnet D Unit #M 5H,4,322.75
+Bluebonnet D Unit #M 5H,5,376.5
+Bluebonnet D Unit #M 5H,6,338.84
+Bluebonnet D Unit #M 5H,7,241.91
+Bluebonnet D Unit #M 5H,8,425.38
+Bluebonnet D Unit #M 5H,9,467.31
+Bluebonnet D Unit #M 5H,10,157.84
+Bluebonnet D Unit #M 5H,11,0
+Bluebonnet D Unit #M 5H,12,0
+Bluebonnet D Unit #M 5H,13,83.07
+Bluebonnet D Unit #M 5H,14,351.04
+Bluebonnet D Unit #M 5H,15,485.62
+Bluebonnet D Unit #M 5H,16,244.85
+Bluebonnet D Unit #M 5H,17,635.94
+Bluebonnet D Unit #M 5H,18,621.76
+Bluebonnet D Unit #M 5H,19,494.43
+Bluebonnet D Unit #M 5H,20,508.02
+Bluebonnet D Unit #M 5H,21,685.07
+Bluebonnet D Unit #M 5H,22,614.24
+Bluebonnet D Unit #M 5H,23,708.17
+Bluebonnet D Unit #M 5H,24,679.23
+Bluebonnet D Unit #M 5H,25,701.15
+Bluebonnet D Unit #M 5H,26,752.14
+Bluebonnet D Unit #M 5H,27,799.4
+Bluebonnet D Unit #M 5H,28,783.03
+Bluebonnet D Unit #M 5H,29,758.04
+Bluebonnet D Unit #M 5H,30,777.61
+Bluebonnet D Unit #M 5H,31,650.73
+Bluebonnet D Unit #M 5H,32,811.31
+Bluebonnet D Unit #M 5H,33,862.06
+Bluebonnet D Unit #M 5H,34,0
+Bluebonnet D Unit #M 5H,35,129.21
+Bluebonnet D Unit #M 5H,36,482.61
+Bluebonnet D Unit #M 5H,37,155.06
+Bluebonnet D Unit #M 5H,38,798.88
+Bluebonnet D Unit #M 5H,39,872.8
+Bluebonnet D Unit #M 5H,40,892.47
+Bluebonnet D Unit #M 5H,41,890.82
+Bluebonnet D Unit #M 5H,42,897.46
+Bluebonnet D Unit #M 5H,43,876.52
+Bluebonnet D Unit #M 5H,44,897.02
+Bluebonnet D Unit #M 5H,45,878.61
+Bluebonnet D Unit #M 5H,46,858.98
+Bluebonnet D Unit #M 5H,47,898.72
+Bluebonnet D Unit #M 5H,48,881.72
+Bluebonnet D Unit #M 5H,49,871.08
+Bluebonnet D Unit #M 5H,50,866.73
+Bluebonnet D Unit #M 5H,51,862.8
+Bluebonnet D Unit #M 5H,52,852.55
+Bluebonnet D Unit #M 5H,53,839.6
+Bluebonnet D Unit #M 5H,54,873.98
+Bluebonnet D Unit #M 5H,55,752.55
+Bluebonnet D Unit #M 5H,56,828.75
+Bluebonnet D Unit #M 5H,57,887.15
+Bluebonnet D Unit #M 5H,58,863.32
+Bluebonnet D Unit #M 5H,59,875.15
+Bluebonnet D Unit #M 5H,60,862.39
+Bluebonnet D Unit #M 5H,61,869.73
+Bluebonnet D Unit #M 5H,62,870.53
+Bluebonnet D Unit #M 5H,63,849.24
+Bluebonnet D Unit #M 5H,64,786.65
+Bluebonnet D Unit #M 5H,65,812.99
+Bluebonnet D Unit #M 5H,66,786.08
+Bluebonnet D Unit #M 5H,67,731.24
+Bluebonnet D Unit #M 5H,68,773.04
+Bluebonnet D Unit #M 5H,69,555.66
+Bluebonnet D Unit #M 5H,70,747.17
+Bluebonnet D Unit #M 5H,71,779.77
+Bluebonnet D Unit #M 5H,72,769.98
+Bluebonnet D Unit #M 5H,73,829.69
+Bluebonnet D Unit #M 5H,74,765.1
+Bluebonnet D Unit #M 5H,75,810.26
+Bluebonnet D Unit #M 5H,76,709.43
+Bluebonnet D Unit #M 5H,77,814.76
+Bluebonnet D Unit #M 5H,78,806.77
+Bluebonnet D Unit #M 5H,79,722.55
+Bluebonnet D Unit #M 5H,80,718.75
+Bluebonnet D Unit #M 5H,81,978.12
+Bluebonnet D Unit #M 5H,82,807.76
+Bluebonnet D Unit #M 5H,83,952.1
+Bluebonnet D Unit #M 5H,84,959.24
+Bluebonnet D Unit #M 5H,85,951.01
+Bluebonnet D Unit #M 5H,86,955.73
+Bluebonnet D Unit #M 5H,87,954.62
+Bluebonnet D Unit #M 5H,88,957.88
+Bluebonnet D Unit #M 5H,89,895.58
+Bluebonnet D Unit #M 5H,90,632.54
+Bluebonnet D Unit #M 5H,91,66.36
+Bluebonnet D Unit #M 5H,92,291.27
+Bluebonnet D Unit #M 5H,93,369.58
+Bluebonnet D Unit #M 5H,94,264.53
+Bluebonnet D Unit #M 5H,95,489.82
+Bluebonnet D Unit #M 5H,96,535.53
+Bluebonnet D Unit #M 5H,97,363.08
+Bluebonnet D Unit #M 5H,98,503.68
+Bluebonnet D Unit #M 5H,99,556.8
+Bluebonnet D Unit #M 5H,100,582.09
+Bluebonnet D Unit #M 5H,101,796.06
+Bluebonnet D Unit #M 5H,102,801.31
+Bluebonnet D Unit #M 5H,103,822.88
+Bluebonnet D Unit #M 5H,104,781.52
+Bluebonnet D Unit #M 5H,105,771.39
+Bluebonnet D Unit #M 5H,106,757.47
+Bluebonnet D Unit #M 5H,107,754.8
+Bluebonnet D Unit #M 5H,108,684.91
+Bluebonnet D Unit #M 5H,109,730.74
+Bluebonnet D Unit #M 5H,110,730.73
+Bluebonnet D Unit #M 5H,111,716.25
+Bluebonnet D Unit #M 5H,112,710.98
+Bluebonnet D Unit #M 5H,113,729.17
+Bluebonnet D Unit #M 5H,114,722.38
+Bluebonnet D Unit #M 5H,115,810.01
+Bluebonnet D Unit #M 5H,116,901.96
+Bluebonnet D Unit #M 5H,117,909.89
+Bluebonnet D Unit #M 5H,118,895.54
+Bluebonnet D Unit #M 5H,119,884.77
+Bluebonnet D Unit #M 5H,120,881.1
+Bluebonnet D Unit #M 5H,121,862.04
+Bluebonnet D Unit #M 5H,122,889.14
+Bluebonnet D Unit #M 5H,123,846.25
+Bluebonnet D Unit #M 5H,124,624.88
+Bluebonnet D Unit #M 5H,125,856.44
+Bluebonnet D Unit #M 5H,126,792.19
+Bluebonnet D Unit #M 5H,127,0
+Bluebonnet D Unit #M 5H,128,817.06
+Bluebonnet D Unit #M 5H,129,794.46
+Bluebonnet D Unit #M 5H,130,818.02
+Bluebonnet D Unit #M 5H,131,737.58
+Bluebonnet D Unit #M 5H,132,780.98
+Bluebonnet D Unit #M 5H,133,785.38
+Bluebonnet D Unit #M 5H,134,774.03
+Bluebonnet D Unit #M 5H,135,755.09
+Bluebonnet D Unit #M 5H,136,770.77
+Bluebonnet D Unit #M 5H,137,548.72
+Bluebonnet D Unit #M 5H,138,743.19
+Bluebonnet D Unit #M 5H,139,765.8
+Bluebonnet D Unit #M 5H,140,613.73
+Bluebonnet D Unit #M 5H,141,726.87
+Bluebonnet D Unit #M 5H,142,731.37
+Bluebonnet D Unit #M 5H,143,703.07
+Bluebonnet D Unit #M 5H,144,702.31
+Bluebonnet D Unit #M 5H,145,693.84
+Bluebonnet D Unit #M 5H,146,640.2
+Bluebonnet D Unit #M 5H,147,609.45
+Bluebonnet D Unit #M 5H,148,694.9
+Bluebonnet D Unit #M 5H,149,689.16
+Bluebonnet D Unit #M 5H,150,646.69
+Bluebonnet D Unit #M 5H,151,438.8
+Bluebonnet D Unit #M 5H,152,652.86
+Bluebonnet D Unit #M 5H,153,649.92
+Bluebonnet D Unit #M 5H,154,639.43
+Bluebonnet D Unit #M 5H,155,635.26
+Bluebonnet D Unit #M 5H,156,622.33
+Bluebonnet D Unit #M 5H,157,616.72
+Bluebonnet D Unit #M 5H,158,608.25
+Bluebonnet D Unit #M 5H,159,604.08
+Bluebonnet D Unit #M 5H,160,600.97
+Bluebonnet D Unit #M 5H,161,606.74
+Bluebonnet D Unit #M 5H,162,586.91
+Bluebonnet D Unit #M 5H,163,583.69
+Bluebonnet D Unit #M 5H,164,586.42
+Bluebonnet D Unit #M 5H,165,577.11
+Bluebonnet D Unit #M 5H,166,566.59
+Bluebonnet D Unit #M 5H,167,566.03
+Bluebonnet D Unit #M 5H,168,558.5
+Bluebonnet D Unit #M 5H,169,554.71
+Bluebonnet D Unit #M 5H,170,554.93
+Bluebonnet D Unit #M 5H,171,558.62
+Bluebonnet D Unit #M 5H,172,554.31
+Bluebonnet D Unit #M 5H,173,540.89
+Bluebonnet D Unit #M 5H,174,558.9
+Bluebonnet D Unit #M 5H,175,537.57
+Bluebonnet D Unit #M 5H,176,524.66
+Bluebonnet D Unit #M 5H,177,511.65
+Bluebonnet D Unit #M 5H,178,559.29
+Bluebonnet D Unit #M 5H,179,559.5
+Bluebonnet D Unit #M 5H,180,557.88
+Bluebonnet D Unit #M 5H,181,551.49
+Bluebonnet D Unit #M 5H,182,536.9
+Bluebonnet D Unit #M 5H,183,537.17
+Bluebonnet D Unit #M 5H,184,529.43
+Bluebonnet D Unit #M 5H,185,524.95
+Bluebonnet D Unit #M 5H,186,520.1
+Bluebonnet D Unit #M 5H,187,515.02
+Bluebonnet D Unit #M 5H,188,522.77
+Bluebonnet D Unit #M 5H,189,513.88
+Bluebonnet D Unit #M 5H,190,495.84
+Bluebonnet D Unit #M 5H,191,393.74
+Bluebonnet D Unit #M 5H,192,194.71
+Bluebonnet D Unit #M 5H,193,261.46
+Bluebonnet D Unit #M 5H,194,491.46
+Bluebonnet D Unit #M 5H,195,482.4
+Big Bend 34-5 2H,1,84
+Big Bend 34-5 2H,2,151.2
+Big Bend 34-5 2H,3,114.8
+Big Bend 34-5 2H,4,114.8
+Big Bend 34-5 2H,5,134.4
+Big Bend 34-5 2H,6,168
+Big Bend 34-5 2H,7,156.8
+Big Bend 34-5 2H,8,117.6
+Big Bend 34-5 2H,9,142.63
+Big Bend 34-5 2H,10,123.5
+Big Bend 34-5 2H,11,168
+Big Bend 34-5 2H,12,168
+Big Bend 34-5 2H,13,168.22
+Big Bend 34-5 2H,14,184.8
+Big Bend 34-5 2H,15,196
+Big Bend 34-5 2H,16,378.31
+Big Bend 34-5 2H,17,212.8
+Big Bend 34-5 2H,18,68.66
+Big Bend 34-5 2H,19,148.4
+Big Bend 34-5 2H,20,201.6
+Big Bend 34-5 2H,21,210.85
+Big Bend 34-5 2H,22,224
+Big Bend 34-5 2H,23,243.58
+Big Bend 34-5 2H,24,290.64
+Big Bend 34-5 2H,25,189.26
+Big Bend 34-5 2H,26,249.2
+Big Bend 34-5 2H,27,388.64
+Big Bend 34-5 2H,28,109.56
+Big Bend 34-5 2H,29,291.2
+Big Bend 34-5 2H,30,314.2
+Big Bend 34-5 2H,31,240.8
+Big Bend 34-5 2H,32,309.08
+Big Bend 34-5 2H,33,301.67
+Big Bend 34-5 2H,34,310.8
+Big Bend 34-5 2H,35,347.3
+Big Bend 34-5 2H,36,307.56
+Big Bend 34-5 2H,37,282.62
+Big Bend 34-5 2H,38,313.6
+Big Bend 34-5 2H,39,326.06
+Big Bend 34-5 2H,40,277.64
+Big Bend 34-5 2H,41,340.1
+Big Bend 34-5 2H,42,286.43
+Big Bend 34-5 2H,43,372.06
+Big Bend 34-5 2H,44,324.53
+Big Bend 34-5 2H,45,325.33
+Big Bend 34-5 2H,46,315.12
+Big Bend 34-5 2H,47,275.14
+Big Bend 34-5 2H,48,398.45
+Big Bend 34-5 2H,49,377.77
+Big Bend 34-5 2H,50,371.48
+Big Bend 34-5 2H,51,349.85
+Big Bend 34-5 2H,52,367.16
+Big Bend 34-5 2H,53,358.73
+Big Bend 34-5 2H,54,403.57
+Big Bend 34-5 2H,55,378.36
+Big Bend 34-5 2H,56,369.88
+Big Bend 34-5 2H,57,370.24
+Big Bend 34-5 2H,58,352.77
+Big Bend 34-5 2H,59,374.49
+Big Bend 34-5 2H,60,420
+Big Bend 34-5 2H,61,445.75
+Big Bend 34-5 2H,62,374.07
+Big Bend 34-5 2H,63,357.02
+Big Bend 34-5 2H,64,375.81
+Big Bend 34-5 2H,65,396.88
+Big Bend 34-5 2H,66,313.74
+Big Bend 34-5 2H,67,361.84
+Big Bend 34-5 2H,68,345.2
+Big Bend 34-5 2H,69,313.1
+Big Bend 34-5 2H,70,181.57
+Big Bend 34-5 2H,71,17.01
+Big Bend 34-5 2H,72,19.4
+Big Bend 34-5 2H,73,0
+Big Bend 34-5 2H,74,0
+Big Bend 34-5 2H,75,0
+Big Bend 34-5 2H,76,0
+Big Bend 34-5 2H,77,0
+Big Bend 34-5 2H,78,0
+Big Bend 34-5 2H,79,0
+Big Bend 34-5 2H,80,0
+Big Bend 34-5 2H,81,0
+Big Bend 34-5 2H,82,0
+Big Bend 34-5 2H,83,0
+Big Bend 34-5 2H,84,0
+Big Bend 34-5 2H,85,0
+Big Bend 34-5 2H,86,498.4
+Big Bend 34-5 2H,87,301.56
+Big Bend 34-5 2H,88,303.44
+Big Bend 34-5 2H,89,299.51
+Big Bend 34-5 2H,90,355.6
+Big Bend 34-5 2H,91,267.05
+Big Bend 34-5 2H,92,338.8
+Big Bend 34-5 2H,93,329.95
+Big Bend 34-5 2H,94,391.93
+Big Bend 34-5 2H,95,377.28
+Big Bend 34-5 2H,96,356.9
+Big Bend 34-5 2H,97,358.85
+Big Bend 34-5 2H,98,395.09
+Big Bend 34-5 2H,99,353.1
+Big Bend 34-5 2H,100,306.13
+Big Bend 34-5 2H,101,315.51
+Big Bend 34-5 2H,102,355.6
+Big Bend 34-5 2H,103,315.78
+Big Bend 34-5 2H,104,335.8
+Big Bend 34-5 2H,105,296.8
+Big Bend 34-5 2H,106,324.48
+Big Bend 34-5 2H,107,320.13
+Big Bend 34-5 2H,108,319.2
+Big Bend 34-5 2H,109,462.63
+Big Bend 34-5 2H,110,284.52
+Big Bend 34-5 2H,111,297.93
+Big Bend 34-5 2H,112,305.32
+Big Bend 34-5 2H,113,310.14
+Big Bend 34-5 2H,114,272.04
+Big Bend 34-5 2H,115,270.13
+Big Bend 34-5 2H,116,277.7
+Big Bend 34-5 2H,117,274.4
+Big Bend 34-5 2H,118,271.8
+Big Bend 34-5 2H,119,277.2
+Big Bend 34-5 2H,120,274.24
+Big Bend 34-5 2H,121,258.09
+Big Bend 34-5 2H,122,267.69
+Big Bend 34-5 2H,123,251.88
+Big Bend 34-5 2H,124,292.2
+Big Bend 34-5 2H,125,250.36
+Big Bend 34-5 2H,126,254.39
+Big Bend 34-5 2H,127,257.32
+Big Bend 34-5 2H,128,263.68
+Big Bend 34-5 2H,129,257.72
+Big Bend 34-5 2H,130,245.14
+Big Bend 34-5 2H,131,251.04
+Big Bend 34-5 2H,132,244.94
+Big Bend 34-5 2H,133,228.01
+Big Bend 34-5 2H,134,248.73
+Big Bend 34-5 2H,135,239.37
+Big Bend 34-5 2H,136,238.63
+Big Bend 34-5 2H,137,243.49
+Big Bend 34-5 2H,138,212.28
+Big Bend 34-5 2H,139,252.96
+Big Bend 34-5 2H,140,219.54
+Big Bend 34-5 2H,141,246.57
+Big Bend 34-5 2H,142,226.22
+Big Bend 34-5 2H,143,229.6
+Big Bend 34-5 2H,144,226.09
+Big Bend 34-5 2H,145,202.36
+Big Bend 34-5 2H,146,221.28
+Big Bend 34-5 2H,147,203.88
+Big Bend 34-5 2H,148,201.29
+Big Bend 34-5 2H,149,257.6
+Big Bend 34-5 2H,150,210.39
+Big Bend 34-5 2H,151,213.69
+Big Bend 34-5 2H,152,216.17
+Big Bend 34-5 2H,153,220.92
+Big Bend 34-5 2H,154,198.93
+Big Bend 34-5 2H,155,198.59
+Big Bend 34-5 2H,156,204.4
+Big Bend 34-5 2H,157,157.95
+Big Bend 34-5 2H,158,260.41
+Big Bend 34-5 2H,159,204.12
+Big Bend 34-5 2H,160,213.79
+Big Bend 34-5 2H,161,189.92
+Big Bend 34-5 2H,162,193.2
+Big Bend 34-5 2H,163,212.8
+Big Bend 34-5 2H,164,179.42
+Big Bend 34-5 2H,165,187.6
+Big Bend 34-5 2H,166,120.4
+Big Bend 34-5 2H,167,254.95
+Big Bend 34-5 2H,168,246.4
+Big Bend 34-5 2H,169,233.84
+Big Bend 34-5 2H,170,191.42
+Big Bend 34-5 2H,171,182.65
+Big Bend 34-5 2H,172,224.78
+Big Bend 34-5 2H,173,196.35
+Big Bend 34-5 2H,174,162.4
+Big Bend 34-5 2H,175,140
+Big Bend 34-5 2H,176,160.94
+Big Bend 34-5 2H,177,168.34
+Big Bend 34-5 2H,178,187.07
+Big Bend 34-5 2H,179,182
+Big Bend 34-5 2H,180,179.06
+Big Bend 34-5 2H,181,184.8
+Big Bend 34-5 2H,182,173.27
+Big Bend 34-5 2H,183,186.17
+Big Bend 34-5 2H,184,169.4
+Big Bend 34-5 2H,185,168
+Big Bend 34-5 2H,186,179.19
+Big Bend 34-5 2H,187,127.96
+Big Bend 34-5 2H,188,215.6
+Big Bend 34-5 2H,189,161.44
+Big Bend 34-5 2H,190,173.6
+Big Bend 34-5 2H,191,173.6
+Big Bend 34-5 2H,192,156.63
+Big Bend 34-5 2H,193,142.8
+Big Bend 34-5 2H,194,150.13
+Big Bend 34-5 2H,195,196
+Big Bend 34-5 2H,196,185.91
+Big Bend 34-5 2H,197,158.07
+Big Bend 34-5 2H,198,0
+Big Bend 34-5 2H,199,156.8
+Big Bend 34-5 2H,200,155.79
+Big Bend 34-5 2H,201,94.48
+Big Bend 34-5 2H,202,193.1
+Big Bend 34-5 2H,203,0
+Big Bend 34-5 2H,204,215.6
+Big Bend 34-5 2H,205,84.89
+Big Bend 34-5 2H,206,228.64
+Big Bend 34-5 2H,207,159.86
+Big Bend 34-5 2H,208,82.5
+Big Bend 34-5 2H,209,249.2
+Big Bend 34-5 2H,210,152.82
+Big Bend 34-5 2H,211,154
+Big Bend 34-5 2H,212,117.6
+Big Bend 34-5 2H,213,207.2
+Big Bend 34-5 2H,214,145.6
+Big Bend 34-5 2H,215,154
+Big Bend 34-5 2H,216,114.8
+Big Bend 34-5 2H,217,92.4
+Big Bend 34-5 2H,218,200.2
+Big Bend 34-5 2H,219,161
+Big Bend 34-5 2H,220,137.2
+Big Bend 34-5 2H,221,137.2
+Big Bend 34-5 2H,222,146.3
+Big Bend 34-5 2H,223,196
+Big Bend 34-5 2H,224,137.2
+Big Bend 34-5 2H,225,177.01
+Big Bend 34-5 2H,226,150.87
+Big Bend 34-5 2H,227,112
+Big Bend 34-5 2H,228,168
+Big Bend 34-5 2H,229,137.65
+Big Bend 34-5 2H,230,116.7
+Big Bend 34-5 2H,231,138.7
+Big Bend 34-5 2H,232,126
+Big Bend 34-5 2H,233,140
+Big Bend 34-5 2H,234,126.05
+Big Bend 34-5 2H,235,172.92
+Big Bend 34-5 2H,236,114.8
+Big Bend 34-5 2H,237,117.6
+Big Bend 34-5 2H,238,142.6
+Big Bend 34-5 2H,239,123.39
+Big Bend 34-5 2H,240,129.39
+Big Bend 34-5 2H,241,183.74
+Big Bend 34-5 2H,242,131.6
+Big Bend 34-5 2H,243,127.37
+Big Bend 34-5 2H,244,136
+Big Bend 34-5 2H,245,126
+Big Bend 34-5 2H,246,135.14
+Big Bend 34-5 2H,247,117.6
+Big Bend 34-5 2H,248,131.59
+Big Bend 34-5 2H,249,135.76
+Big Bend 34-5 2H,250,168.8
+Big Bend 34-5 2H,251,145.6
+Big Bend 34-5 2H,252,98.77
+Big Bend 34-5 2H,253,56.4
+Big Bend 34-5 2H,254,151.2
+Big Bend 34-5 2H,255,128.69
+Big Bend 34-5 2H,256,151.2
+Big Bend 34-5 2H,257,130.24
+Big Bend 34-5 2H,258,81.2
+Big Bend 34-5 2H,259,139.12
+Big Bend 34-5 2H,260,117.6
+Big Bend 34-5 2H,261,81.75
+Big Bend 34-5 2H,262,92.4
+Big Bend 34-5 2H,263,177.52
+Big Bend 34-5 2H,264,117.6
+Big Bend 34-5 2H,265,126.4
+Big Bend 34-5 2H,266,108.48
+Big Bend 34-5 2H,267,126
+Big Bend 34-5 2H,268,104.03
+Big Bend 34-5 2H,269,128.8
+Big Bend 34-5 2H,270,116.5
+Big Bend 34-5 2H,271,113.98
+Big Bend 34-5 2H,272,95.2
+Big Bend 34-5 2H,273,137.2
+Big Bend 34-5 2H,274,116.45
+Big Bend 34-5 2H,275,114.8
+Big Bend 34-5 2H,276,89.53
+Big Bend 34-5 2H,277,86.8
+Big Bend 34-5 2H,278,109.2
+Big Bend 34-5 2H,279,139.76
+Big Bend 34-5 2H,280,117.6
+Big Bend 34-5 2H,281,121.12
+Big Bend 34-5 2H,282,114.8
+Big Bend 34-5 2H,283,98
+Big Bend 34-5 2H,284,124.6
+Big Bend 34-5 2H,285,110.6
+Big Bend 34-5 2H,286,100.8
+Big Bend 34-5 2H,287,131.97
+Big Bend 34-5 2H,288,126
+Big Bend 34-5 2H,289,78.21
+Big Bend 34-5 2H,290,132.29
+Big Bend 34-5 2H,291,107.51
+Big Bend 34-5 2H,292,78.56
+Big Bend 34-5 2H,293,117.6
+Big Bend 34-5 2H,294,100.8
+Big Bend 34-5 2H,295,114.8
+Big Bend 34-5 2H,296,114.8
+Big Bend 34-5 2H,297,120.4
+Big Bend 34-5 2H,298,92.03
+Big Bend 34-5 2H,299,92.4
+Big Bend 34-5 2H,300,109.2
+Big Bend 34-5 2H,301,112.51
+Big Bend 34-5 2H,302,100.8
+Big Bend 34-5 2H,303,106.4
+Big Bend 34-5 2H,304,97.49
+Big Bend 34-5 2H,305,106.4
+Big Bend 34-5 2H,306,112.36
+Big Bend 34-5 2H,307,109.17
+Big Bend 34-5 2H,308,95.2
+Big Bend 34-5 2H,309,89.6
+Big Bend 34-5 2H,310,89.6
+Big Bend 34-5 2H,311,131.6
+Big Bend 34-5 2H,312,128.4
+Big Bend 34-5 2H,313,123.2
+Big Bend 34-5 2H,314,128.39
+Big Bend 34-5 2H,315,11.2
+Big Bend 34-5 2H,316,103.6
+Big Bend 34-5 2H,317,110.07
+Big Bend 34-5 2H,318,92.85
+Big Bend 34-5 2H,319,89.6
+Big Bend 34-5 2H,320,103.6
+Big Bend 34-5 2H,321,107.92
+Big Bend 34-5 2H,322,100.8
+Big Bend 34-5 2H,323,100.8
+Big Bend 34-5 2H,324,92.4
+Big Bend 34-5 2H,325,97.03
+Big Bend 34-5 2H,326,95.2
+Big Bend 34-5 2H,327,84
+Big Bend 34-5 2H,328,72.8
+Big Bend 34-5 2H,329,94.8
+Big Bend 34-5 2H,330,117.6
+Big Bend 34-5 2H,331,75.6
+Big Bend 34-5 2H,332,75.6
+Big Bend 34-5 2H,333,75.6
+Big Bend 34-5 2H,334,117.5
+Big Bend 34-5 2H,335,99.65
+Big Bend 34-5 2H,336,88
+Big Bend 34-5 2H,337,100.8
+Big Bend 34-5 2H,338,100.8
+Big Bend 34-5 2H,339,95.2
+Big Bend 34-5 2H,340,100.8
+Big Bend 34-5 2H,341,39.2
+Big Bend 34-5 2H,342,34.89
+Big Bend 34-5 2H,343,84
+Big Bend 34-5 2H,344,89.6
+Big Bend 34-5 2H,345,86.8
+Big Bend 34-5 2H,346,72.8
+Big Bend 34-5 2H,347,87.16
+Big Bend 34-5 2H,348,109.2
+Big Bend 34-5 2H,349,77.89
+Big Bend 34-5 2H,350,105.49
+Big Bend 34-5 2H,351,110.63
+Big Bend 34-5 2H,352,100.8
+Big Bend 34-5 2H,353,106.4
+Big Bend 34-5 2H,354,44.8
+Big Bend 34-5 2H,355,84
+Big Bend 34-5 2H,356,84
+Big Bend 34-5 2H,357,21.04
+Big Bend 34-5 2H,358,0
+Big Bend 34-5 2H,359,0
+Big Bend 34-5 2H,360,0
+Big Bend 34-5 2H,361,0
+Big Bend 34-5 2H,362,142.8
+Big Bend 34-5 2H,363,11.2
+Big Bend 34-5 2H,364,142.8
+Big Bend 34-5 2H,365,144.98
+Big Bend 34-5 2H,366,0
+Big Bend 34-5 2H,367,16.8
+Big Bend 34-5 2H,368,134.4
+Big Bend 34-5 2H,369,95.2
+Big Bend 34-5 2H,370,100.8
+Big Bend 34-5 2H,371,94.35
+Big Bend 34-5 2H,372,94.15
+Big Bend 34-5 2H,373,87.62
+Big Bend 34-5 2H,374,100.8
+Big Bend 34-5 2H,375,50.4
+Big Bend 34-5 2H,376,33.6
+Big Bend 34-5 2H,377,8.16
+Big Bend 34-5 2H,378,98
+Big Bend 34-5 2H,379,89.6
+Big Bend 34-5 2H,380,98
+Big Bend 34-5 2H,381,42.87
+Big Bend 34-5 2H,382,72.8
+Big Bend 34-5 2H,383,70
+Big Bend 34-5 2H,384,81.2
+Big Bend 34-5 2H,385,84
+Big Bend 34-5 2H,386,80.86
+Big Bend 34-5 2H,387,53.2
+Big Bend 34-5 2H,388,73
+Big Bend 34-5 2H,389,86.8
+Big Bend 34-5 2H,390,70
+Big Bend 34-5 2H,391,72.44
+Big Bend 34-5 2H,392,95.2
+Big Bend 34-5 2H,393,67.2
+Big Bend 34-5 2H,394,72.8
+Big Bend 34-5 2H,395,84
+Big Bend 34-5 2H,396,38.78
+Big Bend 34-5 2H,397,84
+Big Bend 34-5 2H,398,39.2
+Big Bend 34-5 2H,399,92.4
+Big Bend 34-5 2H,400,72.8
+Big Bend 34-5 2H,401,59.05
+Big Bend 34-5 2H,402,70
+Big Bend 34-5 2H,403,70
+Big Bend 34-5 2H,404,78.4
+Big Bend 34-5 2H,405,53.2
+Big Bend 34-5 2H,406,71.26
+Big Bend 34-5 2H,407,65.24
+Big Bend 34-5 2H,408,58.8
+Big Bend 34-5 2H,409,70
+Big Bend 34-5 2H,410,72.8
+Big Bend 34-5 2H,411,67.2
+Big Bend 34-5 2H,412,60.69
+Big Bend 34-5 2H,413,75.6
+Big Bend 34-5 2H,414,75.92
+Big Bend 34-5 2H,415,75.6
+Big Bend 34-5 2H,416,75.6
+Big Bend 34-5 2H,417,84
+Big Bend 34-5 2H,418,84
+Big Bend 34-5 2H,419,21.21
+Big Bend 34-5 2H,420,58.8
+Big Bend 34-5 2H,421,56
+Big Bend 34-5 2H,422,61.6
+Big Bend 34-5 2H,423,67.2
+Big Bend 34-5 2H,424,58.8
+Big Bend 34-5 2H,425,43.2
+Big Bend 34-5 2H,426,53.2
+Big Bend 34-5 2H,427,58.8
+Big Bend 34-5 2H,428,142.8
+Big Bend 34-5 2H,429,67.2
+Big Bend 34-5 2H,430,67.2
+Big Bend 34-5 2H,431,73.88
+Big Bend 34-5 2H,432,58.8
+Big Bend 34-5 2H,433,70
+Big Bend 34-5 2H,434,67.2
+Big Bend 34-5 2H,435,75.6
+Big Bend 34-5 2H,436,52.06
+Big Bend 34-5 2H,437,36.4
+Big Bend 34-5 2H,438,64.4
+Big Bend 34-5 2H,439,86.8
+Big Bend 34-5 2H,440,58.76
+Big Bend 34-5 2H,441,56
+Big Bend 34-5 2H,442,53.2
+Big Bend 34-5 2H,443,58.8
+Big Bend 34-5 2H,444,28
+Big Bend 34-5 2H,445,39.2
+Big Bend 34-5 2H,446,398.86
+Big Bend 34-5 2H,447,42.3
+Big Bend 34-5 2H,448,56
+Big Bend 34-5 2H,449,61.6
+Big Bend 34-5 2H,450,84
+Big Bend 34-5 2H,451,67.2
+Big Bend 34-5 2H,452,70
+Big Bend 34-5 2H,453,64.4
+Big Bend 34-5 2H,454,60.31
+Big Bend 34-5 2H,455,72.8
+Big Bend 34-5 2H,456,55.15
+Big Bend 34-5 2H,457,72.8
+Big Bend 34-5 2H,458,78.4
+Big Bend 34-5 2H,459,47.6
+Big Bend 34-5 2H,460,50.4
+Big Bend 34-5 2H,461,33.6
+Big Bend 34-5 2H,462,117.6
+Big Bend 34-5 2H,463,45.98
+Big Bend 34-5 2H,464,2.8
+Big Bend 34-5 2H,465,2.8
+Big Bend 34-5 2H,466,42
+Big Bend 34-5 2H,467,47.6
+Big Bend 34-5 2H,468,42
+Big Bend 34-5 2H,469,50.4
+Big Bend 34-5 2H,470,54.79
+Big Bend 34-5 2H,471,114.06
+Big Bend 34-5 2H,472,61.6
+Big Bend 34-5 2H,473,81.2
+Big Bend 34-5 2H,474,50.4
+Big Bend 34-5 2H,475,58.8
+Big Bend 34-5 2H,476,47.6
+Big Bend 34-5 2H,477,81.2
+Big Bend 34-5 2H,478,30.8
+Big Bend 34-5 2H,479,50.4
+Big Bend 34-5 2H,480,36.4
+Big Bend 34-5 2H,481,56
+Big Bend 34-5 2H,482,78.4
+Big Bend 34-5 2H,483,67.2
+Big Bend 34-5 2H,484,53.2
+Big Bend 34-5 2H,485,53.2
+Big Bend 34-5 2H,486,56
+Big Bend 34-5 2H,487,16.8
+Big Bend 34-5 2H,488,44.8
+Big Bend 34-5 2H,489,78.4
+Big Bend 34-5 2H,490,50.4
+Big Bend 34-5 2H,491,72.8
+Big Bend 34-5 2H,492,53.2
+Big Bend 34-5 2H,493,67.2
+Big Bend 34-5 2H,494,44.8
+Big Bend 34-5 2H,495,22.4
+Big Bend 34-5 2H,496,0
+Big Bend 34-5 2H,497,67.2
+Big Bend 34-5 2H,498,184.8
+Big Bend 34-5 2H,499,168
+Big Bend 34-5 2H,500,53.2
+Big Bend 34-5 2H,501,120.4
+Big Bend 34-5 2H,502,95.2
+Big Bend 34-5 2H,503,100.8
+Big Bend 34-5 2H,504,106.4
+Big Bend 34-5 2H,505,92.4
+Big Bend 34-5 2H,506,86.8
+Big Bend 34-5 2H,507,95.2
+Big Bend 34-5 2H,508,84
+Big Bend 34-5 2H,509,89.6
+Big Bend 34-5 2H,510,92.4
+Big Bend 34-5 2H,511,89.6
+Big Bend 34-5 2H,512,75.6
+Big Bend 34-5 2H,513,75.6
+Big Bend 34-5 2H,514,39.2
+Big Bend 34-5 2H,515,0
+Big Bend 34-5 2H,516,0
+Big Bend 34-5 2H,517,0
+Big Bend 34-5 2H,518,0
+Big Bend 34-5 2H,519,0
+Big Bend 34-5 2H,520,0
+Big Bend 34-5 2H,521,0
+Big Bend 34-5 2H,522,0
+Big Bend 34-5 2H,523,0
+Big Bend 34-5 2H,524,0
+Big Bend 34-5 2H,525,0
+Big Bend 34-5 2H,526,0
+Big Bend 34-5 2H,527,0
+Big Bend 34-5 2H,528,226.8
+Big Bend 34-5 2H,529,137.2
+Big Bend 34-5 2H,530,86.8
+Big Bend 34-5 2H,531,112
+Big Bend 34-5 2H,532,86.8
+Big Bend 34-5 2H,533,98
+Big Bend 34-5 2H,534,103.6
+Big Bend 34-5 2H,535,92.68
+Big Bend 34-5 2H,536,67.2
+Big Bend 34-5 2H,537,86.8
+Big Bend 34-5 2H,538,92.4
+Big Bend 34-5 2H,539,95.2
+Big Bend 34-5 2H,540,95.2
+Big Bend 34-5 2H,541,78.4
+Big Bend 34-5 2H,542,89.6
+Big Bend 34-5 2H,543,103.6
+Big Bend 34-5 2H,544,100.8
+Big Bend 34-5 2H,545,70
+Big Bend 34-5 2H,546,78.4
+Big Bend 34-5 2H,547,75.6
+Big Bend 34-5 2H,548,140
+Big Bend 34-5 2H,549,86.8
+Big Bend 34-5 2H,550,56
+Big Bend 34-5 2H,551,78.4
+Big Bend 34-5 2H,552,67.2
+Big Bend 34-5 2H,553,78.4
+Big Bend 34-5 2H,554,78.4
+Big Bend 34-5 2H,555,78.4
+Big Bend 34-5 2H,556,78.4
+Big Bend 34-5 2H,557,84
+Big Bend 34-5 2H,558,126
+Big Bend 34-5 2H,559,109.2
+Big Bend 34-5 2H,560,100.8
+Big Bend 34-5 2H,561,100.8
+Big Bend 34-5 2H,562,42
+Big Bend 34-5 2H,563,75.6
+Big Bend 34-5 2H,564,64.4
+Big Bend 34-5 2H,565,75.6
+Big Bend 34-5 2H,566,67.2
+Big Bend 34-5 2H,567,72.8
+Big Bend 34-5 2H,568,78.4
+Big Bend 34-5 2H,569,92.4
+Big Bend 34-5 2H,570,58.8
+Big Bend 34-5 2H,571,89.6
+Big Bend 34-5 2H,572,78.4
+Big Bend 34-5 2H,573,78.4
+Big Bend 34-5 2H,574,50.4
+Big Bend 34-5 2H,575,78.4
+Big Bend 34-5 2H,576,78.4
+Big Bend 34-5 2H,577,61.6
+Big Bend 34-5 2H,578,64.4
+Big Bend 34-5 2H,579,78.4
+Big Bend 34-5 2H,580,78.4
+Big Bend 34-5 2H,581,75.6
+Big Bend 34-5 2H,582,75.6
+Big Bend 34-5 2H,583,70
+Big Bend 34-5 2H,584,67.2
+Big Bend 34-5 2H,585,81.2
+Big Bend 34-5 2H,586,67.2
+Big Bend 34-5 2H,587,100.8
+Big Bend 34-5 2H,588,64.4
+Big Bend 34-5 2H,589,47.6
+Big Bend 34-5 2H,590,81.2
+Big Bend 34-5 2H,591,75.6
+Big Bend 34-5 2H,592,61.6
+Big Bend 34-5 2H,593,70
+Big Bend 34-5 2H,594,67.2
+Big Bend 34-5 2H,595,61.6
+Big Bend 34-5 2H,596,61.6
+Big Bend 34-5 2H,597,67.2
+Big Bend 34-5 2H,598,109.2
+Big Bend 34-5 2H,599,50.4
+Big Bend 34-5 2H,600,65.1
+Big Bend 34-5 2H,601,70
+Big Bend 34-5 2H,602,84
+Big Bend 34-5 2H,603,64.4
+Big Bend 34-5 2H,604,100.8
+Big Bend 34-5 2H,605,46.76
+Big Bend 34-5 2H,606,62.3
+Big Bend 34-5 2H,607,58.8
+Big Bend 34-5 2H,608,61.6
+Big Bend 34-5 2H,609,67.2
+Big Bend 34-5 2H,610,36.4
+Big Bend 34-5 2H,611,64.4
+Big Bend 34-5 2H,612,100.8
+Big Bend 34-5 2H,613,28
+Big Bend 34-5 2H,614,80.5
+Big Bend 34-5 2H,615,67.2
+Big Bend 34-5 2H,616,70
+Big Bend 34-5 2H,617,67.2
+Big Bend 34-5 2H,618,72.8
+Big Bend 34-5 2H,619,70
+Big Bend 34-5 2H,620,53.2
+Big Bend 34-5 2H,621,34.3
+Big Bend 34-5 2H,622,58.8
+Big Bend 34-5 2H,623,0
+Big Bend 34-5 2H,624,67.2
+Big Bend 34-5 2H,625,67.2
+Big Bend 34-5 2H,626,67.2
+Big Bend 34-5 2H,627,64.4
+Big Bend 34-5 2H,628,19.6
+Big Bend 34-5 2H,629,0
+Big Bend 34-5 2H,630,61.6
+Big Bend 34-5 2H,631,61.6
+Big Bend 34-5 2H,632,75.6
+Big Bend 34-5 2H,633,72.8
+Big Bend 34-5 2H,634,64.4
+Big Bend 34-5 2H,635,81.2
+Big Bend 34-5 2H,636,72.8
+Big Bend 34-5 2H,637,75.6
+Big Bend 34-5 2H,638,67.2
+Big Bend 34-5 2H,639,89.6
+Big Bend 34-5 2H,640,95.2
+Big Bend 34-5 2H,641,29.4
+Big Bend 34-5 2H,642,53.9
+Big Bend 34-5 2H,643,67.2
+Big Bend 34-5 2H,644,56
+Big Bend 34-5 2H,645,64.4
+Big Bend 34-5 2H,646,75.6
+Big Bend 34-5 2H,647,68.32
+Big Bend 34-5 2H,648,56
+Big Bend 34-5 2H,649,61.6
+Big Bend 34-5 2H,650,67.2
+Big Bend 34-5 2H,651,64.4
+Big Bend 34-5 2H,652,67.2
+Big Bend 34-5 2H,653,67.2
+Big Bend 34-5 2H,654,67.2
+Big Bend 34-5 2H,655,50.4
+Big Bend 34-5 2H,656,67.2
+Big Bend 34-5 2H,657,67.2
+Big Bend 34-5 2H,658,64.4
+Big Bend 34-5 2H,659,61.6
+Big Bend 34-5 2H,660,65.8
+Big Bend 34-5 2H,661,67.2
+Big Bend 34-5 2H,662,47.6
+Big Bend 34-5 2H,663,0
+Big Bend 34-5 2H,664,47.6
+Big Bend 34-5 2H,665,50.4
+Big Bend 34-5 2H,666,42
+Big Bend 34-5 2H,667,58.8
+Big Bend 34-5 2H,668,44.8
+Big Bend 34-5 2H,669,61.6
+Big Bend 34-5 2H,670,64.4
+Big Bend 34-5 2H,671,67.2
+Big Bend 34-5 2H,672,47.6
+Big Bend 34-5 2H,673,56
+Big Bend 34-5 2H,674,57.12
+Big Bend 34-5 2H,675,58.8
+Big Bend 34-5 2H,676,50.4
+Big Bend 34-5 2H,677,58.8
+Big Bend 34-5 2H,678,70
+Big Bend 34-5 2H,679,61.6
+Big Bend 34-5 2H,680,72.8
+Big Bend 34-5 2H,681,50.4
+Big Bend 34-5 2H,682,78.4
+Big Bend 34-5 2H,683,53.2
+Big Bend 34-5 2H,684,53.2
+Big Bend 34-5 2H,685,56
+Big Bend 34-5 2H,686,67.2
+Big Bend 34-5 2H,687,67.2
+Big Bend 34-5 2H,688,67.2
+Big Bend 34-5 2H,689,58.8
+Big Bend 34-5 2H,690,47.6
+Big Bend 34-5 2H,691,61.6
+Big Bend 34-5 2H,692,56
+Big Bend 34-5 2H,693,61.6
+Big Bend 34-5 2H,694,67.2
+Big Bend 34-5 2H,695,58.8
+Big Bend 34-5 2H,696,61.6
+Big Bend 34-5 2H,697,42
+Big Bend 34-5 2H,698,75.6
+Big Bend 34-5 2H,699,56
+Big Bend 34-5 2H,700,58.8
+Big Bend 34-5 2H,701,56
+Big Bend 34-5 2H,702,61.6
+Big Bend 34-5 2H,703,84
+Big Bend 34-5 2H,704,19.6
+Big Bend 34-5 2H,705,56
+Big Bend 34-5 2H,706,56
+Big Bend 34-5 2H,707,50.4
+Big Bend 34-5 2H,708,61.6
+Big Bend 34-5 2H,709,64.4
+Big Bend 34-5 2H,710,86.8
+Big Bend 34-5 2H,711,62.3
+Big Bend 34-5 2H,712,58.8
+Big Bend 34-5 2H,713,61.6
+Big Bend 34-5 2H,714,56
+Big Bend 34-5 2H,715,56
+Big Bend 34-5 2H,716,44.8
+Big Bend 34-5 2H,717,56
+Big Bend 34-5 2H,718,53.2
+Big Bend 34-5 2H,719,58.8
+Big Bend 34-5 2H,720,58.8
+Big Bend 34-5 2H,721,56
+Big Bend 34-5 2H,722,58.8
+Big Bend 34-5 2H,723,75.6
+Big Bend 34-5 2H,724,58.8
+Big Bend 34-5 2H,725,14
+Big Bend 34-5 2H,726,61.6
+Big Bend 34-5 2H,727,53.2
+Big Bend 34-5 2H,728,50.4
+Big Bend 34-5 2H,729,72.8
+Big Bend 34-5 2H,730,61.6
+Big Bend 34-5 2H,731,54.32
+Big Bend 34-5 2H,732,53.2
+Big Bend 34-5 2H,733,70
+Big Bend 34-5 2H,734,61.6
+Big Bend 34-5 2H,735,44.8
+Big Bend 34-5 2H,736,39.2
+Big Bend 34-5 2H,737,42
+Big Bend 34-5 2H,738,44.8
+Big Bend 34-5 2H,739,64.4
+Big Bend 34-5 2H,740,64.4
+Big Bend 34-5 2H,741,44.8
+Big Bend 34-5 2H,742,22.4
+Big Bend 34-5 2H,743,58.8
+Big Bend 34-5 2H,744,70
+Big Bend 34-5 2H,745,75.6
+Big Bend 34-5 2H,746,65.1
+Big Bend 34-5 2H,747,56.7
+Big Bend 34-5 2H,748,47.6
+Big Bend 34-5 2H,749,56
+Big Bend 34-5 2H,750,56
+Big Bend 34-5 2H,751,58.8
+Big Bend 34-5 2H,752,58.8
+Big Bend 34-5 2H,753,42
+Big Bend 34-5 2H,754,42
+Big Bend 34-5 2H,755,47.6
+Big Bend 34-5 2H,756,50.4
+Big Bend 34-5 2H,757,53.2
+Big Bend 34-5 2H,758,50.4
+Big Bend 34-5 2H,759,64.4
+Big Bend 34-5 2H,760,61.6
+Big Bend 34-5 2H,761,53.2
+Big Bend 34-5 2H,762,56
+Big Bend 34-5 2H,763,53.2
+Big Bend 34-5 2H,764,58.8
+Big Bend 34-5 2H,765,58.8
+Big Bend 34-5 2H,766,50.4
+Big Bend 34-5 2H,767,50.4
+Big Bend 34-5 2H,768,50.4
+Big Bend 34-5 2H,769,53.2
+Big Bend 34-5 2H,770,58.8
+Big Bend 34-5 2H,771,64.4
+Big Bend 34-5 2H,772,56
+Big Bend 34-5 2H,773,58.8
+Big Bend 34-5 2H,774,44.8
+Big Bend 34-5 2H,775,44.8
+Big Bend 34-5 2H,776,58.8
+Big Bend 34-5 2H,777,50.4
+Big Bend 34-5 2H,778,47.6
+Big Bend 34-5 2H,779,53.2
+Big Bend 34-5 2H,780,50.4
+Big Bend 34-5 2H,781,53.2
+Big Bend 34-5 2H,782,75.6
+Big Bend 34-5 2H,783,53.2
+Big Bend 34-5 2H,784,58.8
+Big Bend 34-5 2H,785,61.6
+Big Bend 34-5 2H,786,53.2
+Big Bend 34-5 2H,787,54.04
+Big Bend 34-5 2H,788,42.7
+Big Bend 34-5 2H,789,58.8
+Big Bend 34-5 2H,790,61.6
+Big Bend 34-5 2H,791,56
+Big Bend 34-5 2H,792,44.8
+Big Bend 34-5 2H,793,56
+Big Bend 34-5 2H,794,50.4
+Big Bend 34-5 2H,795,54.6
+Big Bend 34-5 2H,796,64.4
+Big Bend 34-5 2H,797,64.4
+Big Bend 34-5 2H,798,50.4
+Big Bend 34-5 2H,799,47.6
+Big Bend 34-5 2H,800,61.6
+Big Bend 34-5 2H,801,53.2
+Big Bend 34-5 2H,802,42
+Big Bend 34-5 2H,803,28
+Big Bend 34-5 2H,804,39.2
+Big Bend 34-5 2H,805,53.2
+Big Bend 34-5 2H,806,43.4
+Big Bend 34-5 2H,807,53.2
+Big Bend 34-5 2H,808,53.2
+Big Bend 34-5 2H,809,53.2
+Big Bend 34-5 2H,810,56
+Big Bend 34-5 2H,811,50.4
+Big Bend 34-5 2H,812,56
+Big Bend 34-5 2H,813,50.4
+Big Bend 34-5 2H,814,67.2
+Big Bend 34-5 2H,815,44.8
+Big Bend 34-5 2H,816,42
+Big Bend 34-5 2H,817,61.6
+Big Bend 34-5 2H,818,64.4
+Big Bend 34-5 2H,819,67.2
+Big Bend 34-5 2H,820,53.2
+Big Bend 34-5 2H,821,42
+Big Bend 34-5 2H,822,22.4
+Big Bend 34-5 2H,823,39.2
+Big Bend 34-5 2H,824,61.6
+Big Bend 34-5 2H,825,42
+Big Bend 34-5 2H,826,44.8
+Big Bend 34-5 2H,827,67.2
+Big Bend 34-5 2H,828,44.8
+Big Bend 34-5 2H,829,36.4
+Big Bend 34-5 2H,830,39.2
+Big Bend 34-5 2H,831,70
+Big Bend 34-5 2H,832,53.2
+Big Bend 34-5 2H,833,61.6
+Big Bend 34-5 2H,834,53.2
+Big Bend 34-5 2H,835,58.8
+Big Bend 34-5 2H,836,58.8
+Big Bend 34-5 2H,837,46.9
+Big Bend 34-5 2H,838,53.2
+Big Bend 34-5 2H,839,33.6
+Big Bend 34-5 2H,840,47.6
+Big Bend 34-5 2H,841,42
+Big Bend 34-5 2H,842,50.4
+Big Bend 34-5 2H,843,53.2
+Big Bend 34-5 2H,844,53.2
+Big Bend 34-5 2H,845,50.4
+Big Bend 34-5 2H,846,50.4
+Big Bend 34-5 2H,847,50.4
+Big Bend 34-5 2H,848,50.4
+Big Bend 34-5 2H,849,53.2
+Big Bend 34-5 2H,850,53.2
+Big Bend 34-5 2H,851,47.6
+Big Bend 34-5 2H,852,47.6
+Big Bend 34-5 2H,853,56
+Big Bend 34-5 2H,854,56
+Big Bend 34-5 2H,855,50.4
+Big Bend 34-5 2H,856,56
+Big Bend 34-5 2H,857,14
+Big Bend 34-5 2H,858,56
+Big Bend 34-5 2H,859,39.2
+Big Bend 34-5 2H,860,53.2
+Big Bend 34-5 2H,861,56
+Big Bend 34-5 2H,862,47.6
+Big Bend 34-5 2H,863,39.2
+Big Bend 34-5 2H,864,44.8
+Big Bend 34-5 2H,865,50.4
+Big Bend 34-5 2H,866,44.8
+Big Bend 34-5 2H,867,50.4
+Big Bend 34-5 2H,868,56
+Big Bend 34-5 2H,869,56
+Big Bend 34-5 2H,870,53.2
+Big Bend 34-5 2H,871,58.8
+Big Bend 34-5 2H,872,24.5
+Big Bend 34-5 2H,873,61.6
+Big Bend 34-5 2H,874,61.6
+Big Bend 34-5 2H,875,53.2
+Big Bend 34-5 2H,876,36.4
+Big Bend 34-5 2H,877,47.6
+Big Bend 34-5 2H,878,44.8
+Big Bend 34-5 2H,879,44.8
+Big Bend 34-5 2H,880,25.2
+Big Bend 34-5 2H,881,33.6
+Big Bend 34-5 2H,882,33.6
+Big Bend 34-5 2H,883,36.4
+Big Bend 34-5 2H,884,75.6
+Big Bend 34-5 2H,885,56
+Big Bend 34-5 2H,886,53.2
+Big Bend 34-5 2H,887,53.2
+Big Bend 34-5 2H,888,56
+Big Bend 34-5 2H,889,42
+Big Bend 34-5 2H,890,33.6
+Big Bend 34-5 2H,891,39.2
+Big Bend 34-5 2H,892,28
+Big Bend 34-5 2H,893,58.8
+Big Bend 34-5 2H,894,2.8
+Big Bend 34-5 2H,895,0
+Big Bend 34-5 2H,896,100.8
+Big Bend 34-5 2H,897,33.6
+Big Bend 34-5 2H,898,61.6
+Big Bend 34-5 2H,899,28
+Big Bend 34-5 2H,900,61.6
+Big Bend 34-5 2H,901,53.2
+Big Bend 34-5 2H,902,61.6
+Big Bend 34-5 2H,903,67.2
+Big Bend 34-5 2H,904,25.2
+Big Bend 34-5 2H,905,39.2
+Big Bend 34-5 2H,906,30.8
+Big Bend 34-5 2H,907,39.2
+Big Bend 34-5 2H,908,42
+Big Bend 34-5 2H,909,39.2
+Big Bend 34-5 2H,910,47.6
+Big Bend 34-5 2H,911,44.8
+Big Bend 34-5 2H,912,44.8
+Big Bend 34-5 2H,913,42
+Big Bend 34-5 2H,914,42
+Big Bend 34-5 2H,915,44.8
+Big Bend 34-5 2H,916,44.8
+Big Bend 34-5 2H,917,44.8
+Big Bend 34-5 2H,918,44.8
+Big Bend 34-5 2H,919,47.6
+Big Bend 34-5 2H,920,39.2
+Big Bend 34-5 2H,921,44.8
+Big Bend 34-5 2H,922,42
+Big Bend 34-5 2H,923,42
+Big Bend 34-5 2H,924,44.8
+Big Bend 34-5 2H,925,47.6
+Big Bend 34-5 2H,926,47.6
+Big Bend 34-5 2H,927,47.6
+Big Bend 34-5 2H,928,33.6
+Big Bend 34-5 2H,929,42
+Big Bend 34-5 2H,930,39.2
+Big Bend 34-5 2H,931,33.6
+Big Bend 34-5 2H,932,56
+Big Bend 34-5 2H,933,33.6
+Big Bend 34-5 2H,934,44.8
+Big Bend 34-5 2H,935,44.8
+Big Bend 34-5 2H,936,44.8
+Big Bend 34-5 2H,937,44.8
+Big Bend 34-5 2H,938,47.6
+Big Bend 34-5 2H,939,47.6
+Big Bend 34-5 2H,940,39.2
+Big Bend 34-5 2H,941,42
+Big Bend 34-5 2H,942,36.4
+Big Bend 34-5 2H,943,44.8
+Big Bend 34-5 2H,944,47.6
+Big Bend 34-5 2H,945,56
+Big Bend 34-5 2H,946,33.6
+Big Bend 34-5 2H,947,30.8
+Big Bend 34-5 2H,948,36.4
+Big Bend 34-5 2H,949,50.4
+Big Bend 34-5 2H,950,42
+Big Bend 34-5 2H,951,42
+Big Bend 34-5 2H,952,44.8
+Big Bend 34-5 2H,953,42
+Big Bend 34-5 2H,954,44.8
+Big Bend 34-5 2H,955,44.8
+Big Bend 34-5 2H,956,30.8
+Big Bend 34-5 2H,957,42
+Big Bend 34-5 2H,958,39.2
+Big Bend 34-5 2H,959,39.2
+Big Bend 34-5 2H,960,42
+Big Bend 34-5 2H,961,44.8
+Big Bend 34-5 2H,962,44.8
+Big Bend 34-5 2H,963,42
+Big Bend 34-5 2H,964,39.2
+Big Bend 34-5 2H,965,39.2
+Big Bend 34-5 2H,966,42
+Big Bend 34-5 2H,967,39.2
+Big Bend 34-5 2H,968,47.6
+Big Bend 34-5 2H,969,44.8
+Big Bend 34-5 2H,970,30.8
+Big Bend 34-5 2H,971,44.8
+Big Bend 34-5 2H,972,44.8
+Big Bend 34-5 2H,973,47.6
+Big Bend 34-5 2H,974,33.6
+Big Bend 34-5 2H,975,33.6
+Big Bend 34-5 2H,976,33.6
+Big Bend 34-5 2H,977,30.8
+Big Bend 34-5 2H,978,44.8
+Big Bend 34-5 2H,979,39.2
